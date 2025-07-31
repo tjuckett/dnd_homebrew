@@ -6863,6 +6863,89 @@
           ]
         }
       ]
-    }
+    },
+	{
+		"name": "Liraen Valithil",
+		"source": "ChaosIncHomebrew",
+		"size": ["M"],
+		"type": "humanoid",
+		"alignment": ["neutral"],
+		"ac": [{"ac": 13, "from": ["leather armor", "dex"]}],
+		"hp": {"average": 17, "formula": "2d8 + 6"},
+		"speed": {"walk": 30},
+		"str": 10,
+		"dex": 14,
+		"con": 14,
+		"int": 12,
+		"wis": 16,
+		"cha": 10,
+		"proficiency": 2,
+		"save": {"int": 4, "wis": 5},
+		"skill": {"nature": 4, "survival": 5, "animal handling": 5},
+		"senses": ["passive Perception 13"],
+		"languages": ["Common", "Druidic", "Sylvan"],
+		"cr": "1/2",
+		"trait": [
+		  {
+			"name": "Druidic",
+			"entries": [
+			  "The druid knows Druidic, a secret language only druids can speak. They can leave hidden messages readable only by others who know the language."
+			]
+		  },
+		  {
+			"name": "Wild Shape (2/Short Rest)",
+			"entries": [
+			  "As a bonus action, the druid can magically assume the shape of a beast they have seen before with a challenge rating of 1 or lower that doesn't have a flying speed."
+			]
+		  },
+		  {
+			"name": "Combat Wild Shape",
+			"entries": [
+			  "You can use Wild Shape as a bonus action instead of an action, and you can use a bonus action to expend a spell slot to regain 1d8 hit points per spell level while in beast form."
+			]
+		  }
+		],
+		"spellcasting": [
+		  {
+			"name": "Spellcasting",
+			"headerEntries": [
+			  "The druid is a 2nd-level spellcaster. Their spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). They have the following druid spells prepared:"
+			],
+			"spells": {
+			  "0": {
+				"spells": [
+				  "{@spell guidance}",
+				  "{@spell produce flame}",
+				  "{@spell druidcraft}"
+				]
+			  },
+			  "1": {
+				"slots": 3,
+				"spells": [
+				  "{@spell cure wounds}",
+				  "{@spell thunderwave}",
+				  "{@spell entangle}"
+				]
+			  }
+			},
+			"ability": "wis",
+			"type": "spellcasting"
+		  }
+		],
+		"action": [
+		  {
+			"name": "Quarterstaff",
+			"entries": [
+			  "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 bludgeoning damage (versatile 1d8)."
+			]
+		  },
+		  {
+			"name": "Produce Flame (Cantrip)",
+			"entries": [
+			  "Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 1d8 fire damage."
+			]
+		  }
+		]
+	  }	  
 	]
 }
