@@ -6865,6 +6865,65 @@
       ]
     },
 	{
+		"name": "Null-Blade Enforcer",
+		"size": ["M"],
+      	"source": "ChaosIncHomebrew",
+		"type": "humanoid",
+		"alignment": ["lawful", "neutral"],
+		"ac": [{"ac": 17, "from": ["null-plate armor"]}],
+		"hp": {"average": 102, "formula": "12d10 + 36"},
+		"speed": {"walk": 30},
+		"str": 18,
+		"dex": 12,
+		"con": 16,
+		"int": 11,
+		"wis": 14,
+		"cha": 10,
+		"proficiency": 3,
+		"save": {"str": 7, "wis": 5},
+		"skill": {"intimidation": 5, "athletics": 7},
+		"resist": ["fire", "cold", "lightning", "force"],
+		"senses": ["darkvision 60 ft.", "passive Perception 12"],
+		"languages": ["Common", "Primordial"],
+		"cr": "6",
+		"trait": [
+			{
+			"name": "Magic Suppression Field",
+			"entries": [
+				"The Enforcer projects a 10 ft. aura. While within the aura, enemy creatures have disadvantage on concentration saves and cannot teleport via magical means."
+			]
+			},
+			{
+			"name": "Adaptive Shielding",
+			"entries": [
+				"Once per long rest, when the Enforcer is hit by a magical attack, it gains resistance to that damage type for 1 minute."
+			]
+			}
+		],
+		"action": [
+			{
+			"name": "Null-Greatsword",
+			"entries": [
+				"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 2d6 + 4 slashing damage plus 2d6 force damage. If the target is concentrating on a spell, it must make the concentration check with disadvantage."
+			]
+			},
+			{
+			"name": "Void Pulse Slam (Recharge 5–6)",
+			"entries": [
+				"The Enforcer slams the ground, forcing all creatures in a 15 ft. cone to make a DC 15 Constitution saving throw or be stunned until the end of their next turn and take 3d8 force damage. Half damage on a success."
+			]
+			}
+		],
+		"bonus": [
+			{
+			"name": "Surge Step",
+			"entries": [
+				"The Enforcer moves up to 15 feet without provoking opportunity attacks."
+			]
+			}
+		]
+	  },
+	  {
 		"name": "Liraen Valithil",
 		"source": "ChaosIncHomebrew",
 		"size": ["M"],
@@ -6947,5 +7006,7 @@
 		  }
 		]
 	  }	  
+
+
 	]
 }
