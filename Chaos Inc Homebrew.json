@@ -4789,2224 +4789,3107 @@
 				"wisdom"
 			]
 		},
-    {
-      "name": "Blue Wyvern",
-      "size": [
-          "L"
-      ],
-      "type": {
-          "type": "dragon",
-          "tags": []
-      },
-      "source": "ChaosIncHomebrew",
-      "alignment": [
-          "U"
-      ],
-      "ac": [
-          {
-              "ac": 15,
-              "from": [
-                  "natural armor"
-              ]
-          }
-      ],
-      "hp": {
-          "formula": "16d10 + 48",
-          "average": 136
-      },
-      "speed": {
-          "walk": 20,
-          "fly": 80
-      },
-      "str": 19,
-      "dex": 10,
-      "con": 16,
-      "int": 5,
-      "wis": 12,
-      "cha": 6,
-      "save": {
-          "dex": "+3",
-          "con": "+6",
-          "wis": "+4"
-      },
-      "skills": {
-          "perception": "+3"
-      },
-      "senses": [
-          "darkvision 60 ft."
-      ],
-      "passive": 13,
-      "languages": [
-          "understands Draconic but cannot speak"
-      ],
-      "cr": "6",
-      "resist": [
-          {
-              "resist": [
-                  "lightning"
-              ],
-              "note": "For Lightning Wyvern"
-          },
-          {
-              "resist": [
-                  "cold"
-              ],
-              "note": "For Water Wyvern"
-          }
-      ],
-      "trait": [
-          {
-              "name": "Flyby",
-              "entries": [
-                  "The wyvern doesn't provoke an opportunity attack when it flies out of an enemy's reach."
-              ]
-          },
-          {
-              "name": "Aerial Dive",
-              "entries": [
-                  "If the wyvern moves at least 30 feet straight toward a target and then hits it with a melee attack on the same turn, the attack deals an extra 10 (3d6) damage."
-              ]
-          }
-      ],
-      "action": [
-          {
-              "name": "Multiattack",
-              "entries": [
-                  "The wyvern makes two attacks: one with its bite and one with its tail."
-              ]
-          },
-          {
-              "name": "Bite",
-              "entries": [
-                  "{@atk mw} +7 to hit, reach 10 ft., one target. {@h}15 (2d8 + 6) piercing damage."
-              ]
-          },
-          {
-              "name": "Tail",
-              "entries": [
-                  "{@atk mw} +7 to hit, reach 10 ft., one target. {@h}13 (2d6 + 6) piercing damage. The target must succeed on a {@dc 15} Constitution saving throw or become poisoned for 1 minute."
-              ]
-          },
-          {
-              "name": "Elemental Breath Weapon (Recharge 5-6)",
-              "entries": [
-                  "The wyvern exhales a blast of elemental energy. Depending on the type, this could be a blast of lightning or a torrent of water.",
-                  "Lightning Wyvern: Exhales lightning in a 30-foot line that is 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much damage on a successful one.",
-                  "Water Wyvern: Exhales a torrent of freezing water in a 30-foot cone. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 5d8}) cold damage on a failed save, or half as much damage on a successful one."
-              ]
-          }
-      ],
-      "environment": [
-          "mountain",
-          "cave"
-      ]
-    },
-    {
-      "name": "Warforged Guard",
-      "size": [
-          "L"
-      ],
-      "type": {
-          "type": "construct",
-          "tags": []
-      },
-      "source": "ChaosIncHomebrew",
-      "alignment": [
-          "L",
-          "N"
-      ],
-      "ac": [
-          {
-              "ac": 18,
-              "from": [
-                  "natural armor"
-              ]
-          }
-      ],
-      "hp": {
-          "formula": "17d10 + 85",
-          "average": 178
-      },
-      "speed": {
-          "walk": 40
-      },
-      "str": 20,
-      "dex": 12,
-      "con": 20,
-      "int": 8,
-      "wis": 12,
-      "cha": 10,
-      "save": {
-          "str": "+9",
-          "con": "+9",
-          "wis": "+5"
-      },
-      "skills": {
-          "athletics": "+9",
-          "perception": "+5"
-      },
-      "senses": [
-          "darkvision 60 ft."
-      ],
-      "passive": 15,
-      "languages": [
-          "Common"
-      ],
-      "cr": "9",
-      "resist": [
-          {
-              "resist": [
-                  "bludgeoning",
-                  "piercing",
-                  "slashing"
-              ],
-              "note": "from nonmagical attacks"
-          }
-      ],
-      "immune": [
-          "poison",
-          "psychic"
-      ],
-      "conditionImmune": [
-          "charmed",
-          "exhaustion",
-          "frightened",
-          "paralyzed",
-          "petrified",
-          "poisoned"
-      ],
-      "trait": [
-          {
-              "name": "Constructed Resilience",
-              "entries": [
-                  "The Warforged Guard has advantage on saving throws against being poisoned, and it doesn’t need to eat, drink, or breathe."
-              ]
-          },
-          {
-              "name": "Immutable Form",
-              "entries": [
-                  "The Warforged Guard is immune to any spell or effect that would alter its form."
-              ]
-          },
-          {
-              "name": "Magic Resistance",
-              "entries": [
-                  "The Warforged Guard has advantage on saving throws against spells and other magical effects."
-              ]
-          },
-          {
-              "name": "Magically Reinforced Armor",
-              "entries": [
-                  "When the Warforged Guard is reduced to half of its hit points, it gains resistance to all damage (except force damage) for 3 rounds. This ability recharges after a short rest."
-              ]
-          }
-      ],
-      "action": [
-          {
-              "name": "Multiattack",
-              "entries": [
-                  "The Warforged Guard makes three attacks: one with its Heavy Slam and two with its Blade Arm."
-              ]
-          },
-          {
-              "name": "Heavy Slam",
-              "entries": [
-                  "{@atk mw} +9 to hit, reach 10 ft., one target. {@h}21 (3d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked prone."
-              ]
-          },
-          {
-              "name": "Blade Arm",
-              "entries": [
-                  "{@atk mw} +9 to hit, reach 5 ft., one target. {@h}17 (2d10 + 5) slashing damage."
-              ]
-          },
-          {
-              "name": "Cannon Blast (Recharge 5-6)",
-              "entries": [
-                  "The Warforged Guard uses its cannon to release elemental energy. The Guard chooses one of the following options:",
-                  "Fire Cannon: The Guard shoots a 30-foot cone of fire. Each creature in the area must make a {@dc 17} Dexterity saving throw, taking 35 ({@damage 10d6}) fire damage on a failed save, or half as much on a successful one.",
-                  "Force Cannon: The Guard shoots a 60-foot line of force energy that is 5 feet wide. Each creature in that line must make a {@dc 17} Dexterity saving throw, taking 28 ({@damage 8d6}) force damage on a failed save, or half as much damage on a successful one, and is knocked back 10 feet."
-              ]
-          }
-      ],
-      "reaction": [
-          {
-              "name": "Reactive Armor Plating",
-              "entries": [
-                  "When a creature within 5 feet of the Warforged Guard hits it with a melee attack, the Guard can release a shockwave from its armor. The attacker must make a {@dc 17} Strength saving throw or be pushed back 10 feet and take 9 ({@damage 2d8}) thunder damage."
-              ]
-          }
-      ],
-      "environment": [
-          "dungeon",
-          "urban"
-      ]
-    },
-    {
-      "name": "Astral Conclave Automaton",
-      "size": [
-          "L"
-      ],
-      "type": {
-          "type": "construct",
-          "tags": []
-      },
-      "source": "ChaosIncHomebrew",
-      "alignment": [
-          "U"
-      ],
-      "ac": [
-          {
-              "ac": 17,
-              "from": [
-                  "natural armor"
-              ]
-          }
-      ],
-      "hp": {
-          "formula": "15d10 + 30",
-          "average": 112
-      },
-      "speed": {
-          "walk": 30
-      },
-      "str": 18,
-      "dex": 12,
-      "con": 16,
-      "int": 5,
-      "wis": 10,
-      "cha": 5,
-      "save": {
-          "str": "+7",
-          "con": "+6"
-      },
-      "skills": {
-          "perception": "+3",
-          "athletics": "+7"
-      },
-      "senses": [
-          "darkvision 60 ft."
-      ],
-      "passive": 13,
-      "languages": [
-          "understands Common but cannot speak"
-      ],
-      "cr": "6",
-      "resist": [
-          {
-              "resist": [
-                  "bludgeoning",
-                  "piercing",
-                  "slashing"
-              ],
-              "note": "from nonmagical attacks"
-          }
-      ],
-      "immune": [
-          "poison",
-          "psychic"
-      ],
-      "conditionImmune": [
-          "charmed",
-          "exhaustion",
-          "frightened",
-          "paralyzed",
-          "petrified",
-          "poisoned"
-      ],
-      "trait": [
-          {
-              "name": "Magical Resistance",
-              "entries": [
-                  "The Automaton has advantage on saving throws against spells and other magical effects."
-              ]
-          },
-          {
-              "name": "Heavy Plating",
-              "entries": [
-                  "When the Automaton is at half hit points or below, it gains resistance to all damage except force damage."
-              ]
-          },
-          {
-              "name": "Relentless Construction",
-              "entries": [
-                  "Once per short rest, when the Automaton is reduced to 0 hit points, it can make a {@dc 15} Constitution saving throw. On a success, it regains 25 hit points."
-              ]
-          }
-      ],
-      "action": [
-          {
-              "name": "Multiattack",
-              "entries": [
-                  "The Automaton makes two attacks: one with its Saw Blade Arm and one with its Energy Cannon."
-              ]
-          },
-          {
-              "name": "Saw Blade Arm",
-              "entries": [
-                  "{@atk mw} +7 to hit, reach 5 ft., one target. {@h}16 (2d10 + 4) slashing damage."
-              ]
-          },
-          {
-              "name": "Energy Cannon (Recharge 5-6)",
-              "entries": [
-                  "The Automaton releases a blast of elemental energy from its integrated cannon. The Automaton chooses between fire or lightning damage.",
-                  "Fire Cannon: The Automaton fires a 15-foot cone of fire. Each creature in the area must make a {@dc 14} Dexterity saving throw, taking 27 ({@damage 6d8}) fire damage on a failed save, or half as much on a successful one.",
-                  "Lightning Cannon: The Automaton fires a 30-foot line of lightning that is 5 feet wide. Each creature in the line must make a {@dc 14} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much on a successful one."
-              ]
-          }
-      ],
-      "reaction": [
-          {
-              "name": "Defensive Overcharge",
-              "entries": [
-                  "When the Automaton is hit by a melee attack, it can use its reaction to release a pulse of energy. The attacker must succeed on a {@dc 15} Strength saving throw or be pushed back 10 feet and take 9 ({@damage 2d8}) thunder damage."
-              ]
-          }
-      ],
-      "environment": [
-          "dungeon",
-          "urban"
-      ]
-    },
-    {
-      "name": "Astral Conclave Mage",
-      "size": [
-          "M"
-      ],
-      "type": {
-          "type": "humanoid",
-          "tags": [
-              "astral conclave"
-          ]
-      },
-      "source": "ChaosIncHomebrew",
-      "alignment": [
-          "NE"
-      ],
-      "ac": [
-          {
-              "ac": 15,
-              "from": [
-                  "mage armor"
-              ]
-          }
-      ],
-      "hp": {
-          "formula": "11d8 + 22",
-          "average": 71
-      },
-      "speed": {
-          "walk": 30
-      },
-      "str": 9,
-      "dex": 14,
-      "con": 14,
-      "int": 18,
-      "wis": 12,
-      "cha": 11,
-      "save": {
-          "int": "+7",
-          "wis": "+4"
-      },
-      "skills": {
-          "arcana": "+7",
-          "history": "+7",
-          "insight": "+4"
-      },
-      "passive": 11,
-      "languages": [
-          "Common",
-          "Elvish",
-          "Draconic"
-      ],
-      "cr": "5",
-      "spellcasting": [
-          {
-              "name": "Spellcasting",
-              "headerEntries": [
-                  "The Astral Conclave Mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). The mage has the following spells prepared:"
-              ],
-              "spells": {
-                  "0": {
-                      "spells": [
-                          "{@spell fire bolt}",
-                          "{@spell prestidigitation}",
-                          "{@spell mage hand}"
-                      ]
-                  },
-                  "1": {
-                      "spells": [
-                          "{@spell shield}",
-                          "{@spell magic missile}",
-                          "{@spell detect magic}"
-                      ],
-                      "slots": 4
-                  },
-                  "2": {
-                      "spells": [
-                          "{@spell mirror image}",
-                          "{@spell misty step}"
-                      ],
-                      "slots": 3
-                  },
-                  "3": {
-                      "spells": [
-                          "{@spell counterspell}",
-                          "{@spell fireball}"
-                      ],
-                      "slots": 3
-                  },
-                  "4": {
-                      "spells": [
-                          "{@spell greater invisibility}",
-                          "{@spell ice storm}"
-                      ],
-                      "slots": 3
-                  },
-                  "5": {
-                      "spells": [
-                          "{@spell wall of force}"
-                      ],
-                      "slots": 1
-                  }
-              },
-              "ability": "int",
-              "type": "spellcasting"
-          }
-      ],
-      "action": [
-          {
-              "name": "Dagger",
-              "entries": [
-                  "{@atk mw} +6 to hit, reach 5 ft., one target. {@h}5 (1d4 + 3) piercing damage."
-              ]
-          }
-      ],
-      "environment": [
-          "dungeon",
-          "urban"
-      ]
-    },
-    {
-      "name": "Astral Conclave Guard",
-      "size": [
-          "M"
-      ],
-      "type": {
-          "type": "humanoid",
-          "tags": [
-              "astral conclave"
-          ]
-      },
-      "source": "ChaosIncHomebrew",
-      "alignment": [
-          "LE"
-      ],
-      "ac": [
-          {
-              "ac": 16,
-              "from": [
-                  "chain mail",
-                  "shield"
-              ]
-          }
-      ],
-      "hp": {
-          "formula": "8d8 + 16",
-          "average": 52
-      },
-      "speed": {
-          "walk": 30
-      },
-      "str": 16,
-      "dex": 12,
-      "con": 14,
-      "int": 10,
-      "wis": 12,
-      "cha": 10,
-      "save": {
-          "str": "+5",
-          "con": "+4",
-          "wis": "+3"
-      },
-      "skills": {
-          "perception": "+4",
-          "athletics": "+5"
-      },
-      "passive": 14,
-      "languages": [
-          "Common"
-      ],
-      "cr": "3",
-      "trait": [
-          {
-              "name": "Martial Advantage",
-              "entries": [
-                  "Once per turn, the Astral Conclave Guard can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the guard that isn't incapacitated."
-              ]
-          }
-      ],
-      "action": [
-          {
-              "name": "Multiattack",
-              "entries": [
-                  "The guard makes two melee attacks."
-              ]
-          },
-          {
-              "name": "Longsword",
-              "entries": [
-                  "{@atk mw} +5 to hit, reach 5 ft., one target. {@h}7 (1d8 + 3) slashing damage."
-              ]
-          },
-          {
-              "name": "Heavy Crossbow",
-              "entries": [
-                  "{@atk rw} +4 to hit, range 100/400 ft., one target. {@h}8 (1d10 + 2) piercing damage."
-              ]
-          }
-      ],
-      "environment": [
-          "dungeon",
-          "urban"
-      ]
-    },
-    {
-      "name": "Vesper 'Pinkshade' Arlin",
-      "source": "ChaosIncHomebrew",
-      "size": ["M"],
-      "type": {
-          "type": "humanoid",
-          "tags": ["half-elf"]
-      },
-      "alignment": ["LE"],
-      "ac": [
-          {
-              "ac": 18,
-              "from": ["studded leather"]
-          }
-      ],
-      "hp": {
-          "formula": "16d8 + 32",
-          "average": 104
-      },
-      "speed": {
-          "walk": 30
-      },
-      "str": 10,
-      "dex": 18,
-      "con": 14,
-      "int": 12,
-      "wis": 14,
-      "cha": 16,
-      "save": {
-          "dex": "+8",
-          "int": "+5"
-      },
-      "skills": {
-          "acrobatics": "+8",
-          "stealth": "+10",
-          "perception": "+7",
-          "deception": "+7"
-      },
-      "senses": [
-          "darkvision 60 ft."
-      ],
-      "passive": 17,
-      "languages": ["Common", "Elvish", "Thieves' Cant"],
-      "cr": "9",
-      "trait": [
-          {
-              "name": "Evasion",
-              "entries": [
-                  "When Vesper is subjected to an effect that allows her to make a Dexterity saving throw to take half damage, she instead takes no damage on a success and only half damage on a failure."
-              ]
-          },
-          {
-              "name": "Uncanny Dodge",
-              "entries": [
-                  "When a creature Vesper can see hits her with an attack, she can use her reaction to halve the attack's damage."
-              ]
-          },
-          {
-              "name": "Cunning Action",
-              "entries": [
-                  "Vesper can take a bonus action on each of her turns to Dash, Disengage, or Hide."
-              ]
-          },
-          {
-              "name": "Sneak Attack",
-              "entries": [
-                  "Once per turn, Vesper deals an extra 5d6 damage when she hits a creature with a weapon attack if she has advantage on the attack roll, or when the target is within 5 feet of an ally of Vesper that isn't incapacitated, and Vesper doesn't have disadvantage on the attack roll."
-              ]
-          },
-          {
-              "name": "Amulet of Elemental Bane",
-              "entries": [
-                  "This amulet allows Vesper to mark an elemental as her target as a bonus action. The marked elemental has disadvantage on saving throws against her attacks and spells, and her weapon attacks deal an extra 2d6 force damage to the marked elemental."
-              ]
-          }
-      ],
-      "spellcasting": [
-          {
-              "name": "Spellcasting",
-              "headerEntries": [
-                  "Vesper is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:"
-              ],
-              "spells": {
-                  "0": {
-                      "spells": [
-                          "{@spell mage hand}",
-                          "{@spell minor illusion}",
-                          "{@spell ray of frost}"
-                      ]
-                  },
-                  "1": {
-                      "spells": [
-                          "{@spell disguise self}",
-                          "{@spell shield}",
-                          "{@spell silent image}"
-                      ],
-                      "slots": 4
-                  },
-                  "2": {
-                      "spells": [
-                          "{@spell invisibility}",
-                          "{@spell mirror image}",
-                          "{@spell suggestion}"
-                      ],
-                      "slots": 3
-                  },
-                  "3": {
-                      "spells": [
-                          "{@spell counterspell}",
-                          "{@spell fear}",
-                          "{@spell lightning bolt}"
-                      ],
-                      "slots": 3
-                  }
-              },
-              "ability": "int",
-              "type": "spellcasting"
-          }
-      ],
-      "action": [
-          {
-              "name": "Multiattack",
-              "entries": [
-                  "Vesper makes two attacks with her rapier or shortbow."
-              ]
-          },
-          {
-              "name": "Rapier",
-              "entries": [
-                  "{@atk mw} +8 to hit, reach 5 ft., one target. {@h}9 (1d8 + 4) piercing damage plus 5d6 Sneak Attack damage if applicable."
-              ]
-          },
-          {
-              "name": "Shortbow",
-              "entries": [
-                  "{@atk rw} +8 to hit, range 80/320 ft., one target. {@h}8 (1d6 + 4) piercing damage plus 5d6 Sneak Attack damage if applicable."
-              ]
-          },
-          {
-              "name": "Mark Elemental (Amulet of Elemental Bane)",
-              "entries": [
-                  "Vesper uses a bonus action to mark an elemental she can see within 60 feet. The mark lasts for 1 minute or until the elemental is defeated. While the mark is active, her weapon attacks deal an extra 2d6 force damage to the elemental, and it has disadvantage on saving throws against her spells."
-              ]
-          }
-      ],
-      "reaction": [
-          {
-              "name": "Uncanny Dodge",
-              "entries": [
-                  "When Vesper is hit by an attack, she can use her reaction to halve the attack's damage."
-              ]
-          }
-      ],
-      "environment": ["urban", "dungeon"],
-      "loot": [
-        {
-          "name": "Dagger of Venom",
-          "entries": [
-            "A magical dagger that Vesper wields. It can apply poison as a bonus action (3d6 poison damage, DC 15 Constitution save)."
-          ]
-        },
-        {
-          "name": "Shadow Cloak",
-          "entries": [
-            "This enchanted cloak allows Vesper to cast {@spell invisibility} on herself once per short rest."
-          ]
-        }
-      ]
-    },
-	{
-		"name": "Derrik 'Stonehand' Veynor",
-		"source": "ChaosIncHomebrew",
-		"type": "humanoid",
-		"alignment": ["LE"],
-		"size": ["M"],
-		"ac": [
-			{
-				"ac": 17,
-				"from": [
-					"Half-plate armor"
-				]
-			}
-		],
-		"hp": {
-			"average": 82,
-			"formula": "11d8 + 33"
-		},
-		"speed": {
-			"walk": 30
-		},
-		"str": 18,
-		"dex": 12,
-		"con": 16,
-		"int": 10,
-		"wis": 13,
-		"cha": 14,
-		"save": {
-			"str": "+7",
-			"con": "+6"
-		},
-		"skills": {
-			"athletics": "+7",
-			"intimidation": "+6",
-			"perception": "+4"
-		},
-		"passive": 14,
-		"languages": [
-			"Common",
-			"Thieves' Cant"
-		],
-		"trait": [
-			{
-				"name": "Stonehand Augmentation",
-				"entries": [
-					"Derrik's right arm has been replaced with a powerful pre-war mechanical gauntlet, reinforced with stone-like plating. This grants him advantage on Strength checks and saving throws, and his unarmed strikes deal 1d10 + 4 bludgeoning damage."
-				]
-			},
-			{
-				"name": "Tactical Enforcer",
-				"entries": [
-					"Derrik is a seasoned battlefield commander. As a bonus action, he can grant an ally within 30 feet advantage on their next attack roll or ability check."
-				]
-			},
-			{
-				"name": "Relentless (1/Day)",
-				"entries": [
-					"When Derrik is reduced to 0 hit points but not outright killed, he drops to 1 hit point instead."
-				]
-			}
-		],
-		"action": [
-			{
-				"name": "Multiattack",
-				"entries": [
-					"Derrik makes two melee attacks, one with his Stonehand Gauntlet and one with his longsword."
-				]
-			},
-			{
-				"name": "Stonehand Gauntlet",
-				"entries": [
-					"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 4}) bludgeoning damage. On a hit, the target must succeed on a DC 15 Strength saving throw or be knocked prone."
-				]
-			},
-			{
-				"name": "Longsword",
-				"entries": [
-					"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 4}) slashing damage or 12 ({@damage 1d10 + 4}) if wielded with two hands."
-				]
-			},
-			{
-				"name": "Shockwave Slam (Recharge 5-6)",
-				"entries": [
-					"Derrik slams the ground with his Stonehand Gauntlet, sending out a shockwave in a 10-foot radius. Each creature in that area must make a DC 15 Constitution saving throw or be stunned until the end of their next turn."
-				]
-			}
-		],
-		"cr": "5"
-	},
-	{
-		"name": "Veylin 'The Rot' Blackthorn",
-		"source": "ChaosIncHomebrew",
-		"type": "humanoid",
-		"alignment": ["LE"],
-		"size": ["M"],
-		"ac": [
-			{
-				"ac": 16,
-				"from": [
-					"Studded Leather Armor"
-				]
-			}
-		],
-		"hp": {
-			"average": 95,
-			"formula": "14d8 + 28"
-		},
-		"speed": {
-			"walk": 30
-		},
-		"str": 10,
-		"dex": 16,
-		"con": 14,
-		"int": 18,
-		"wis": 12,
-		"cha": 15,
-		"save": {
-			"int": "+8",
-			"wis": "+5"
-		},
-		"skills": {
-			"arcana": "+9",
-			"deception": "+7",
-			"insight": "+5",
-			"stealth": "+8"
-		},
-		"passive": 15,
-		"languages": [
-			"Common",
-			"Elvish",
-			"Thieves' Cant",
-			"Infernal"
-		],
-		"trait": [
-			{
-				"name": "Plague Mage",
-				"entries": [
-					"Veylin specializes in toxic magic and alchemical warfare. Creatures that take poison damage from his spells have disadvantage on their next attack roll or ability check."
-				]
-			},
-			{
-				"name": "Shadow Fangs Operative",
-				"entries": [
-					"Veylin has advantage on Dexterity (Stealth) checks made in dim light or darkness, and his spells leave little trace, making them harder to track with magical detection."
-				]
-			},
-			{
-				"name": "Toxic Resistance",
-				"entries": [
-					"Veylin is immune to poison damage and the poisoned condition."
-				]
-			}
-		],
-		"spellcasting": [
-			{
-				"name": "Spellcasting",
-				"ability": "int",
-				"type": "spellcasting",
-				"headerEntries": [
-					"Veylin is a 10th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). He has the following spells prepared:"
-				],
-				"spells": {
-					"0": {
-					"spells": [
-						"{@spell Poison Spray}",
-						"{@spell Chill Touch}",
-						"{@spell Mage Hand}",
-						"{@spell Minor Illusion}"
-					]
-					},
-					"1": {
-					"spells": [
-						"{@spell Mage Armor}",
-						"{@spell Magic Missile}",
-						"{@spell Ray of Sickness}"
-					],
-					"slots": 4
-					},
-					"2": {
-					"spells": [
-						"{@spell Mirror Image}",
-						"{@spell Melf's Acid Arrow}"
-					],
-					"slots": 3
-					},
-					"3": {
-					"spells": [
-						"{@spell Counterspell}",
-						"{@spell Stinking Cloud}"
-					],
-					"slots": 3
-					},
-					"4": {
-					"spells": [
-						"{@spell Greater Invisibility}",
-						"{@spell Phantasmal Killer}"
-					],
-					"slots": 3
-					},
-					"5": {
-					"spells": [
-						"{@spell Cloudkill}"
-					],
-					"slots": 1
-					}
-				}
-			}
-		],
-		"action": [
-			{
-				"name": "Toxic Blade",
-				"entries": [
-					"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage. The target must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute."
-				]
-			},
-			{
-				"name": "Necrotic Surge (Recharge 5-6)",
-				"entries": [
-					"Veylin releases a pulse of dark energy. Each creature within 10 feet must make a DC 16 Constitution saving throw, taking 18 ({@damage 4d8}) necrotic damage on a failed save, or half as much on a success."
-				]
-			}
-		],
-		"cr": "8"
-	},
-	{
-		"name": "Isera Duskfall",
-		"source": "ChaosIncHomebrew",
-		"type": "humanoid",
-		"alignment": ["NE"],
-		"size": ["M"],
-		"ac": [
-			{
-				"ac": 15,
-				"from": [
-					"Mage Armor"
-				]
-			}
-		],
-		"hp": {
-			"average": 66,
-			"formula": "12d8 + 12"
-		},
-		"speed": {
-			"walk": 30
-		},
-		"str": 10,
-		"dex": 14,
-		"con": 12,
-		"int": 18,
-		"wis": 13,
-		"cha": 16,
-		"save": {
-			"int": "+7",
-			"wis": "+5"
-		},
-		"skills": {
-			"arcana": "+9",
-			"deception": "+7",
-			"insight": "+5",
-			"persuasion": "+7"
-		},
-		"passive": 15,
-		"languages": [
-			"Common",
-			"Elvish",
-			"Draconic",
-			"Infernal"
-		],
-		"trait": [
-			{
-				"name": "Shadow Manipulation",
-				"entries": [
-					"Isera can shape and manipulate shadows within a 30-foot radius. As a bonus action, she can create an area of magical darkness (as per the Darkness spell) for 1 minute. Once she uses this trait, she must finish a short or long rest before using it again."
-				]
-			},
-			{
-				"name": "Master of Illusions",
-				"entries": [
-					"Isera’s illusion spells have increased potency. When she casts an illusion spell of 1st level or higher, she can make it last twice as long without requiring concentration."
-				]
-			},
-			{
-				"name": "Dark Veil",
-				"entries": [
-					"Isera has advantage on saving throws against being charmed or frightened. If she succeeds on a saving throw against such an effect, the creature that attempted to charm or frighten her takes 2d6 psychic damage."
-				]
-			}
-		],
-		"spellcasting": [
-			{
-				"name": "Spellcasting",
-				"ability": "int",
-				"type": "spellcasting",
-				"headerEntries": [
-					"Isera is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:"
-				],
-				"spells": {
-					"0": {
-					"spells": [
-						"{@spell Minor Illusion}",
-						"{@spell Prestidigitation}",
-						"{@spell Mage Hand}",
-						"{@spell Toll the Dead}"
-					]
-					},
-					"1": {
-					"spells": [
-						"{@spell Mage Armor}",
-						"{@spell Shield}",
-						"{@spell Disguise Self}"
-					],
-					"slots": 4
-					},
-					"2": {
-					"spells": [
-						"{@spell Mirror Image}",
-						"{@spell Misty Step}"
-					],
-					"slots": 3
-					},
-					"3": {
-					"spells": [
-						"{@spell Counterspell}",
-						"{@spell Major Image}"
-					],
-					"slots": 3
-					},
-					"4": {
-					"spells": [
-						"{@spell Greater Invisibility}",
-						"{@spell Phantasmal Killer}"
-					],
-					"slots": 3
-					},
-					"5": {
-					"spells": [
-						"{@spell Wall of Force}"
-					],
-					"slots": 1
-					}
-				}
-			}
-		],
-		"action": [
-			{
-				"name": "Shadow Strike",
-				"entries": [
-					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) psychic damage. The target must make a DC 15 Wisdom saving throw or be frightened until the end of Isera’s next turn."
-				]
-			},
-			{
-				"name": "Mind Spike (3/Day)",
-				"entries": [
-					"Isera targets a creature within 60 feet, forcing them to make a DC 15 Intelligence saving throw. On a failure, they take 18 ({@damage 4d8}) psychic damage, and Isera always knows their location for 1 hour."
-				]
-			},
-			{
-				"name": "Shadowstep (Recharge 4-6)",
-				"entries": [
-					"Isera teleports up to 30 feet to an unoccupied space she can see that is in dim light or darkness. She then has advantage on the next melee attack she makes before the end of her turn."
-				]
-			}
-		],
-		"cr": "6"
-	},
-	{
-		"name": "Shadow Fang Enforcer",
-		"source": "ChaosIncHomebrew",
-		"type": "humanoid",
-		"alignment": ["LE"],
-		"size": ["M"],
-		"ac": [
-			{
-				"ac": 16,
-				"from": [
-					"Studded Leather Armor"
-				]
-			}
-		],
-		"hp": {
-			"average": 58,
-			"formula": "9d8 + 18"
-		},
-		"speed": {
-			"walk": 30
-		},
-		"str": 16,
-		"dex": 14,
-		"con": 14,
-		"int": 10,
-		"wis": 12,
-		"cha": 11,
-		"save": {
-			"str": "+6",
-			"con": "+5"
-		},
-		"skills": {
-			"athletics": "+6",
-			"stealth": "+5",
-			"intimidation": "+4",
-			"perception": "+4"
-		},
-		"passive": 14,
-		"languages": [
-			"Common",
-			"Thieves' Cant"
-		],
-		"trait": [
-			{
-				"name": "Pack Tactics",
-				"entries": [
-					"The enforcer has advantage on attack rolls against a creature if at least one of the enforcer’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
-				]
-			},
-			{
-				"name": "Shadow Step",
-				"entries": [
-					"In dim light or darkness, the enforcer can teleport up to 30 feet as a bonus action."
-				]
-			},
-			{
-				"name": "Relentless Endurance (1/day)",
-				"entries": [
-					"When the enforcer is reduced to 0 hit points but not killed outright, they drop to 1 hit point instead."
-				]
-			}
-		],
-		"action": [
-			{
-				"name": "Multiattack",
-				"entries": [
-					"The enforcer makes two melee attacks."
-				]
-			},
-			{
-				"name": "Shadow Dagger",
-				"entries": [
-					"{@atk mw,rw} +6 to hit, reach 5 ft. or range 20/60 ft., one target. {@h}9 ({@damage 2d6 + 3}) piercing damage plus 4 ({@damage 1d8}) necrotic damage."
-				]
-			},
-			{
-				"name": "Brutal Strike (Recharge 5-6)",
-				"entries": [
-					"The enforcer makes a melee weapon attack. On a hit, the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the enforcer’s next turn."
-				]
-			}
-		],
-		"reaction": [
-			{
-				"name": "Defensive Reflex",
-				"entries": [
-					"When a creature within 5 feet of the enforcer makes an attack roll, the enforcer can impose disadvantage on the roll by using their reaction."
-				]
-			}
-		],
-		"cr": "4"
-	},
-	{
-		"name": "Shadow Fang Marksman",
-		"source": "ChaosIncHomebrew",
-		"type": "humanoid",
-		"alignment": ["LE"],
-		"size": ["M"],
-		"ac": [
-			{
-				"ac": 17,
-				"from": [
-					"Studded Leather Armor"
-				]
-			}
-		],
-		"hp": {
-			"average": 75,
-			"formula": "10d8 + 30"
-		},
-		"speed": {
-			"walk": 30
-		},
-		"str": 12,
-		"dex": 18,
-		"con": 16,
-		"int": 12,
-		"wis": 14,
-		"cha": 11,
-		"save": {
-			"dex": "+8",
-			"wis": "+6"
-		},
-		"skills": {
-			"stealth": "+9",
-			"perception": "+6",
-			"acrobatics": "+7"
-		},
-		"passive": 16,
-		"languages": [
-			"Common",
-			"Thieves' Cant"
-		],
-		"trait": [
-			{
-				"name": "Deadeye Aim",
-				"entries": [
-					"The marksman can take a bonus action to grant themselves advantage on their next ranged weapon attack."
-				]
-			},
-			{
-				"name": "Shadow Camouflage",
-				"entries": [
-					"In dim light or darkness, the marksman can attempt to hide as a bonus action, even when being observed."
-				]
-			}
-		],
-		"action": [
-			{
-				"name": "Multiattack",
-				"entries": [
-					"The marksman makes two ranged weapon attacks."
-				]
-			},
-			{
-				"name": "Shadow Bolt",
-				"entries": [
-					"{@atk rw} +9 to hit, range 100/400 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. If the target is in dim light or darkness, they take an additional 5 necrotic damage."
-				]
-			},
-			{
-				"name": "Poisoned Dart",
-				"entries": [
-					"{@atk rw} +8 to hit, range 30/120 ft., one target. {@h}9 ({@damage 2d6 + 4}) piercing damage plus 7 ({@damage 2d6}) poison damage. The target must make a DC 15 Constitution saving throw or be poisoned for 1 minute."
-				]
-			}
-		],
-		"reaction": [
-			{
-				"name": "Evasive Maneuver",
-				"entries": [
-					"When an enemy makes a ranged attack against the marksman and misses, they can use their reaction to move up to half their speed without provoking opportunity attacks."
-				]
-			}
-		],
-		"cr": "5"
-	},
-	{
-		"name": "Shadow Fang Sorcerer",
-		"source": "ChaosIncHomebrew",
-		"type": "humanoid",
-		"alignment": ["LE"],
-		"size": ["M"],
-		"ac": [
-			{
-				"ac": 14,
-				"from": [
-					"Mage Armor"
-				]
-			}
-		],
-		"hp": {
-			"average": 66,
-			"formula": "12d8 + 12"
-		},
-		"speed": {
-			"walk": 30
-		},
-		"str": 10,
-		"dex": 14,
-		"con": 12,
-		"int": 13,
-		"wis": 12,
-		"cha": 18,
-		"save": {
-			"con": "+5",
-			"cha": "+8"
-		},
-		"skills": {
-			"arcana": "+7",
-			"deception": "+7",
-			"persuasion": "+6",
-			"stealth": "+6"
-		},
-		"passive": 13,
-		"languages": [
-			"Common",
-			"Draconic",
-			"Infernal"
-		],
-		"trait": [
-			{
-				"name": "Sorcerous Shadow",
-				"entries": [
-					"When in dim light or darkness, the sorcerer can become invisible as a bonus action. This effect lasts until they attack, cast a spell, or enter bright light."
-				]
-			},
-			{
-				"name": "Metamagic Mastery",
-				"entries": [
-					"The sorcerer can use one of the following Metamagic options once per turn: Quickened Spell, Twinned Spell, or Subtle Spell."
-				]
-			}
-		],
-		"spellcasting":
-		[ 
-			{
-				"name": "Spellcasting",
-				"ability": "cha",
-				"type": "spellcasting",
-				"headerEntries": [
-					"The sorcerer is a 10th-level spellcaster. Their spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). They have the following spells prepared:"
-				],
-				"spells": {
-					"0": {
-					"spells": [
-						"{@spell Fire Bolt}",
-						"{@spell Minor Illusion}",
-						"{@spell Chill Touch}",
-						"{@spell Prestidigitation}"
-					]
-					},
-					"1": {
-					"spells": [
-						"{@spell Mage Armor}",
-						"{@spell Shield}",
-						"{@spell Magic Missile}"
-					],
-					"slots": 4
-					},
-					"2": {
-					"spells": [
-						"{@spell Mirror Image}",
-						"{@spell Misty Step}"
-					],
-					"slots": 3
-					},
-					"3": {
-					"spells": [
-						"{@spell Counterspell}",
-						"{@spell Vampiric Touch}"
-					],
-					"slots": 3
-					},
-					"4": {
-					"spells": [
-						"{@spell Greater Invisibility}",
-						"{@spell Phantasmal Killer}"
-					],
-					"slots": 3
-					},
-					"5": {
-					"spells": [
-						"{@spell Cloudkill}"
-					],
-					"slots": 1
-					}
-				}
-			}
-		],
-		"action": [
-			{
-				"name": "Shadowflame Bolt",
-				"entries": [
-					"{@atk rw} +8 to hit, range 90 ft., one target. {@h}17 ({@damage 4d6}) fire and necrotic damage."
-				]
-			},
-			{
-				"name": "Dark Surge (Recharge 5-6)",
-				"entries": [
-					"The sorcerer releases a burst of shadowy magic. Each creature within 15 feet must make a DC 16 Dexterity saving throw, taking 21 ({@damage 6d6}) necrotic damage on a failed save, or half as much on a success."
-				]
-			}
-		],
-		"cr": "7"
-	},
-	{
-        "name": "Kaelric 'The Veil'",
-        "source": "ChaosIncHomebrew",
-        "type": "humanoid",
-        "alignment": ["LE"],
-        "size": ["M"],
-        "ac": [{ "ac": 20, "from": ["Enhanced Tactical Armor", "Energy Shield"] }],
-        "hp": { "average": 175, "formula": "18d10 + 54" },
-        "speed": { "walk": 40 },
-        "str": 16, "dex": 20, "con": 16, "int": 14, "wis": 14, "cha": 16,
-        "save": { "dex": "+11", "con": "+8" },
-        "skills": { "acrobatics": "+11", "deception": "+9", "stealth": "+12", "insight": "+8" },
-        "passive": 18,
-        "languages": ["Common", "Elvish", "Thieves' Cant", "Infernal"],
-        "trait": [
-            {
-                "name": "Legendary Combatant",
-                "entries": [
-                    "Kaelric has three legendary actions, which he can use to move, make a weapon attack, or attempt to hide."
-                ]
-            },
-            {
-                "name": "Cunning Tactician",
-                "entries": [
-                    "Kaelric can take the Dash, Disengage, or Hide action as a bonus action on each of his turns."
-                ]
-            }
-        ],
-        "action": [
-            {
-                "name": "Multiattack",
-                "entries": ["Kaelric makes three melee or ranged attacks."]
-            },
-            {
-                "name": "Twin Plasma Daggers",
-                "entries": [
-                    "{@atk mw} +12 to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage plus 6 ({@damage 1d10}) fire damage."
-                ]
-            },
-            {
-                "name": "Tactical Disruptor",
-                "entries": [
-                    "Kaelric throws a specialized energy disruptor in a 10-foot radius. All creatures in the area must make a DC 18 Constitution saving throw or be blinded and deafened until the end of their next turn."
-                ]
-            }
-        ],
-		"legendary": [
-			{
-				"name": "Shadow Strike",
-				"entries": [
-					"Kaelric makes one melee attack and can immediately move up to half his speed without provoking opportunity attacks."
-				]
-			},
-			{
-				"name": "Vanishing Step",
-				"entries": [
-					"Kaelric turns invisible until the start of his next turn or until he attacks or casts a spell."
-				]
-			}
-		],
-        "cr": "12"
-    },
-	{
-        "name": "Shadow Fang Elite Guard",
-        "source": "ChaosIncHomebrew",
-        "type": "humanoid",
-        "alignment": ["LE"],
-        "size": ["M"],
-        "ac": [{ "ac": 19, "from": ["Half-plate armor", "Kinetic Shield"] }],
-        "hp": { "average": 120, "formula": "14d10 + 42" },
-        "speed": { "walk": 35 },
-        "str": 20, "dex": 16, "con": 18, "int": 12, "wis": 14, "cha": 12,
-        "save": { "str": "+9", "con": "+7" },
-        "skills": { "athletics": "+9", "perception": "+6", "intimidation": "+7", "stealth": "+7" },
-        "passive": 16,
-        "languages": ["Common", "Thieves' Cant"],
-        "trait": [
-            {
-                "name": "Kinetic Shield (Recharge 5-6)",
-                "entries": [
-                    "The guard can activate a temporary energy shield as a reaction, granting them resistance to all damage until the start of their next turn."
-                ]
-            },
-            {
-                "name": "Augmented Reflexes",
-                "entries": [
-                    "The guard has advantage on Dexterity saving throws against effects that deal area damage."
-                ]
-            },
-            {
-                "name": "Enhanced Combat Training",
-                "entries": [
-                    "The guard adds +2 to damage rolls with melee and ranged attacks."
-                ]
-            }
-        ],
-        "action": [
-            {
-                "name": "Multiattack",
-                "entries": ["The guard makes three melee or ranged attacks."]
-            },
-            {
-                "name": "Plasma Longsword",
-                "entries": [
-                    "{@atk mw} +9 to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 6}) slashing damage plus 6 ({@damage 1d10}) fire damage."
-                ]
-            },
-            {
-                "name": "Shock Gauntlet",
-                "entries": [
-                    "{@atk mw} +8 to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) lightning damage. The target must succeed on a DC 16 Constitution saving throw or be stunned until the end of their next turn."
-                ]
-            },
-            {
-                "name": "Heavy Bolter Rifle",
-                "entries": [
-                    "{@atk rw} +8 to hit, range 120/400 ft., one target. {@h}18 ({@damage 3d10 + 4}) piercing damage plus 5 ({@damage 1d8}) force damage."
-                ]
-            }
-        ],
-        "cr": "8"
-    },
-    {
-      "name": "Jessa 'The Wraith' Cael",
-      "source": "ChaosIncHomebrew",
-      "type": "humanoid",
-      "alignment": ["CE"],
-      "size": ["M"],
-      "ac": [{ "ac": 17, "from": ["Shadow Phase Enhancer"] }],
-      "hp": { "average": 88, "formula": "13d8 + 26" },
-      "speed": { "walk": 40 },
-      "str": 10, "dex": 20, "con": 14, "int": 12, "wis": 13, "cha": 14,
-      "save": { "dex": "+9", "int": "+5" },
-      "skills": {
-        "acrobatics": "+9",
-        "stealth": "+11",
-        "sleight of hand": "+8",
-        "perception": "+5",
-        "deception": "+6"
-      },
-      "passive": 15,
-      "languages": ["Common", "Thieves' Cant"],
-      "trait": [
-        {
-          "name": "Shadow Phase (3/day)",
-          "entries": [
-            "Jessa can become incorporeal as a bonus action for 1 round. During this time, she can move through creatures and objects as if they were difficult terrain. If she ends her turn inside an object, she takes 5 (1d10) force damage."
-          ]
-        },
-        {
-          "name": "Experimental Cloak System",
-          "entries": [
-            "While in dim light or darkness, Jessa has advantage on Stealth checks and can attempt to Hide as a bonus action, even if observed."
-          ]
-        },
-        {
-          "name": "Assassinate",
-          "entries": [
-            "During her first turn, Jessa has advantage on attack rolls against any creature that hasn’t taken a turn. Any hit Jessa scores against a surprised creature is a critical hit."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": ["Jessa makes two melee attacks with her modified daggers."]
-        },
-        {
-          "name": "Modified Dagger",
-          "entries": [
-            "{@atk mw} +9 to hit, reach 5 ft., one target. {@h}9 ({@damage 1d4 + 5}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. On a critical hit, the target must succeed on a DC 15 Constitution saving throw or be paralyzed until the end of their next turn."
-          ]
-        },
-        {
-          "name": "Phase Slash (Recharge 5-6)",
-          "entries": [
-            "Jessa teleports up to 30 feet and makes one melee attack against a creature she appears adjacent to. On a hit, the target takes an extra 10 (3d6) force damage."
-          ]
-        }
-      ],
-      "reaction": [
-        {
-          "name": "Shadow Dodge",
-          "entries": [
-            "When a creature Jessa can see targets her with an attack, she can impose disadvantage as she flickers through nearby shadows."
-          ]
-        }
-      ],
-      "cr": "7"
-    },
-    {
-      "name": "Duskwright Honor Guard",
-      "source": "ChaosIncHomebrew",
-      "type": "humanoid",
-      "alignment": ["LE"],
-      "size": ["M"],
-      "ac": [
-        {
-          "ac": 18,
-          "from": ["Arcane-Enhanced Plate"]
-        }
-      ],
-      "hp": {
-        "average": 65,
-        "formula": "10d8 + 20"
-      },
-      "speed": {
-        "walk": 30
-      },
-      "str": 17,
-      "dex": 14,
-      "con": 14,
-      "int": 10,
-      "wis": 12,
-      "cha": 10,
-      "save": {
-        "str": "+5",
-        "con": "+4"
-      },
-      "skills": {
-        "athletics": "+5",
-        "perception": "+4"
-      },
-      "damage_resistances": ["lightning", "poison"],
-      "languages": ["Common"],
-      "cr": "4",
-      "trait": [
-        {
-          "name": "Interceptor Formation",
-          "entries": [
-            "When adjacent to an ally, the guard may impose disadvantage on one attack that targets that ally each round (no action required)."
-          ]
-        },
-        {
-          "name": "Pulse Shield (1/Day)",
-          "entries": [
-            "As a reaction, reduces all incoming damage by half for one round."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Shock Halberd",
-          "entries": [
-            "{@atk mw} +6 to hit, reach 10 ft., one target. {@h}9 (1d10 + 4) slashing damage plus 7 (2d6) lightning damage."
-          ]
-        },
-        {
-          "name": "Arc-Carbine",
-          "entries": [
-            "{@atk rw} +6 to hit, range 80/240 ft., one target. {@h}10 (2d6 + 3) lightning damage. The weapon holds 4 charges; recharges on a short rest.",
-            "**Overload Shot (1/Day):** Fire a 30 ft. line (5 ft. wide). Each creature in the line must make a DC 14 Dexterity saving throw, taking 14 (4d6) lightning damage on a failed save, or half on a success. The carbine becomes unusable until the end of the guard's next turn."
-          ]
-        },
-        {
-          "name": "Thunder Slam (Recharge 5-6)",
-          "entries": [
-            "Each creature within 10 ft. must succeed on a DC 14 Strength saving throw or take 10 (2d6 + 3) bludgeoning damage and be knocked prone."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Daggercloak Emissary",
-      "source": "ChaosIncHomebrew",
-      "type": "humanoid",
-      "alignment": ["LE"],
-      "size": ["M"],
-      "ac": [
-        {
-          "ac": 16,
-          "from": ["Mage Armor", "Arcane Weave Garments"]
-        }
-      ],
-      "hp": {
-        "average": 84,
-        "formula": "13d8 + 26"
-      },
-      "speed": {
-        "walk": 30
-      },
-      "str": 10,
-      "dex": 16,
-      "con": 14,
-      "int": 18,
-      "wis": 14,
-      "cha": 14,
-      "save": {
-        "int": "+8",
-        "wis": "+6"
-      },
-      "skills": {
-        "arcana": "+8",
-        "insight": "+6",
-        "deception": "+6"
-      },
-      "languages": ["Common", "Elvish", "Draconic"],
-      "cr": "7",
-      "trait": [
-        {
-          "name": "Arcane Cloak",
-          "entries": [
-            "While under 50% HP, gains resistance to all damage from spells."
-          ]
-        },
-        {
-          "name": "Emergency Recall Gem (1/Day)",
-          "entries": [
-            "Teleports self and 1 ally within 10 feet to a predetermined spot on the ship."
-          ]
-        }
-      ],
-      "spellcasting": [
-        {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "The emissary is a 9th-level spellcaster (Intelligence DC 16, +8 to hit)."
-          ],
-          "will": ["mage hand", "message", "minor illusion", "shield"],
-          "daily": {
-            "3": ["mirror image", "misty step", "suggestion", "hold person"],
-            "2": ["counterspell", "fear"],
-            "1": ["wall of force", "greater invisibility"]
-          }
-        }
-      ],
-      "bonus": [
-        {
-          "name": "Disrupt Magic (1/day)",
-          "entries": [
-            "When a creature casts a spell within 60 ft., the Emissary may use a reaction to nullify the effect unless the caster succeeds on a DC 16 ability check."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Lord Vancair Duskwright",
-      "source": "ChaosIncHomebrew",
-      "type": "humanoid",
-      "alignment": ["LE"],
-      "size": ["M"],
-      "ac": [
-        {
-          "ac": 17,
-          "from": ["Arcane-Warded Noblewear"]
-        }
-      ],
-      "hp": {
-        "average": 110,
-        "formula": "13d8 + 52"
-      },
-      "speed": {
-        "walk": 30
-      },
-      "str": 10,
-      "dex": 16,
-      "con": 18,
-      "int": 14,
-      "wis": 12,
-      "cha": 20,
-      "save": {
-        "cha": "+9",
-        "wis": "+5"
-      },
-      "skills": {
-        "persuasion": "+10",
-        "deception": "+10",
-        "insight": "+6",
-        "history": "+6"
-      },
-      "languages": ["Common", "Elvish", "Infernal"],
-      "cr": "7",
-      "trait": [
-        {
-          "name": "Tactical Mastermind",
-          "entries": [
-            "Allies within 30 ft. that can hear Vancair may reroll 1s on attack rolls once per turn."
-          ]
-        },
-        {
-          "name": "Commanding Voice (Recharge 4-6)",
-          "entries": [
-            "Each enemy within 30 feet must make a DC 16 Wisdom saving throw or be frightened until the end of their next turn. On a success, they still have disadvantage on their next attack roll."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Voidsteel Rapier",
-          "entries": [
-            "{@atk mw} +8 to hit, reach 5 ft., one target. {@h}9 (1d8 + 5) piercing damage plus 7 (2d6) poison damage. On a crit, target must make a DC 15 Constitution save or be paralyzed until the end of their next turn."
-          ]
-        },
-        {
-          "name": "Eye of the Veil (1/day)",
-          "entries": [
-            "Casts {@spell detect thoughts} or {@spell see invisibility} without components. Once per day, can instead cast {@spell dominate person} (DC 16) on a restrained target."
-          ]
-        }
-      ],
-      "legendary": [        
-        {
-          "name": "Intimidating Flourish",
-          "entries": [
-            "Lord Duskwright targets one creature that can see him within 30 feet. That creature must succeed a DC 16 Wisdom saving throw or be frightened for 1 round."
-          ]
-        },
-        {
-          "name": "Command Redirect",
-          "entries": [
-            "An ally within 30 feet may immediately make one weapon attack as a reaction."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Kasha Whisperclaw",
-      "size": ["M"],
-      "source": "ChaosIncHomebrew",
-      "type": "humanoid",
-      "ac": [{"ac": 17, "from": ["dex", "studded leather"]}],
-      "hp": {"average": 45, "formula": "6d8 + 18"},
-      "speed": {"walk": 40},
-      "str": 10,
-      "dex": 18,
-      "con": 16,
-      "int": 12,
-      "wis": 14,
-      "cha": 10,
-      "save": {"dex": "+6", "wis": "+4"},
-      "skill": {"stealth": "+8", "perception": "+4", "acrobatics": "+6"},
-      "senses": ["darkvision 60 ft."],
-      "passive": 14,
-      "languages": ["Common", "Tabaxi", "Thieves' Cant"],
-      "cr": "3",
-      "trait": [
-        {
-          "name": "Echo-Step Collar (Damaged)",
-          "entries": [
-            "Once per short rest, Kasha can teleport up to 15 ft. as a bonus action. This ability flickers, and on a roll of 1 on a d6, it fails and Kasha is stunned until the end of her next turn."
-          ]
-        },
-        {
-          "name": "Feline Agility",
-          "entries": [
-            "When Kasha moves on her turn in combat, she can double her speed until the end of the turn. She can’t use this trait again until she moves 0 feet on one of her turns."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Shortsword (Sneak Attack)",
-          "entries": [
-            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d6 + 4 piercing damage, plus 2d6 sneak attack if she has advantage or an ally adjacent to the target."
-          ]
-        },
-        {
-          "name": "Dart (Thrown)",
-          "entries": [
-            "Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 1d4 + 4 piercing damage."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Solenne Varn",
-      "size": ["M"],
-      "source": "ChaosIncHomebrew",
-      "type": "humanoid",
-      "ac": [{"ac": 18, "from": ["Integrated Plating"]}],
-      "hp": {"average": 136, "formula": "16d8 + 64"},
-      "speed": {"walk": 35},
-      "str": 12,
-      "dex": 18,
-      "con": 18,
-      "int": 16,
-      "wis": 14,
-      "cha": 13,
-      "save": {"dex": "+8", "con": "+8", "int": "+7"},
-      "skills": {"medicine": "+7", "investigation": "+7", "acrobatics": "+8", "intimidation": "+5"},
-      "resist": ["psychic", "lightning", "force"],
-      "conditionImmune": ["charmed", "frightened", "paralyzed"],
-      "senses": ["darkvision 60 ft."],
-      "passive": 11,
-      "languages": ["Common", "Elvish", "Primordial"],
-      "cr": "9",
-      "trait": [
-        {
-          "name": "Augmented Reflex Suite",
-          "entries": [
-            "Varn has advantage on Dexterity saving throws against effects that target only her. She can move up to half her speed as a reaction when targeted by a ranged attack."
-          ]
-        },
-        {
-          "name": "Integrated Conduit Core",
-          "entries": [
-            "Once per round, when she hits a creature with a melee weapon attack, she can deal an additional 2d10 lightning or force damage (her choice)."
-          ]
-        },
-        {
-          "name": "Neural Override Pulse (Recharge 5–6)",
-          "entries": [
-            "All creatures of Varn’s choice within 20 feet must succeed on a DC 16 Intelligence saving throw or become stunned until the end of their next turn. Constructs and creatures with implants have disadvantage."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Surge Claws",
-          "entries": [
-            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 2d6 + 4 slashing damage plus 2d10 lightning or force damage (choice made on hit)."
-          ]
-        },
-        {
-          "name": "Force Pulse Strike",
-          "entries": [
-            "Varn slams the ground, forcing all creatures in a 15-foot cone to make a DC 16 Strength saving throw or be knocked prone and take 3d8 force damage (half on success)."
-          ]
-        }
-      ],
-      "bonus": [
-        {
-          "name": "Phase Step (1/Turn)",
-          "entries": [
-            "Varn may teleport up to 20 feet to a location she can see as a bonus action, leaving behind an afterimage that lasts until the start of her next turn. Attacks against her during this time are made with disadvantage."
-          ]
-        }
-      ],
-      "legendary": [
-        {
-          "name": "Adaptive Targeting",
-          "entries": [
-            "She scans a creature within 60 feet. Until the end of her next turn, she has advantage on attacks against it and ignores half and three-quarters cover."
-          ]
-        },
-        {
-          "name": "Overclock Movement",
-          "entries": [
-            "Varn moves up to her speed without provoking opportunity attacks."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Taelix Dren",
-      "size": ["M"],
-      "source": "ChaosIncHomebrew",
-      "type": "humanoid",
-      "ac": [{"ac": 17, "from": ["dark half-plate", "Infernal Shield"]}],
-      "hp": {"average": 105, "formula": "14d8 + 42"},
-      "speed": {"walk": 30},
-      "str": 12,
-      "dex": 14,
-      "con": 16,
-      "int": 16,
-      "wis": 14,
-      "cha": 18,
-      "save": {"cha": "+8", "wis": "+6"},
-      "skill": {"intimidation": "+8", "deception": "+8", "arcana": "+6", "insight": "+5"},
-      "senses": ["darkvision 60 ft."],
-      "passive": 13,
-      "languages": ["Common", "Infernal", "Deep Speech"],
-      "cr": "7",
-      "spellcasting": [
-        {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "Taelix is a 10th-level spellcaster. Taelix's spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Taelix has the following spells prepared:"
-          ],
-          "spells": {
-            "0": {
-              "spells": [
-                "{@spell eldritch blast}",
-                "{@spell minor illusion}",
-                "{@spell thaumaturgy}",
-                "{@spell chill touch}"
-              ]
-            },
-            "1": {
-              "slots": 4,
-              "spells": [
-                "{@spell command}",
-                "{@spell detect magic}",
-                "{@spell hex}",
-                "{@spell shield}"
-              ]
-            },
-            "2": {
-              "slots": 3,
-              "spells": [
-                "{@spell hold person}",
-                "{@spell mirror image}",
-                "{@spell misty step}"
-              ]
-            },
-            "3": {
-              "slots": 3,
-              "spells": [
-                "{@spell counterspell}",
-                "{@spell fear}",
-                "{@spell vampiric touch}"
-              ]
-            },
-            "4": {
-              "slots": 3,
-              "spells": [
-                "{@spell banishment}",
-                "{@spell greater invisibility}",
-                "{@spell phantasmal killer}"
-              ]
-            },
-            "5": {
-              "slots": 2,
-              "spells": [
-                "{@spell dominate person}",
-                "{@spell synaptic static|XGE}"
-              ]
-            }
-          },
-          "ability": "cha",
-          "type": "spellcasting"
-        }
-      ],
-      "trait": [
-        {
-          "name": "Void Implant Tether (Recharge 5–6)",
-          "entries": [
-            "Target one creature within 60 ft. with a control implant. They must succeed on a DC 16 Wisdom saving throw or be charmed for 1 minute and follow a mental command (no concentration)."
-          ]
-        },
-        {
-          "name": "Mental Overload",
-          "entries": [
-            "When a creature within 30 feet fails a saving throw against a charm, fear, or confusion effect cast by Taelix, they take 2d6 additional psychic damage."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Psychic Bolt",
-          "entries": [
-            "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit: 3d8 psychic damage. The target cannot take reactions until the end of its next turn."
-          ]
-        },
-        {
-          "name": "Fear Pulse (Recharge 6)",
-          "entries": [
-            "All creatures within 20 feet must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. They can repeat the saving throw at the end of each of their turns."
-          ]
-        }
-      ]
-    },
-	{
-		"name": "Null-Blade Enforcer",
-		"size": ["M"],
-      	"source": "ChaosIncHomebrew",
-		"type": "humanoid",
-		"alignment": ["lawful", "neutral"],
-		"ac": [{"ac": 17, "from": ["null-plate armor"]}],
-		"hp": {"average": 102, "formula": "12d10 + 36"},
-		"speed": {"walk": 30},
-		"str": 18,
-		"dex": 12,
-		"con": 16,
-		"int": 11,
-		"wis": 14,
-		"cha": 10,
-		"proficiency": 3,
-		"save": {"str": 7, "wis": 5},
-		"skill": {"intimidation": 5, "athletics": 7},
-		"resist": ["fire", "cold", "lightning", "force"],
-		"senses": ["darkvision 60 ft.", "passive Perception 12"],
-		"languages": ["Common", "Primordial"],
-		"cr": "6",
-		"trait": [
-			{
-			"name": "Magic Suppression Field",
-			"entries": [
-				"The Enforcer projects a 10 ft. aura. While within the aura, enemy creatures have disadvantage on concentration saves and cannot teleport via magical means."
-			]
-			},
-			{
-			"name": "Adaptive Shielding",
-			"entries": [
-				"Once per long rest, when the Enforcer is hit by a magical attack, it gains resistance to that damage type for 1 minute."
-			]
-			}
-		],
-		"action": [
-			{
-			"name": "Null-Greatsword",
-			"entries": [
-				"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 2d6 + 4 slashing damage plus 2d6 force damage. If the target is concentrating on a spell, it must make the concentration check with disadvantage."
-			]
-			},
-			{
-			"name": "Void Pulse Slam (Recharge 5–6)",
-			"entries": [
-				"The Enforcer slams the ground, forcing all creatures in a 15 ft. cone to make a DC 15 Constitution saving throw or be stunned until the end of their next turn and take 3d8 force damage. Half damage on a success."
-			]
-			}
-		],
-		"bonus": [
-			{
-			"name": "Surge Step",
-			"entries": [
-				"The Enforcer moves up to 15 feet without provoking opportunity attacks."
-			]
-			}
-		]
-	  },
-	  {
-		"name": "Liraen Valithil",
-		"source": "ChaosIncHomebrew",
-		"size": ["M"],
-		"type": "humanoid",
-		"alignment": ["neutral"],
-		"ac": [{"ac": 13, "from": ["leather armor", "dex"]}],
-		"hp": {"average": 17, "formula": "2d8 + 6"},
-		"speed": {"walk": 30},
-		"str": 10,
-		"dex": 14,
-		"con": 14,
-		"int": 12,
-		"wis": 16,
-		"cha": 10,
-		"proficiency": 2,
-		"save": {"int": 4, "wis": 5},
-		"skill": {"nature": 4, "survival": 5, "animal handling": 5},
-		"senses": ["passive Perception 13"],
-		"languages": ["Common", "Druidic", "Sylvan"],
-		"cr": "1/2",
-		"trait": [
-		  {
-			"name": "Druidic",
-			"entries": [
-			  "The druid knows Druidic, a secret language only druids can speak. They can leave hidden messages readable only by others who know the language."
-			]
-		  },
-		  {
-			"name": "Wild Shape (2/Short Rest)",
-			"entries": [
-			  "As a bonus action, the druid can magically assume the shape of a beast they have seen before with a challenge rating of 1 or lower that doesn't have a flying speed."
-			]
-		  },
-		  {
-			"name": "Combat Wild Shape",
-			"entries": [
-			  "You can use Wild Shape as a bonus action instead of an action, and you can use a bonus action to expend a spell slot to regain 1d8 hit points per spell level while in beast form."
-			]
-		  }
-		],
-		"spellcasting": [
-		  {
-			"name": "Spellcasting",
-			"headerEntries": [
-			  "The druid is a 2nd-level spellcaster. Their spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). They have the following druid spells prepared:"
+		{
+			"name": "Blue Wyvern",
+			"size": [
+				"L"
 			],
-			"spells": {
-			  "0": {
-				"spells": [
-				  "{@spell guidance}",
-				  "{@spell produce flame}",
-				  "{@spell druidcraft}"
-				]
-			  },
-			  "1": {
-				"slots": 3,
-				"spells": [
-				  "{@spell cure wounds}",
-				  "{@spell thunderwave}",
-				  "{@spell entangle}"
-				]
-			  }
+			"type": {
+				"type": "dragon",
+				"tags": []
 			},
-			"ability": "wis",
-			"type": "spellcasting"
-		  }
-		],
-		"action": [
-		  {
-			"name": "Quarterstaff",
-			"entries": [
-			  "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 bludgeoning damage (versatile 1d8)."
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d10 + 48",
+				"average": 136
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 80
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 16,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"save": {
+				"dex": "+3",
+				"con": "+6",
+				"wis": "+4"
+			},
+			"skills": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"understands Draconic but cannot speak"
+			],
+			"cr": "6",
+			"resist": [
+				{
+					"resist": [
+						"lightning"
+					],
+					"note": "For Lightning Wyvern"
+				},
+				{
+					"resist": [
+						"cold"
+					],
+					"note": "For Water Wyvern"
+				}
+			],
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The wyvern doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Aerial Dive",
+					"entries": [
+						"If the wyvern moves at least 30 feet straight toward a target and then hits it with a melee attack on the same turn, the attack deals an extra 10 (3d6) damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The wyvern makes two attacks: one with its bite and one with its tail."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} +7 to hit, reach 10 ft., one target. {@h}15 (2d8 + 6) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} +7 to hit, reach 10 ft., one target. {@h}13 (2d6 + 6) piercing damage. The target must succeed on a {@dc 15} Constitution saving throw or become poisoned for 1 minute."
+					]
+				},
+				{
+					"name": "Elemental Breath Weapon (Recharge 5-6)",
+					"entries": [
+						"The wyvern exhales a blast of elemental energy. Depending on the type, this could be a blast of lightning or a torrent of water.",
+						"Lightning Wyvern: Exhales lightning in a 30-foot line that is 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much damage on a successful one.",
+						"Water Wyvern: Exhales a torrent of freezing water in a 30-foot cone. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 5d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"cave"
 			]
-		  },
-		  {
-			"name": "Produce Flame (Cantrip)",
-			"entries": [
-			  "Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 1d8 fire damage."
+		},
+		{
+			"name": "Warforged Guard",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "construct",
+				"tags": []
+			},
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d10 + 85",
+				"average": 178
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 8,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"str": "+9",
+				"con": "+9",
+				"wis": "+5"
+			},
+			"skills": {
+				"athletics": "+9",
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common"
+			],
+			"cr": "9",
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Constructed Resilience",
+					"entries": [
+						"The Warforged Guard has advantage on saving throws against being poisoned, and it doesn’t need to eat, drink, or breathe."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The Warforged Guard is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Warforged Guard has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magically Reinforced Armor",
+					"entries": [
+						"When the Warforged Guard is reduced to half of its hit points, it gains resistance to all damage (except force damage) for 3 rounds. This ability recharges after a short rest."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Warforged Guard makes three attacks: one with its Heavy Slam and two with its Blade Arm."
+					]
+				},
+				{
+					"name": "Heavy Slam",
+					"entries": [
+						"{@atk mw} +9 to hit, reach 10 ft., one target. {@h}21 (3d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked prone."
+					]
+				},
+				{
+					"name": "Blade Arm",
+					"entries": [
+						"{@atk mw} +9 to hit, reach 5 ft., one target. {@h}17 (2d10 + 5) slashing damage."
+					]
+				},
+				{
+					"name": "Cannon Blast (Recharge 5-6)",
+					"entries": [
+						"The Warforged Guard uses its cannon to release elemental energy. The Guard chooses one of the following options:",
+						"Fire Cannon: The Guard shoots a 30-foot cone of fire. Each creature in the area must make a {@dc 17} Dexterity saving throw, taking 35 ({@damage 10d6}) fire damage on a failed save, or half as much on a successful one.",
+						"Force Cannon: The Guard shoots a 60-foot line of force energy that is 5 feet wide. Each creature in that line must make a {@dc 17} Dexterity saving throw, taking 28 ({@damage 8d6}) force damage on a failed save, or half as much damage on a successful one, and is knocked back 10 feet."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Reactive Armor Plating",
+					"entries": [
+						"When a creature within 5 feet of the Warforged Guard hits it with a melee attack, the Guard can release a shockwave from its armor. The attacker must make a {@dc 17} Strength saving throw or be pushed back 10 feet and take 9 ({@damage 2d8}) thunder damage."
+					]
+				}
+			],
+			"environment": [
+				"dungeon",
+				"urban"
 			]
-		  }
-		]
-	  }	  
-
-
+		},
+		{
+			"name": "Astral Conclave Automaton",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "construct",
+				"tags": []
+			},
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 30",
+				"average": 112
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"skills": {
+				"perception": "+3",
+				"athletics": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"understands Common but cannot speak"
+			],
+			"cr": "6",
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Magical Resistance",
+					"entries": [
+						"The Automaton has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Heavy Plating",
+					"entries": [
+						"When the Automaton is at half hit points or below, it gains resistance to all damage except force damage."
+					]
+				},
+				{
+					"name": "Relentless Construction",
+					"entries": [
+						"Once per short rest, when the Automaton is reduced to 0 hit points, it can make a {@dc 15} Constitution saving throw. On a success, it regains 25 hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Automaton makes two attacks: one with its Saw Blade Arm and one with its Energy Cannon."
+					]
+				},
+				{
+					"name": "Saw Blade Arm",
+					"entries": [
+						"{@atk mw} +7 to hit, reach 5 ft., one target. {@h}16 (2d10 + 4) slashing damage."
+					]
+				},
+				{
+					"name": "Energy Cannon (Recharge 5-6)",
+					"entries": [
+						"The Automaton releases a blast of elemental energy from its integrated cannon. The Automaton chooses between fire or lightning damage.",
+						"Fire Cannon: The Automaton fires a 15-foot cone of fire. Each creature in the area must make a {@dc 14} Dexterity saving throw, taking 27 ({@damage 6d8}) fire damage on a failed save, or half as much on a successful one.",
+						"Lightning Cannon: The Automaton fires a 30-foot line of lightning that is 5 feet wide. Each creature in the line must make a {@dc 14} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defensive Overcharge",
+					"entries": [
+						"When the Automaton is hit by a melee attack, it can use its reaction to release a pulse of energy. The attacker must succeed on a {@dc 15} Strength saving throw or be pushed back 10 feet and take 9 ({@damage 2d8}) thunder damage."
+					]
+				}
+			],
+			"environment": [
+				"dungeon",
+				"urban"
+			]
+		},
+		{
+			"name": "Astral Conclave Mage",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"astral conclave"
+				]
+			},
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"NE"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 22",
+				"average": 71
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 14,
+			"int": 18,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+7",
+				"wis": "+4"
+			},
+			"skills": {
+				"arcana": "+7",
+				"history": "+7",
+				"insight": "+4"
+			},
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Draconic"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Astral Conclave Mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). The mage has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell prestidigitation}",
+								"{@spell mage hand}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell shield}",
+								"{@spell magic missile}",
+								"{@spell detect magic}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell greater invisibility}",
+								"{@spell ice storm}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell wall of force}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} +6 to hit, reach 5 ft., one target. {@h}5 (1d4 + 3) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"dungeon",
+				"urban"
+			]
+		},
+		{
+			"name": "Astral Conclave Guard",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"astral conclave"
+				]
+			},
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"LE"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"chain mail",
+						"shield"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"str": "+5",
+				"con": "+4",
+				"wis": "+3"
+			},
+			"skills": {
+				"perception": "+4",
+				"athletics": "+5"
+			},
+			"passive": 14,
+			"languages": [
+				"Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, the Astral Conclave Guard can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the guard that isn't incapacitated."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The guard makes two melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} +5 to hit, reach 5 ft., one target. {@h}7 (1d8 + 3) slashing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} +4 to hit, range 100/400 ft., one target. {@h}8 (1d10 + 2) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"dungeon",
+				"urban"
+			]
+		},
+		{
+			"name": "Vesper 'Pinkshade' Arlin",
+			"source": "ChaosIncHomebrew",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-elf"
+				]
+			},
+			"alignment": [
+				"LE"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"studded leather"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 32",
+				"average": 104
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 14,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"dex": "+8",
+				"int": "+5"
+			},
+			"skills": {
+				"acrobatics": "+8",
+				"stealth": "+10",
+				"perception": "+7",
+				"deception": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Thieves' Cant"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"When Vesper is subjected to an effect that allows her to make a Dexterity saving throw to take half damage, she instead takes no damage on a success and only half damage on a failure."
+					]
+				},
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"When a creature Vesper can see hits her with an attack, she can use her reaction to halve the attack's damage."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Vesper can take a bonus action on each of her turns to Dash, Disengage, or Hide."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Once per turn, Vesper deals an extra 5d6 damage when she hits a creature with a weapon attack if she has advantage on the attack roll, or when the target is within 5 feet of an ally of Vesper that isn't incapacitated, and Vesper doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Amulet of Elemental Bane",
+					"entries": [
+						"This amulet allows Vesper to mark an elemental as her target as a bonus action. The marked elemental has disadvantage on saving throws against her attacks and spells, and her weapon attacks deal an extra 2d6 force damage to the marked elemental."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Vesper is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell disguise self}",
+								"{@spell shield}",
+								"{@spell silent image}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell invisibility}",
+								"{@spell mirror image}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fear}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Vesper makes two attacks with her rapier or shortbow."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} +8 to hit, reach 5 ft., one target. {@h}9 (1d8 + 4) piercing damage plus 5d6 Sneak Attack damage if applicable."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} +8 to hit, range 80/320 ft., one target. {@h}8 (1d6 + 4) piercing damage plus 5d6 Sneak Attack damage if applicable."
+					]
+				},
+				{
+					"name": "Mark Elemental (Amulet of Elemental Bane)",
+					"entries": [
+						"Vesper uses a bonus action to mark an elemental she can see within 60 feet. The mark lasts for 1 minute or until the elemental is defeated. While the mark is active, her weapon attacks deal an extra 2d6 force damage to the elemental, and it has disadvantage on saving throws against her spells."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"When Vesper is hit by an attack, she can use her reaction to halve the attack's damage."
+					]
+				}
+			],
+			"environment": [
+				"urban",
+				"dungeon"
+			],
+			"loot": [
+				{
+					"name": "Dagger of Venom",
+					"entries": [
+						"A magical dagger that Vesper wields. It can apply poison as a bonus action (3d6 poison damage, DC 15 Constitution save)."
+					]
+				},
+				{
+					"name": "Shadow Cloak",
+					"entries": [
+						"This enchanted cloak allows Vesper to cast {@spell invisibility} on herself once per short rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Derrik 'Stonehand' Veynor",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"Half-plate armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 82,
+				"formula": "11d8 + 33"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"skills": {
+				"athletics": "+7",
+				"intimidation": "+6",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Thieves' Cant"
+			],
+			"trait": [
+				{
+					"name": "Stonehand Augmentation",
+					"entries": [
+						"Derrik's right arm has been replaced with a powerful pre-war mechanical gauntlet, reinforced with stone-like plating. This grants him advantage on Strength checks and saving throws, and his unarmed strikes deal 1d10 + 4 bludgeoning damage."
+					]
+				},
+				{
+					"name": "Tactical Enforcer",
+					"entries": [
+						"Derrik is a seasoned battlefield commander. As a bonus action, he can grant an ally within 30 feet advantage on their next attack roll or ability check."
+					]
+				},
+				{
+					"name": "Relentless (1/Day)",
+					"entries": [
+						"When Derrik is reduced to 0 hit points but not outright killed, he drops to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Derrik makes two melee attacks, one with his Stonehand Gauntlet and one with his longsword."
+					]
+				},
+				{
+					"name": "Stonehand Gauntlet",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 4}) bludgeoning damage. On a hit, the target must succeed on a DC 15 Strength saving throw or be knocked prone."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 4}) slashing damage or 12 ({@damage 1d10 + 4}) if wielded with two hands."
+					]
+				},
+				{
+					"name": "Shockwave Slam (Recharge 5-6)",
+					"entries": [
+						"Derrik slams the ground with his Stonehand Gauntlet, sending out a shockwave in a 10-foot radius. Each creature in that area must make a DC 15 Constitution saving throw or be stunned until the end of their next turn."
+					]
+				}
+			],
+			"cr": "5"
+		},
+		{
+			"name": "Veylin 'The Rot' Blackthorn",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"Studded Leather Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "14d8 + 28"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 14,
+			"int": 18,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"int": "+8",
+				"wis": "+5"
+			},
+			"skills": {
+				"arcana": "+9",
+				"deception": "+7",
+				"insight": "+5",
+				"stealth": "+8"
+			},
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Thieves' Cant",
+				"Infernal"
+			],
+			"trait": [
+				{
+					"name": "Plague Mage",
+					"entries": [
+						"Veylin specializes in toxic magic and alchemical warfare. Creatures that take poison damage from his spells have disadvantage on their next attack roll or ability check."
+					]
+				},
+				{
+					"name": "Shadow Fangs Operative",
+					"entries": [
+						"Veylin has advantage on Dexterity (Stealth) checks made in dim light or darkness, and his spells leave little trace, making them harder to track with magical detection."
+					]
+				},
+				{
+					"name": "Toxic Resistance",
+					"entries": [
+						"Veylin is immune to poison damage and the poisoned condition."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"ability": "int",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Veylin is a 10th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). He has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Poison Spray}",
+								"{@spell Chill Touch}",
+								"{@spell Mage Hand}",
+								"{@spell Minor Illusion}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Mage Armor}",
+								"{@spell Magic Missile}",
+								"{@spell Ray of Sickness}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Mirror Image}",
+								"{@spell Melf's Acid Arrow}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell Counterspell}",
+								"{@spell Stinking Cloud}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Greater Invisibility}",
+								"{@spell Phantasmal Killer}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Cloudkill}"
+							],
+							"slots": 1
+						}
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Toxic Blade",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage. The target must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute."
+					]
+				},
+				{
+					"name": "Necrotic Surge (Recharge 5-6)",
+					"entries": [
+						"Veylin releases a pulse of dark energy. Each creature within 10 feet must make a DC 16 Constitution saving throw, taking 18 ({@damage 4d8}) necrotic damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"cr": "8"
+		},
+		{
+			"name": "Isera Duskfall",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"NE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Mage Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 18,
+			"wis": 13,
+			"cha": 16,
+			"save": {
+				"int": "+7",
+				"wis": "+5"
+			},
+			"skills": {
+				"arcana": "+9",
+				"deception": "+7",
+				"insight": "+5",
+				"persuasion": "+7"
+			},
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Draconic",
+				"Infernal"
+			],
+			"trait": [
+				{
+					"name": "Shadow Manipulation",
+					"entries": [
+						"Isera can shape and manipulate shadows within a 30-foot radius. As a bonus action, she can create an area of magical darkness (as per the Darkness spell) for 1 minute. Once she uses this trait, she must finish a short or long rest before using it again."
+					]
+				},
+				{
+					"name": "Master of Illusions",
+					"entries": [
+						"Isera’s illusion spells have increased potency. When she casts an illusion spell of 1st level or higher, she can make it last twice as long without requiring concentration."
+					]
+				},
+				{
+					"name": "Dark Veil",
+					"entries": [
+						"Isera has advantage on saving throws against being charmed or frightened. If she succeeds on a saving throw against such an effect, the creature that attempted to charm or frighten her takes 2d6 psychic damage."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"ability": "int",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Isera is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Minor Illusion}",
+								"{@spell Prestidigitation}",
+								"{@spell Mage Hand}",
+								"{@spell Toll the Dead}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Mage Armor}",
+								"{@spell Shield}",
+								"{@spell Disguise Self}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Mirror Image}",
+								"{@spell Misty Step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell Counterspell}",
+								"{@spell Major Image}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Greater Invisibility}",
+								"{@spell Phantasmal Killer}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Wall of Force}"
+							],
+							"slots": 1
+						}
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Shadow Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) psychic damage. The target must make a DC 15 Wisdom saving throw or be frightened until the end of Isera’s next turn."
+					]
+				},
+				{
+					"name": "Mind Spike (3/Day)",
+					"entries": [
+						"Isera targets a creature within 60 feet, forcing them to make a DC 15 Intelligence saving throw. On a failure, they take 18 ({@damage 4d8}) psychic damage, and Isera always knows their location for 1 hour."
+					]
+				},
+				{
+					"name": "Shadowstep (Recharge 4-6)",
+					"entries": [
+						"Isera teleports up to 30 feet to an unoccupied space she can see that is in dim light or darkness. She then has advantage on the next melee attack she makes before the end of her turn."
+					]
+				}
+			],
+			"cr": "6"
+		},
+		{
+			"name": "Shadow Fang Enforcer",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"Studded Leather Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"str": "+6",
+				"con": "+5"
+			},
+			"skills": {
+				"athletics": "+6",
+				"stealth": "+5",
+				"intimidation": "+4",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Thieves' Cant"
+			],
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The enforcer has advantage on attack rolls against a creature if at least one of the enforcer’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+					]
+				},
+				{
+					"name": "Shadow Step",
+					"entries": [
+						"In dim light or darkness, the enforcer can teleport up to 30 feet as a bonus action."
+					]
+				},
+				{
+					"name": "Relentless Endurance (1/day)",
+					"entries": [
+						"When the enforcer is reduced to 0 hit points but not killed outright, they drop to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The enforcer makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shadow Dagger",
+					"entries": [
+						"{@atk mw,rw} +6 to hit, reach 5 ft. or range 20/60 ft., one target. {@h}9 ({@damage 2d6 + 3}) piercing damage plus 4 ({@damage 1d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Brutal Strike (Recharge 5-6)",
+					"entries": [
+						"The enforcer makes a melee weapon attack. On a hit, the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the enforcer’s next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defensive Reflex",
+					"entries": [
+						"When a creature within 5 feet of the enforcer makes an attack roll, the enforcer can impose disadvantage on the roll by using their reaction."
+					]
+				}
+			],
+			"cr": "4"
+		},
+		{
+			"name": "Shadow Fang Marksman",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"Studded Leather Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 11,
+			"save": {
+				"dex": "+8",
+				"wis": "+6"
+			},
+			"skills": {
+				"stealth": "+9",
+				"perception": "+6",
+				"acrobatics": "+7"
+			},
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Thieves' Cant"
+			],
+			"trait": [
+				{
+					"name": "Deadeye Aim",
+					"entries": [
+						"The marksman can take a bonus action to grant themselves advantage on their next ranged weapon attack."
+					]
+				},
+				{
+					"name": "Shadow Camouflage",
+					"entries": [
+						"In dim light or darkness, the marksman can attempt to hide as a bonus action, even when being observed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The marksman makes two ranged weapon attacks."
+					]
+				},
+				{
+					"name": "Shadow Bolt",
+					"entries": [
+						"{@atk rw} +9 to hit, range 100/400 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. If the target is in dim light or darkness, they take an additional 5 necrotic damage."
+					]
+				},
+				{
+					"name": "Poisoned Dart",
+					"entries": [
+						"{@atk rw} +8 to hit, range 30/120 ft., one target. {@h}9 ({@damage 2d6 + 4}) piercing damage plus 7 ({@damage 2d6}) poison damage. The target must make a DC 15 Constitution saving throw or be poisoned for 1 minute."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Evasive Maneuver",
+					"entries": [
+						"When an enemy makes a ranged attack against the marksman and misses, they can use their reaction to move up to half their speed without provoking opportunity attacks."
+					]
+				}
+			],
+			"cr": "5"
+		},
+		{
+			"name": "Shadow Fang Sorcerer",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"Mage Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 13,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"con": "+5",
+				"cha": "+8"
+			},
+			"skills": {
+				"arcana": "+7",
+				"deception": "+7",
+				"persuasion": "+6",
+				"stealth": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Infernal"
+			],
+			"trait": [
+				{
+					"name": "Sorcerous Shadow",
+					"entries": [
+						"When in dim light or darkness, the sorcerer can become invisible as a bonus action. This effect lasts until they attack, cast a spell, or enter bright light."
+					]
+				},
+				{
+					"name": "Metamagic Mastery",
+					"entries": [
+						"The sorcerer can use one of the following Metamagic options once per turn: Quickened Spell, Twinned Spell, or Subtle Spell."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"ability": "cha",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The sorcerer is a 10th-level spellcaster. Their spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). They have the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Fire Bolt}",
+								"{@spell Minor Illusion}",
+								"{@spell Chill Touch}",
+								"{@spell Prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Mage Armor}",
+								"{@spell Shield}",
+								"{@spell Magic Missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Mirror Image}",
+								"{@spell Misty Step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell Counterspell}",
+								"{@spell Vampiric Touch}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Greater Invisibility}",
+								"{@spell Phantasmal Killer}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Cloudkill}"
+							],
+							"slots": 1
+						}
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Shadowflame Bolt",
+					"entries": [
+						"{@atk rw} +8 to hit, range 90 ft., one target. {@h}17 ({@damage 4d6}) fire and necrotic damage."
+					]
+				},
+				{
+					"name": "Dark Surge (Recharge 5-6)",
+					"entries": [
+						"The sorcerer releases a burst of shadowy magic. Each creature within 15 feet must make a DC 16 Dexterity saving throw, taking 21 ({@damage 6d6}) necrotic damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"cr": "7"
+		},
+		{
+			"name": "Kaelric 'The Veil'",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Enhanced Tactical Armor",
+						"Energy Shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 175,
+				"formula": "18d10 + 54"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 16,
+			"int": 14,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"dex": "+11",
+				"con": "+8"
+			},
+			"skills": {
+				"acrobatics": "+11",
+				"deception": "+9",
+				"stealth": "+12",
+				"insight": "+8"
+			},
+			"passive": 18,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Thieves' Cant",
+				"Infernal"
+			],
+			"trait": [
+				{
+					"name": "Legendary Combatant",
+					"entries": [
+						"Kaelric has three legendary actions, which he can use to move, make a weapon attack, or attempt to hide."
+					]
+				},
+				{
+					"name": "Cunning Tactician",
+					"entries": [
+						"Kaelric can take the Dash, Disengage, or Hide action as a bonus action on each of his turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kaelric makes three melee or ranged attacks."
+					]
+				},
+				{
+					"name": "Twin Plasma Daggers",
+					"entries": [
+						"{@atk mw} +12 to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage plus 6 ({@damage 1d10}) fire damage."
+					]
+				},
+				{
+					"name": "Tactical Disruptor",
+					"entries": [
+						"Kaelric throws a specialized energy disruptor in a 10-foot radius. All creatures in the area must make a DC 18 Constitution saving throw or be blinded and deafened until the end of their next turn."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Shadow Strike",
+					"entries": [
+						"Kaelric makes one melee attack and can immediately move up to half his speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Vanishing Step",
+					"entries": [
+						"Kaelric turns invisible until the start of his next turn or until he attacks or casts a spell."
+					]
+				}
+			],
+			"cr": "12"
+		},
+		{
+			"name": "Shadow Fang Elite Guard",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Half-plate armor",
+						"Kinetic Shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "14d10 + 42"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 18,
+			"int": 12,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+9",
+				"con": "+7"
+			},
+			"skills": {
+				"athletics": "+9",
+				"perception": "+6",
+				"intimidation": "+7",
+				"stealth": "+7"
+			},
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Thieves' Cant"
+			],
+			"trait": [
+				{
+					"name": "Kinetic Shield (Recharge 5-6)",
+					"entries": [
+						"The guard can activate a temporary energy shield as a reaction, granting them resistance to all damage until the start of their next turn."
+					]
+				},
+				{
+					"name": "Augmented Reflexes",
+					"entries": [
+						"The guard has advantage on Dexterity saving throws against effects that deal area damage."
+					]
+				},
+				{
+					"name": "Enhanced Combat Training",
+					"entries": [
+						"The guard adds +2 to damage rolls with melee and ranged attacks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The guard makes three melee or ranged attacks."
+					]
+				},
+				{
+					"name": "Plasma Longsword",
+					"entries": [
+						"{@atk mw} +9 to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 6}) slashing damage plus 6 ({@damage 1d10}) fire damage."
+					]
+				},
+				{
+					"name": "Shock Gauntlet",
+					"entries": [
+						"{@atk mw} +8 to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) lightning damage. The target must succeed on a DC 16 Constitution saving throw or be stunned until the end of their next turn."
+					]
+				},
+				{
+					"name": "Heavy Bolter Rifle",
+					"entries": [
+						"{@atk rw} +8 to hit, range 120/400 ft., one target. {@h}18 ({@damage 3d10 + 4}) piercing damage plus 5 ({@damage 1d8}) force damage."
+					]
+				}
+			],
+			"cr": "8"
+		},
+		{
+			"name": "Jessa 'The Wraith' Cael",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"CE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"Shadow Phase Enhancer"
+					]
+				}
+			],
+			"hp": {
+				"average": 88,
+				"formula": "13d8 + 26"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 20,
+			"con": 14,
+			"int": 12,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"dex": "+9",
+				"int": "+5"
+			},
+			"skills": {
+				"acrobatics": "+9",
+				"stealth": "+11",
+				"sleight of hand": "+8",
+				"perception": "+5",
+				"deception": "+6"
+			},
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Thieves' Cant"
+			],
+			"trait": [
+				{
+					"name": "Shadow Phase (3/day)",
+					"entries": [
+						"Jessa can become incorporeal as a bonus action for 1 round. During this time, she can move through creatures and objects as if they were difficult terrain. If she ends her turn inside an object, she takes 5 (1d10) force damage."
+					]
+				},
+				{
+					"name": "Experimental Cloak System",
+					"entries": [
+						"While in dim light or darkness, Jessa has advantage on Stealth checks and can attempt to Hide as a bonus action, even if observed."
+					]
+				},
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During her first turn, Jessa has advantage on attack rolls against any creature that hasn’t taken a turn. Any hit Jessa scores against a surprised creature is a critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Jessa makes two melee attacks with her modified daggers."
+					]
+				},
+				{
+					"name": "Modified Dagger",
+					"entries": [
+						"{@atk mw} +9 to hit, reach 5 ft., one target. {@h}9 ({@damage 1d4 + 5}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. On a critical hit, the target must succeed on a DC 15 Constitution saving throw or be paralyzed until the end of their next turn."
+					]
+				},
+				{
+					"name": "Phase Slash (Recharge 5-6)",
+					"entries": [
+						"Jessa teleports up to 30 feet and makes one melee attack against a creature she appears adjacent to. On a hit, the target takes an extra 10 (3d6) force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shadow Dodge",
+					"entries": [
+						"When a creature Jessa can see targets her with an attack, she can impose disadvantage as she flickers through nearby shadows."
+					]
+				}
+			],
+			"cr": "7"
+		},
+		{
+			"name": "Duskwright Honor Guard",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Arcane-Enhanced Plate"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"str": "+5",
+				"con": "+4"
+			},
+			"skills": {
+				"athletics": "+5",
+				"perception": "+4"
+			},
+			"damage_resistances": [
+				"lightning",
+				"poison"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Interceptor Formation",
+					"entries": [
+						"When adjacent to an ally, the guard may impose disadvantage on one attack that targets that ally each round (no action required)."
+					]
+				},
+				{
+					"name": "Pulse Shield (1/Day)",
+					"entries": [
+						"As a reaction, reduces all incoming damage by half for one round."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shock Halberd",
+					"entries": [
+						"{@atk mw} +6 to hit, reach 10 ft., one target. {@h}9 (1d10 + 4) slashing damage plus 7 (2d6) lightning damage."
+					]
+				},
+				{
+					"name": "Arc-Carbine",
+					"entries": [
+						"{@atk rw} +6 to hit, range 80/240 ft., one target. {@h}10 (2d6 + 3) lightning damage. The weapon holds 4 charges; recharges on a short rest.",
+						"**Overload Shot (1/Day):** Fire a 30 ft. line (5 ft. wide). Each creature in the line must make a DC 14 Dexterity saving throw, taking 14 (4d6) lightning damage on a failed save, or half on a success. The carbine becomes unusable until the end of the guard's next turn."
+					]
+				},
+				{
+					"name": "Thunder Slam (Recharge 5-6)",
+					"entries": [
+						"Each creature within 10 ft. must succeed on a DC 14 Strength saving throw or take 10 (2d6 + 3) bludgeoning damage and be knocked prone."
+					]
+				}
+			]
+		},
+		{
+			"name": "Daggercloak Emissary",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"Mage Armor",
+						"Arcane Weave Garments"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "13d8 + 26"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 14,
+			"int": 18,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"int": "+8",
+				"wis": "+6"
+			},
+			"skills": {
+				"arcana": "+8",
+				"insight": "+6",
+				"deception": "+6"
+			},
+			"languages": [
+				"Common",
+				"Elvish",
+				"Draconic"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Arcane Cloak",
+					"entries": [
+						"While under 50% HP, gains resistance to all damage from spells."
+					]
+				},
+				{
+					"name": "Emergency Recall Gem (1/Day)",
+					"entries": [
+						"Teleports self and 1 ally within 10 feet to a predetermined spot on the ship."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The emissary is a 9th-level spellcaster (Intelligence DC 16, +8 to hit)."
+					],
+					"will": [
+						"mage hand",
+						"message",
+						"minor illusion",
+						"shield"
+					],
+					"daily": {
+						"3": [
+							"mirror image",
+							"misty step",
+							"suggestion",
+							"hold person"
+						],
+						"2": [
+							"counterspell",
+							"fear"
+						],
+						"1": [
+							"wall of force",
+							"greater invisibility"
+						]
+					}
+				}
+			],
+			"bonus": [
+				{
+					"name": "Disrupt Magic (1/day)",
+					"entries": [
+						"When a creature casts a spell within 60 ft., the Emissary may use a reaction to nullify the effect unless the caster succeeds on a DC 16 ability check."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lord Vancair Duskwright",
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"LE"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"Arcane-Warded Noblewear"
+					]
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "13d8 + 52"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 18,
+			"int": 14,
+			"wis": 12,
+			"cha": 20,
+			"save": {
+				"cha": "+9",
+				"wis": "+5"
+			},
+			"skills": {
+				"persuasion": "+10",
+				"deception": "+10",
+				"insight": "+6",
+				"history": "+6"
+			},
+			"languages": [
+				"Common",
+				"Elvish",
+				"Infernal"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Tactical Mastermind",
+					"entries": [
+						"Allies within 30 ft. that can hear Vancair may reroll 1s on attack rolls once per turn."
+					]
+				},
+				{
+					"name": "Commanding Voice (Recharge 4-6)",
+					"entries": [
+						"Each enemy within 30 feet must make a DC 16 Wisdom saving throw or be frightened until the end of their next turn. On a success, they still have disadvantage on their next attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Voidsteel Rapier",
+					"entries": [
+						"{@atk mw} +8 to hit, reach 5 ft., one target. {@h}9 (1d8 + 5) piercing damage plus 7 (2d6) poison damage. On a crit, target must make a DC 15 Constitution save or be paralyzed until the end of their next turn."
+					]
+				},
+				{
+					"name": "Eye of the Veil (1/day)",
+					"entries": [
+						"Casts {@spell detect thoughts} or {@spell see invisibility} without components. Once per day, can instead cast {@spell dominate person} (DC 16) on a restrained target."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Intimidating Flourish",
+					"entries": [
+						"Lord Duskwright targets one creature that can see him within 30 feet. That creature must succeed a DC 16 Wisdom saving throw or be frightened for 1 round."
+					]
+				},
+				{
+					"name": "Command Redirect",
+					"entries": [
+						"An ally within 30 feet may immediately make one weapon attack as a reaction."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kasha Whisperclaw",
+			"size": [
+				"M"
+			],
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"dex",
+						"studded leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 10,
+			"save": {
+				"dex": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"stealth": "+8",
+				"perception": "+4",
+				"acrobatics": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Tabaxi",
+				"Thieves' Cant"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Echo-Step Collar (Damaged)",
+					"entries": [
+						"Once per short rest, Kasha can teleport up to 15 ft. as a bonus action. This ability flickers, and on a roll of 1 on a d6, it fails and Kasha is stunned until the end of her next turn."
+					]
+				},
+				{
+					"name": "Feline Agility",
+					"entries": [
+						"When Kasha moves on her turn in combat, she can double her speed until the end of the turn. She can’t use this trait again until she moves 0 feet on one of her turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword (Sneak Attack)",
+					"entries": [
+						"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d6 + 4 piercing damage, plus 2d6 sneak attack if she has advantage or an ally adjacent to the target."
+					]
+				},
+				{
+					"name": "Dart (Thrown)",
+					"entries": [
+						"Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 1d4 + 4 piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Solenne Varn",
+			"size": [
+				"M"
+			],
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Integrated Plating"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d8 + 64"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 18,
+			"int": 16,
+			"wis": 14,
+			"cha": 13,
+			"save": {
+				"dex": "+8",
+				"con": "+8",
+				"int": "+7"
+			},
+			"skills": {
+				"medicine": "+7",
+				"investigation": "+7",
+				"acrobatics": "+8",
+				"intimidation": "+5"
+			},
+			"resist": [
+				"psychic",
+				"lightning",
+				"force"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Primordial"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Augmented Reflex Suite",
+					"entries": [
+						"Varn has advantage on Dexterity saving throws against effects that target only her. She can move up to half her speed as a reaction when targeted by a ranged attack."
+					]
+				},
+				{
+					"name": "Integrated Conduit Core",
+					"entries": [
+						"Once per round, when she hits a creature with a melee weapon attack, she can deal an additional 2d10 lightning or force damage (her choice)."
+					]
+				},
+				{
+					"name": "Neural Override Pulse (Recharge 5–6)",
+					"entries": [
+						"All creatures of Varn’s choice within 20 feet must succeed on a DC 16 Intelligence saving throw or become stunned until the end of their next turn. Constructs and creatures with implants have disadvantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Surge Claws",
+					"entries": [
+						"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 2d6 + 4 slashing damage plus 2d10 lightning or force damage (choice made on hit)."
+					]
+				},
+				{
+					"name": "Force Pulse Strike",
+					"entries": [
+						"Varn slams the ground, forcing all creatures in a 15-foot cone to make a DC 16 Strength saving throw or be knocked prone and take 3d8 force damage (half on success)."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Phase Step (1/Turn)",
+					"entries": [
+						"Varn may teleport up to 20 feet to a location she can see as a bonus action, leaving behind an afterimage that lasts until the start of her next turn. Attacks against her during this time are made with disadvantage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Adaptive Targeting",
+					"entries": [
+						"She scans a creature within 60 feet. Until the end of her next turn, she has advantage on attacks against it and ignores half and three-quarters cover."
+					]
+				},
+				{
+					"name": "Overclock Movement",
+					"entries": [
+						"Varn moves up to her speed without provoking opportunity attacks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Taelix Dren",
+			"size": [
+				"M"
+			],
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"dark half-plate",
+						"Infernal Shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "14d8 + 42"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 16,
+			"int": 16,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"cha": "+8",
+				"wis": "+6"
+			},
+			"skill": {
+				"intimidation": "+8",
+				"deception": "+8",
+				"arcana": "+6",
+				"insight": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Infernal",
+				"Deep Speech"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Taelix is a 10th-level spellcaster. Taelix's spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Taelix has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast}",
+								"{@spell minor illusion}",
+								"{@spell thaumaturgy}",
+								"{@spell chill touch}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell command}",
+								"{@spell detect magic}",
+								"{@spell hex}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person}",
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fear}",
+								"{@spell vampiric touch}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell greater invisibility}",
+								"{@spell phantasmal killer}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell dominate person}",
+								"{@spell synaptic static|XGE}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Void Implant Tether (Recharge 5–6)",
+					"entries": [
+						"Target one creature within 60 ft. with a control implant. They must succeed on a DC 16 Wisdom saving throw or be charmed for 1 minute and follow a mental command (no concentration)."
+					]
+				},
+				{
+					"name": "Mental Overload",
+					"entries": [
+						"When a creature within 30 feet fails a saving throw against a charm, fear, or confusion effect cast by Taelix, they take 2d6 additional psychic damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Psychic Bolt",
+					"entries": [
+						"Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit: 3d8 psychic damage. The target cannot take reactions until the end of its next turn."
+					]
+				},
+				{
+					"name": "Fear Pulse (Recharge 6)",
+					"entries": [
+						"All creatures within 20 feet must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. They can repeat the saving throw at the end of each of their turns."
+					]
+				}
+			]
+		},
+		{
+			"name": "Null-Blade Enforcer",
+			"size": [
+				"M"
+			],
+			"source": "ChaosIncHomebrew",
+			"type": "humanoid",
+			"alignment": [
+				"lawful",
+				"neutral"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"null-plate armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 102,
+				"formula": "12d10 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 11,
+			"wis": 14,
+			"cha": 10,
+			"proficiency": 3,
+			"save": {
+				"str": 7,
+				"wis": 5
+			},
+			"skill": {
+				"intimidation": 5,
+				"athletics": 7
+			},
+			"resist": [
+				"fire",
+				"cold",
+				"lightning",
+				"force"
+			],
+			"senses": [
+				"darkvision 60 ft.",
+				"passive Perception 12"
+			],
+			"languages": [
+				"Common",
+				"Primordial"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Magic Suppression Field",
+					"entries": [
+						"The Enforcer projects a 10 ft. aura. While within the aura, enemy creatures have disadvantage on concentration saves and cannot teleport via magical means."
+					]
+				},
+				{
+					"name": "Adaptive Shielding",
+					"entries": [
+						"Once per long rest, when the Enforcer is hit by a magical attack, it gains resistance to that damage type for 1 minute."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Null-Greatsword",
+					"entries": [
+						"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 2d6 + 4 slashing damage plus 2d6 force damage. If the target is concentrating on a spell, it must make the concentration check with disadvantage."
+					]
+				},
+				{
+					"name": "Void Pulse Slam (Recharge 5–6)",
+					"entries": [
+						"The Enforcer slams the ground, forcing all creatures in a 15 ft. cone to make a DC 15 Constitution saving throw or be stunned until the end of their next turn and take 3d8 force damage. Half damage on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Surge Step",
+					"entries": [
+						"The Enforcer moves up to 15 feet without provoking opportunity attacks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kira, the Exiled Artificer",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"Enhanced Armor + Construct Reinforcements"
+					]
+				}
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d8 + 100"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 20,
+			"int": 22,
+			"wis": 14,
+			"cha": 12,
+			"saves": {
+				"int": "+12",
+				"con": "+11"
+			},
+			"skills": {
+				"arcana": "+18",
+				"history": "+12",
+				"investigation": "+12",
+				"perception": "+8"
+			},
+			"resist": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned",
+				"exhaustion"
+			],
+			"senses": "darkvision 60 ft., passive Perception 18",
+			"languages": [
+				"Common",
+				"Primordial",
+				"Draconic",
+				"Thieves' Cant"
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Kira fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Partial Construct",
+					"entries": [
+						"Kira has replaced parts of her body with pre-war machinery and salvaged construct parts. She does not need to eat, drink, or breathe. She has advantage on saving throws against being charmed or paralyzed."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Kira has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Arcane Armory",
+					"entries": [
+						"Kira has integrated artificer infusions directly into her body. She counts as wearing enhanced armor, wielding enhanced weapons, and carrying multiple active infusions simultaneously."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kira makes two attacks with her Arcane Rifle or Thunder Gauntlets."
+					]
+				},
+				{
+					"name": "Arcane Rifle",
+					"entries": [
+						"Ranged Weapon Attack: +12 to hit, range 120/240 ft., one target. Hit: 21 (4d8+3) force damage."
+					]
+				},
+				{
+					"name": "Thunder Gauntlets",
+					"entries": [
+						"Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 18 (3d10+2) thunder damage. The target has disadvantage on attack rolls against creatures other than Kira until the start of her next turn."
+					]
+				},
+				{
+					"name": "EMP Burst (Recharge 5–6)",
+					"entries": [
+						"Kira unleashes an unstable electromagnetic pulse. Each construct, machine, or technological creature of her choice within 60 feet must succeed on a DC 20 Constitution saving throw or be stunned until the end of Kira’s next turn. Non-constructs instead take 21 (6d6) lightning damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Arcane Jolt (4/day)",
+					"entries": [
+						"When Kira hits a creature with a magic weapon attack, she can deal an extra 18 (4d8) force damage or restore 18 (4d8) hit points to a creature within 30 feet of her."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defensive Matrix",
+					"entries": [
+						"When Kira or a creature within 10 ft. would take damage, Kira can project a shield of force, reducing the damage by 15 (3d10)."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kira is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). She has the following artificer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"mending",
+								"light",
+								"guidance",
+								"fire bolt"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"shield",
+								"faerie fire",
+								"cure wounds",
+								"detect magic"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"heat metal",
+								"mirror image",
+								"lesser restoration"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"counterspell",
+								"fly",
+								"revivify"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"fabricate",
+								"fire shield",
+								"freedom of movement"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"wall of force",
+								"animate objects"
+							]
+						}
+					}
+				}
+			],
+			"legendary": [
+				{
+					"name": "Overclock (Costs 2 Actions)",
+					"entries": [
+						"Kira hastens her construct systems, immediately taking the Dash or Disengage action."
+					]
+				},
+				{
+					"name": "Arcane Blast",
+					"entries": [
+						"Kira makes one Arcane Rifle attack."
+					]
+				},
+				{
+					"name": "Deploy Drone (Costs 2 Actions)",
+					"entries": [
+						"Kira releases a salvaged construct drone (use Flying Sword or Homunculus Servant stats) that fights until destroyed or dismissed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Living Coral Colossus",
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"hardened coral plates"
+					]
+				}
+			],
+			"hp": {
+				"average": 190,
+				"formula": "20d10 + 80"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 40
+			},
+			"str": 22,
+			"dex": 8,
+			"con": 18,
+			"int": 3,
+			"wis": 14,
+			"cha": 6,
+			"saves": {
+				"con": "+9",
+				"wis": "+7"
+			},
+			"skills": {
+				"perception": "+7"
+			},
+			"vulnerable": [
+				"thunder"
+			],
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing from nonmagical attacks"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigued",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"petrified",
+				"prone"
+			],
+			"senses": "blindsight 60 ft. (blind beyond this radius), tremorsense 30 ft., passive Perception 17",
+			"languages": [
+				"—"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Amphibious Structure",
+					"entries": [
+						"The colossus can breathe air and water. It does not require sleep and has advantage on Strength checks made to resist being moved while submerged."
+					]
+				},
+				{
+					"name": "False Appearance (Reef)",
+					"entries": [
+						"While motionless and attached to rock or seabed, the colossus is indistinguishable from natural coral."
+					]
+				},
+				{
+					"name": "Reef Regeneration",
+					"entries": [
+						"The colossus regains 10 hit points at the start of its turn while in saltwater. If it takes thunder damage, this trait doesn't function until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The colossus makes three Coral Slam attacks, or two Coral Slams and one Reef Grasp."
+					]
+				},
+				{
+					"name": "Coral Slam",
+					"entries": [
+						"Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Reef Grasp",
+					"entries": [
+						"Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit: the target is grappled (escape DC 18) and restrained until the grapple ends. The colossus can have up to two creatures grappled at a time."
+					]
+				},
+				{
+					"name": "Calcareous Spray (Recharge 5–6)",
+					"entries": [
+						"The colossus expels a torrent of razor coral shards in a 30-foot cone. Each creature in the area must make a DC 16 Dexterity saving throw, taking 36 (8d8) piercing damage on a failed save, or half as much on a success. A creature that fails by 5 or more is also slowed: its speed is reduced by 15 feet until the end of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Reef Rebuff",
+					"entries": [
+						"When a creature within 10 feet hits the colossus with a melee attack, the attacker takes 9 (2d8) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Serpent‑Touched Gillkin",
+			"size": [
+				"M"
+			],
+			"type": "humanoid (gillkin)",
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"scaled hide",
+						"shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 40
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"skills": {
+				"athletics": "+4",
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"resist": [
+				"cold",
+				"lightning"
+			],
+			"senses": "darkvision 60 ft., passive Perception 13",
+			"languages": [
+				"Aquan",
+				"Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The gillkin can breathe air and water."
+					]
+				},
+				{
+					"name": "Serpent’s Boon",
+					"entries": [
+						"While fully submerged, the gillkin has advantage on Dexterity (Stealth) checks and ignores difficult terrain caused by water currents."
+					]
+				},
+				{
+					"name": "Pack Hunter",
+					"entries": [
+						"The gillkin has advantage on attack rolls against a creature if at least one of the gillkin's allies is within 5 feet of the creature and isn't incapacitated."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gillkin makes two attacks: one with its Trident and one with its Serpentine Bite."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d8 + 3) piercing damage, or 8 (1d10 + 3) if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Serpentine Bite",
+					"entries": [
+						"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 5 (1d10) lightning damage as stored storm‑essence discharges."
+					]
+				},
+				{
+					"name": "Abyssal Surge (Recharge 5–6)",
+					"entries": [
+						"The gillkin exhales a cone of pressurized, frigid brine in a 15‑foot cone. Each creature in the area must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage on a failed save, or half as much on a success. A creature that fails the save has its speed reduced by 10 feet until the end of its next turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Writhing Dash",
+					"entries": [
+						"The gillkin takes the Dash action. Until the end of its turn, opportunity attacks against it are made with disadvantage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deep Sea Hydra",
+			"size": [
+				"G"
+			],
+			"type": "monstrosity",
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"CE"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 240,
+				"formula": "16d12+128"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 50
+			},
+			"str": 22,
+			"dex": 12,
+			"con": 26,
+			"int": 6,
+			"wis": 12,
+			"cha": 10,
+			"saves": {
+				"con": "+12",
+				"wis": "+6"
+			},
+			"skills": {
+				"perception": "+10"
+			},
+			"resist": [
+				"cold",
+				"lightning"
+			],
+			"conditionImmune": [
+				"frightened",
+				"paralyzed"
+			],
+			"senses": "darkvision 120 ft., passive Perception 20",
+			"languages": [
+				"understands Aquan but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the hydra fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Multiple Heads",
+					"entries": [
+						"The hydra has five heads. Whenever the hydra takes 25 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken Fire damage since its last turn. The hydra regains 20 Hit Points when it grows new heads."
+					]
+				},
+				{
+					"name": "Reactive Heads",
+					"entries": [
+						"For each head beyond one, the hydra gets an extra reaction that can be used only for opportunity attacks."
+					]
+				},
+				{
+					"name": "Aquatic Apex Predator",
+					"entries": [
+						"The hydra can hold its breath indefinitely and has advantage on attack rolls while fully submerged."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hydra makes as many Bite attacks as it has heads."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 9 (2d8) cold damage."
+					]
+				},
+				{
+					"name": "Drowning Jet (Recharge 5–6)",
+					"entries": [
+						"The hydra exhales a blast of crushing, high-pressure water in a 30-foot cone. Each creature in that area must make a DC 18 Strength saving throw, taking 36 (8d8) bludgeoning damage on a failed save, or half as much on a successful one. On a failed save, the target is also pushed 20 feet and knocked prone."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The hydra makes a Wisdom (Perception) check."
+					]
+				},
+				{
+					"name": "Tail Sweep",
+					"entries": [
+						"The hydra makes one tail attack: +10 to hit, reach 15 ft., Hit: 15 (2d8+6) bludgeoning damage, and the target must succeed on a DC 16 Strength save or be knocked prone."
+					]
+				},
+				{
+					"name": "Head Strike (Costs 2 Actions)",
+					"entries": [
+						"The hydra makes one Bite attack with one of its heads."
+					]
+				}
+			],
+			"lairActions": [
+				{
+					"name": "Crushing Currents",
+					"entries": [
+						"The hydra commands the water inside the wreck. Each creature of the hydra’s choice within 30 feet must succeed on a DC 16 Strength saving throw or be restrained by surging currents until the next round."
+					]
+				},
+				{
+					"name": "Falling Debris",
+					"entries": [
+						"Rusting beams and planks collapse. One random creature in the lair must succeed on a DC 15 Dexterity saving throw or take 14 (4d6) bludgeoning damage and be knocked prone."
+					]
+				},
+				{
+					"name": "Swarm of Eels",
+					"entries": [
+						"A surge of electric eels rushes from the wreckage. Each creature of the hydra’s choice within 20 feet takes 11 (2d10) lightning damage (DC 15 Dexterity save for half)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Abyssal Water Elemental",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16
+				}
+			],
+			"hp": {
+				"average": 135,
+				"formula": "18d10+36"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 90
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 15,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"resist": [
+				"acid",
+				"cold",
+				"lightning",
+				"nonmagical bludgeoning, piercing, and slashing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"senses": "darkvision 60 ft., passive Perception 11",
+			"languages": [
+				"Aquan"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Water Form",
+					"entries": [
+						"The elemental can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Abyssal Surge",
+					"entries": [
+						"Whenever the elemental takes damage, it releases a pulse of abyssal energy. Each creature within 10 feet must succeed on a DC 15 Strength saving throw or be pushed 10 feet away."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The elemental makes three Slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8+5) bludgeoning damage plus 7 (2d6) cold damage."
+					]
+				},
+				{
+					"name": "Whelm (Recharge 4–6)",
+					"entries": [
+						"Each creature in the elemental’s space must make a DC 16 Strength saving throw. On a failure, a target takes 21 (6d6) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 16). Until this grapple ends, the target is restrained, and the elemental can’t Whelm another target."
+					]
+				}
+			]
+		}
 	]
 }
