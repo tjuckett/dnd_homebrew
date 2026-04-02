@@ -1,0 +1,42 @@
+Everburning Candle - Properties for Combat
+Wondrous Item (rare)
+The Everburning Candle is a magical object created by Kira, known for its eternal flame that never extinguishes. It is a versatile item with several powerful properties, particularly in relation to Kira's mechanical creations and elemental hearts. The candle now includes abilities that can be used in the heat of combat, especially against corrupted elementals.
+
+Properties
+Eternal Flame
+Effect: The Everburning Candle emits a magical flame that provides bright light in a 20-foot radius and dim light for an additional 20 feet. The flame does not consume oxygen, produce heat, or go out in any condition, including underwater or in magical darkness.
+
+Hidden Revelations
+Effect: When the light of the Everburning Candle is shined on specific walls in Kira's workshops, hidden maps and information are revealed. These may indicate the locations of her other workshops, notes, or other vital information she has left behind.
+
+Energy Absorption
+Effect: The candle can absorb energy from Kira's mechanical creations or elemental hearts. By holding the candle near a mechanical creature or elemental heart and speaking a command word as an action, the candle absorbs 1d10 points of energy from the target.
+
+Use: The absorbed energy can be stored within the candle for later use.
+
+Energy Transfer
+Effect: The absorbed energy can be transferred back to a mechanical creature or elemental heart, or used to power other devices. By holding the candle near the target and speaking a command word as an action, the stored energy is transferred, restoring 1d10 points of energy to the target or powering a device for a short duration.
+
+Combat Elemental Containment
+Effect: In the heat of battle, the Everburning Candle can be used to temporarily weaken the bond between a corrupted elemental and its attached elemental heart. As an action, the wielder can hold the candle aloft and focus its light on the corrupted elemental within 10 feet.
+
+Combat Effect: While in the light of the candle this prevents the elemental from using any abilities that draw directly on the power of the heart.
+
+Duration: While the candle is being shined on the elemental and within 10 feet
+
+Combat Heart Containment
+Effect: When engaged in combat with a corrupted elemental, the Everburning Candle can be used to directly interact with the elemental heart. As an action, the wielder can shine the candle's light directly on the heart, attempting to disrupt its influence.
+
+Combat Effect: The elemental must make a DC 16 Wisdom saving throw. On a failed save, the heart's bond with the elemental is disrupted, causing the elemental to be stunned until the start of the player's next turn. This effect can only be used once per encounter.
+
+Duration: The stunning effect lasts until the start of the player’s next turn, providing an opportunity for the party to strategize or deliver powerful attacks.
+
+Unknown Powers
+Effect: The Everburning Candle holds other unknown powers that the players have yet to discover. These powers can be revealed through experimentation, research, or guided discovery, potentially offering additional utility in different scenarios.
+
+Usage Example in Combat
+Combat Elemental Containment
+During a fight with the corrupted earth elemental, the players are struggling with its powerful attacks. One player uses their action to shine the candle's light on the elemental, forcing it to make a Constitution saving throw. The elemental fails, and its attacks are weakened, dealing less damage to the party for the next minute.
+
+Combat Heart Containment
+As the battle intensifies, the elemental's heart begins to glow ominously, signaling an incoming powerful attack. Another player uses their action to focus the candle's light directly on the heart, disrupting its power. The elemental fails its Wisdom saving throw and is stunned, giving the party a crucial moment to regroup and attack.

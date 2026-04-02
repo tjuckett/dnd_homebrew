@@ -1,0 +1,72 @@
+{
+  "name": "Heliox Harpoon Gunner",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "construct"
+  },
+  "alignment": ["L","E"],
+  "ac": [16],
+  "hp": {
+    "average": 110,
+    "formula": "13d8 + 52"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 14,
+  "dex": 18,
+  "con": 18,
+  "int": 11,
+  "wis": 12,
+  "cha": 6,
+  "save": {
+    "dex": "+8",
+    "con": "+7"
+  },
+  "skill": {
+    "perception": "+4"
+  },
+  "passive": 14,
+  "senses": ["darkvision 60 ft."],
+  "languages": ["understands Common but can't speak"],
+  "immune": ["poison", "psychic"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "poisoned"],
+  "resist": ["bludgeoning, piercing, and slashing from nonmagical attacks"],
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Roof Stabilizers",
+      "entries": [
+        "The Heliox Harpoon Gunner has advantage on Dexterity saving throws against effects that would knock it prone or push it while it is on a vehicle roof or exterior catwalk."
+      ]
+    },
+    {
+      "name": "Pinpoint Targeting",
+      "entries": [
+        "The Heliox Harpoon Gunner ignores half cover."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The Heliox Harpoon Gunner makes two Bolt Repeater attacks, or one Bolt Repeater attack and one Hookshot attack."
+      ]
+    },
+    {
+      "name": "Bolt Repeater",
+      "entries": [
+        "{@atk rw} {@hit 8} to hit, range 120/480 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage."
+      ]
+    },
+    {
+      "name": "Hookshot",
+      "entries": [
+        "{@atk rw} {@hit 8} to hit, range 60/240 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, and the target must succeed on a DC 16 Strength saving throw or be pulled up to 15 feet toward the gunner."
+      ]
+    }
+  ]
+}

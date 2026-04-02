@@ -1,0 +1,66 @@
+{
+  "name": "Heliox Dual-Forge Brute",
+  "source": "HB-ASMAR",
+  "page": 3,
+  "size": ["L"],
+  "type": "construct",
+  "alignment": ["L", "N"],
+  "ac": [{ "ac": 16, "from": ["heavy plating"] }],
+  "hp": { "average": 114, "formula": "12d10 + 48" },
+  "speed": { "walk": 30 },
+  "str": 20,
+  "dex": 10,
+  "con": 18,
+  "int": 8,
+  "wis": 12,
+  "cha": 8,
+  "save": { "str": "+8", "con": "+7" },
+  "skill": { "athletics": "+8", "perception": "+4" },
+  "senses": ["darkvision 60 ft."],
+  "passive": 14,
+  "immune": ["poison"],
+  "resist": ["cold", "fire", "nonmagical bludgeoning", "nonmagical piercing", "nonmagical slashing"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"],
+  "languages": ["Modron", "Construct Cant"],
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Dual-Forge Hammers",
+      "entries": [
+        "The brute wields a Frost Hammer and a Cinder Hammer. Its hammer attacks count as magical."
+      ]
+    },
+    {
+      "name": "Overrun Frame",
+      "entries": [
+        "The brute has advantage on Strength checks and Strength saving throws. In addition, it can move through the space of a Medium or smaller creature. The first time it enters a creature's space on a turn, that creature must succeed on a {@dc 16} Strength saving throw or be pushed 5 feet to an unoccupied space of its choice and knocked {@condition prone}."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The brute makes two hammer attacks, one with its Frost Hammer and one with its Cinder Hammer."
+      ]
+    },
+    {
+      "name": "Frost Hammer",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) cold damage."
+      ]
+    },
+    {
+      "name": "Cinder Hammer",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage."
+      ]
+    },
+    {
+      "name": "Thermal Clash (Recharge 5-6)",
+      "entries": [
+        "The brute slams both hammers into the ground, releasing a violent shock of hot and cold. Each creature of the brute's choice within 15 feet must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage and 21 ({@damage 6d6}) cold damage on a failed save, or half as much damage on a successful one. A creature that fails the save has its speed reduced by 10 feet until the end of its next turn."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Heliox Sever-Axe",
+  "source": "HB-ASMAR",
+  "page": 2,
+  "size": ["M"],
+  "type": "construct",
+  "alignment": ["L", "N"],
+  "ac": [{ "ac": 17, "from": ["plated harness"] }],
+  "hp": { "average": 85, "formula": "10d8 + 40" },
+  "speed": { "walk": 30 },
+  "str": 18,
+  "dex": 12,
+  "con": 18,
+  "int": 10,
+  "wis": 12,
+  "cha": 8,
+  "save": { "str": "+7", "con": "+7" },
+  "skill": { "athletics": "+7", "perception": "+4" },
+  "senses": ["darkvision 60 ft."],
+  "passive": 14,
+  "immune": ["poison"],
+  "resist": ["cold"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"],
+  "languages": ["Modron", "Construct Cant"],
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Brutal Momentum",
+      "entries": [
+        "If the sever-axe moves at least 15 feet straight toward a creature and then hits it with an Axe attack on the same turn, the target takes an extra 7 ({@damage 2d6}) slashing damage and must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The sever-axe makes two Axe attacks."
+      ]
+    },
+    {
+      "name": "Axe",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d12 + 6}) slashing damage plus 3 ({@damage 1d6}) cold damage."
+      ]
+    },
+    {
+      "name": "Suppressive Hook (Recharge 6)",
+      "entries": [
+        "The sever-axe makes one Axe attack. On a hit, the target must succeed on a {@dc 15} Constitution saving throw or it can't take reactions until the start of its next turn and its speed is reduced by 10 feet until the end of its next turn."
+      ]
+    }
+  ]
+}

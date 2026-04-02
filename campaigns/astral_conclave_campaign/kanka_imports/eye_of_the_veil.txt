@@ -1,0 +1,8 @@
+Magic Item: Eye of the Veil
+Wondrous Item, very rare (requires attunement)
+This refined platinum monocle bears a faint violet shimmer over its lens. Once worn by Lord Vancair Duskwright, it was a gift from his sovereign and enchanted through forbidden pre-war methods. Though subtle in design, it is anything but benign.Properties:
+While attuned, the wearer gains:
+Darkvision 60 ft. (or +30 ft. if already possessed)
+Advantage on Insight and Perception checks involving sight
+See Invisibility, once per short rest
+Detect Thoughts, once per long rest (DC 15)

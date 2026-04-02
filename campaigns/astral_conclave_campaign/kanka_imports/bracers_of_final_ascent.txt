@@ -1,0 +1,36 @@
+Bracers of the Final Ascent
+
+Wondrous Item (bracers), legendary (requires attunement)
+
+Forged in the last desperate days before the Elemental War, these ornate bracers are etched with constellations and inlaid with veins of raw void crystal. They were meant to give mortals a fleeting taste of godlike power—at a terrible cost.
+
+Properties
+Ascendant Surge (1/day):
+As an action, you may activate the bracers. For 30 seconds (5 rounds) you are infused with overwhelming cosmic force:
+
+All six of your ability scores become 30.
+
+Your level is treated as 20 (granting you temporary access to class features, spell slots, and abilities as if you were level 20).
+
+Your size increases by one category, and you radiate a visible aura of starlight.
+
+Aftermath:
+When the 30 seconds ends, you immediately fall unconscious and incapacitated for 24 hours. You cannot be woken by any means short of a wish spell until this time has passed.
+
+Mortal Risk:
+Each use of the bracers carries a 25% flat chance of instant death, with no saving throw. Each subsequent use increases this chance by +25% (50% on second use, 75% on third use).
+
+If you attempt to use the bracers before reaching 10th level, you automatically increase the death chance by +25% for that activation.
+
+Vaporization:
+If you die from the bracers, you must immediately make a Constitution saving throw (DC 20).
+
+On a success, your body remains intact and you can be resurrected normally.
+
+On a failure, your body is vaporized into cosmic dust, leaving no remains. You cannot be resurrected by any means short of true divine intervention (DM’s discretion).
+
+Limit of Ascent:
+After being used three times, the bracers become inert for that wearer and can no longer be activated by them.
+
+Attunement Requirement:
+Only creatures of 10th level or higher can attune to the Bracers of the Final Ascent.

@@ -1,0 +1,86 @@
+{
+  "name": "Shadow Fang Enforcer",
+  "source": "HB-STORMHAVEN",
+  "page": 1,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["human"]
+  },
+  "alignment": ["L", "E"],
+  "ac": [{ "ac": 16, "from": ["studded leather armor"] }],
+  "hp": {
+    "average": 58,
+    "formula": "9d8 + 18"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 16,
+  "dex": 14,
+  "con": 14,
+  "int": 10,
+  "wis": 12,
+  "cha": 11,
+  "save": {
+    "str": "+6",
+    "con": "+5"
+  },
+  "skill": {
+    "athletics": "+6",
+    "stealth": "+5",
+    "intimidation": "+4",
+    "perception": "+4"
+  },
+  "passive": 14,
+  "languages": ["Common", "Thieves' Cant"],
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "entries": [
+        "The enforcer has advantage on attack rolls against a creature if at least one of the enforcer's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Shadow Step",
+      "entries": [
+        "In dim light or darkness, the enforcer can teleport up to 30 feet as a bonus action."
+      ]
+    },
+    {
+      "name": "Relentless Endurance (1/Day)",
+      "entries": [
+        "When the enforcer is reduced to 0 hit points but not killed outright, they drop to 1 hit point instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The enforcer makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Shadow Dagger",
+      "entries": [
+        "{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}9 ({@damage 2d6 + 3}) piercing damage plus 4 ({@damage 1d8}) necrotic damage."
+      ]
+    },
+    {
+      "name": "Brutal Strike (Recharge 5-6)",
+      "entries": [
+        "The enforcer makes a melee weapon attack. On a hit, the target must succeed on a {@dc 14} Constitution saving throw or be stunned until the end of the enforcer's next turn."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Defensive Reflex",
+      "entries": [
+        "When a creature within 5 feet of the enforcer makes an attack roll, the enforcer can impose disadvantage on the roll."
+      ]
+    }
+  ]
+}
