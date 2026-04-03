@@ -1,0 +1,36 @@
+Ranged Crit Fumble Table
+Roll	Effect
+1-10	You lose your balance, falling prone.
+11-20	Your weapon string or mechanism breaks, requiring 1d4 rounds to repair or reload.
+21-30	You misfire and hit a nearby ally within 10 feet, dealing half damage.
+31-40	You shoot too high or low, and your weapon is tangled, requiring an action to free it.
+41-50	Your projectile bounces back toward you, narrowly missing. You are stunned for 1 round.
+51-60	The bowstring snaps or crossbow jams, requiring a DC 15 Dexterity check to fix.
+61-70	Your projectile breaks in flight. You deal no damage and waste the shot.
+71-80	Your weapon jams or malfunctions, causing you to miss the next attack.
+81-90	Your hand slips, dropping your weapon. You must use an action to pick it up.
+91-100	Your shot hits an unintended target (DM's choice), causing full damage.
+Spell Crit Fumble Table
+Roll	Effect
+1-10	You lose concentration and take 1d4 psychic damage.
+11-20	The spell backfires, dealing half damage to yourself.
+21-30	The spell fizzles, consuming the spell slot or component but with no effect.
+31-40	Your spell misfires, affecting an unintended target within 30 feet.
+41-50	You are overwhelmed by magical feedback and are blinded for 1d4 rounds.
+51-60	The spell causes a minor explosion, knocking you prone.
+61-70	You lose control of the magic, and a random effect happens (DM’s choice or Wild Magic Table).
+71-80	Your spell fizzles, and you are silenced for 1d4 rounds.
+81-90	The magical energy burns your hands, causing disadvantage on spell attacks for 1d4 rounds.
+91-100	You accidentally target yourself with the full effect of the spell.
+Melee Crit Fumble Table
+Roll	Effect
+1-10	You overextend, falling prone.
+11-20	You drop your weapon and must use a bonus action to retrieve it.
+21-30	You hit an ally within 5 feet, dealing half damage.
+31-40	You pull a muscle, gaining disadvantage on your next attack.
+41-50	Your weapon slips, flying 1d6 x 5 feet away.
+51-60	You accidentally hit yourself, dealing half weapon damage.
+61-70	You lose balance and miss your next turn as you regain your footing.
+71-80	You deal no damage, and your weapon is stuck in the ground or a nearby object (requires a DC 15 Strength check to remove).
+81-90	You strike the ground, causing your weapon to become damaged, dealing reduced damage (half damage) until repaired.
+91-100	You leave yourself wide open, and the next attack against you has advantage.

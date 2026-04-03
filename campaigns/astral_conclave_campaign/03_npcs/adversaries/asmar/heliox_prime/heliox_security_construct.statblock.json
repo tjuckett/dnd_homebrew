@@ -1,0 +1,88 @@
+{
+  "name": "Heliox Security Construct",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "construct"
+  },
+  "alignment": ["L","E"],
+  "ac": [19],
+  "hp": {
+    "average": 126,
+    "formula": "12d8 + 72"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 20,
+  "dex": 10,
+  "con": 22,
+  "int": 8,
+  "wis": 12,
+  "cha": 6,
+  "save": {
+    "str": "+9",
+    "con": "+10",
+    "wis": "+5"
+  },
+  "skill": {
+    "athletics": "+9",
+    "perception": "+5"
+  },
+  "passive": 15,
+  "senses": ["darkvision 60 ft."],
+  "languages": ["understands Common but can't speak"],
+  "immune": ["poison", "psychic"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "poisoned"],
+  "resist": ["bludgeoning, piercing, and slashing from nonmagical attacks"],
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Door-Warden",
+      "entries": [
+        "The Heliox Security Construct has advantage on attack rolls against creatures attempting to move through a doorway, hatch, or passage 5 feet wide or narrower."
+      ]
+    },
+    {
+      "name": "Brace for Impact",
+      "entries": [
+        "The Heliox Security Construct has advantage on saving throws against being pushed or knocked prone while aboard a moving vehicle."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The Heliox Security Construct makes one Glaive attack and one Shield Bash attack."
+      ]
+    },
+    {
+      "name": "Glaive",
+      "entries": [
+        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage."
+      ]
+    },
+    {
+      "name": "Shield Bash",
+      "entries": [
+        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage, and the target must succeed on a DC 17 Strength saving throw or be pushed 10 feet and knocked prone."
+      ]
+    },
+    {
+      "name": "Hold the Line (Recharge 5-6)",
+      "entries": [
+        "Until the start of the Heliox Security Construct's next turn, it and allied constructs within 10 feet gain a +2 bonus to AC, and opportunity attacks made by those allies have advantage."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Intercept",
+      "entries": [
+        "When a creature within 5 feet of the Heliox Security Construct would move past it, the construct makes one Shield Bash attack against that creature."
+      ]
+    }
+  ]
+}

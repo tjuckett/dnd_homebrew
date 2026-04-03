@@ -1,0 +1,86 @@
+{
+  "name": "Shadow Fang Elite Guard",
+  "source": "HB-STORMHAVEN",
+  "page": 3,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["human"]
+  },
+  "alignment": ["L", "E"],
+  "ac": [{ "ac": 19, "from": ["half-plate armor", "kinetic shield"] }],
+  "hp": {
+    "average": 120,
+    "formula": "14d10 + 42"
+  },
+  "speed": {
+    "walk": 35
+  },
+  "str": 20,
+  "dex": 16,
+  "con": 18,
+  "int": 12,
+  "wis": 14,
+  "cha": 12,
+  "save": {
+    "str": "+9",
+    "con": "+7"
+  },
+  "skill": {
+    "athletics": "+9",
+    "perception": "+6",
+    "intimidation": "+7",
+    "stealth": "+7"
+  },
+  "passive": 16,
+  "languages": ["Common", "Thieves' Cant"],
+  "cr": "8",
+  "trait": [
+    {
+      "name": "Augmented Reflexes",
+      "entries": [
+        "The guard has advantage on Dexterity saving throws against effects that deal area damage."
+      ]
+    },
+    {
+      "name": "Enhanced Combat Training",
+      "entries": [
+        "The guard adds 2 to damage rolls with melee and ranged attacks."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The guard makes three melee or ranged attacks."
+      ]
+    },
+    {
+      "name": "Plasma Longsword",
+      "entries": [
+        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 6}) slashing damage plus 6 ({@damage 1d10}) fire damage."
+      ]
+    },
+    {
+      "name": "Shock Gauntlet",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) lightning damage. The target must succeed on a {@dc 16} Constitution saving throw or be stunned until the end of its next turn."
+      ]
+    },
+    {
+      "name": "Heavy Bolter Rifle",
+      "entries": [
+        "{@atk rw} {@hit 8} to hit, range 120/400 ft., one target. {@h}18 ({@damage 3d10 + 4}) piercing damage plus 5 ({@damage 1d8}) force damage."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Kinetic Shield (Recharge 5-6)",
+      "entries": [
+        "The guard activates a temporary energy shield, gaining resistance to all damage until the start of its next turn."
+      ]
+    }
+  ]
+}

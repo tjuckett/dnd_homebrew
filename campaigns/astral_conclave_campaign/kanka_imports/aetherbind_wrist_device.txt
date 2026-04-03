@@ -1,0 +1,45 @@
+Aetherbind Wrist Device
+Wondrous Item, Legendary (requires attunement)
+Description: This advanced wrist-mounted device, forged during the Great Elemental War over 200 years ago, is a rare artifact of immense sophistication. Crafted by master artificers and infused with planar magic, it was used by high-ranking operatives to coordinate across battlefields and control planar access. The device is sleek, made of dark metal with glowing arcane runes etched into its surface. Despite its age, its mechanisms remain functional, though modern portal guns lack the complexity to interface with it directly without a Portal Gun Sync Device.
+
+Properties:
+Communication Across Any Distance: The Wrist Communicator allows the user to send a short message (25 words or less) to another communicator, no matter the distance, up to 10 times per day. The recipient can respond immediately in the same way. The two communicators must be on the same plane of existence. The wrist device can store up to 5 other wrist devices it can communicate with.
+Portal Location Storage: The device can store the exact coordinates of up to 10 portals, which can be shared with linked Portal Gun Sync Devices. Sharing a portal location uses an action.
+Portal Detection: The communicator passively detects active portals within a 500-foot radius. Detected portals appear as glowing blips on a small holographic display. The device vibrates softly to alert the user when a portal is nearby and displays its approximate direction.
+Portal Lock: The Wrist Communicator can lock a teleportation circle within 60 feet, preventing it from being used for 1 hour. Unlocking a portal requires a DC 18 Arcana check or using a corresponding synchronization device. This ability recharges after a short or long rest and can only keep one circle locked at once.
+Info about Vespers Device
+Teleportation Circles Stored
+
+Aetheris Island
+Wintervale
+Stormhaven
+Duskreach
+Skyvault Observatory
+Last Conversation Stored
+
+Vesper:
+"This is Vesper. Emergency report to the Northern Base."
+
+Commander Orlan:
+"Vesper, we read you. What’s the situation?"
+
+Vesper:
+"My base is being attacked. The assailants brought an earth elemental—I'm not sure I can hold them off."
+
+Commander Orlan:
+"An earth elemental? How is that possible, aren't they humanities enemy?"
+
+Vesper:
+"I don’t know. Just in case we lose I've ordered all supplies to be transported to you, be ready for incoming."
+
+Commander Orlan:
+"We are ready, do you need backup?"
+
+Vesper:
+"Yes, I believe it is that group that is causing us trouble in the forbidden lands."
+
+Commander Orlan:
+"Understood. Stay alive, Vesper. We will send who we can."
+
+Vesper:
+"I don’t plan to die today, Orlan. But in case I do I've wiped all communication on this device"

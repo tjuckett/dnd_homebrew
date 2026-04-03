@@ -1,0 +1,9 @@
+Wondrous Item, rare (requires attunement by a druid)
+A heavy, gnarled seed wrapped in living moss, pulsing with the rhythm of the land. It was once nurtured in the grove of a primordial archdruid.
+Properties:
+While attuned, you can cast Entangle at will without expending a spell slot.
+Once per long rest, you may use an action to plant the seed in soil or wood. It erupts into a 10-foot-radius Heartroot Totem that:
+Lasts for 1 minute or until destroyed (AC 15, HP 30).
+Allies within the radius regain 1d4 hit points at the start of each of their turns.
+The totem provides half cover and can absorb up to 30 points of damage dealt to allies (chosen by the totem’s creator).
+If planted in corrupted or desecrated ground, the seed withers and cannot be used again until revitalized by a druidic ritual.

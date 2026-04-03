@@ -1,0 +1,98 @@
+{
+  "name": "Derrik 'Stonehand' Veynor",
+  "source": "HB-STORMHAVEN",
+  "page": 4,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["human"]
+  },
+  "alignment": ["L", "E"],
+  "ac": [{ "ac": 17, "from": ["half-plate armor"] }],
+  "hp": {
+    "average": 82,
+    "formula": "11d8 + 33"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 18,
+  "dex": 12,
+  "con": 16,
+  "int": 10,
+  "wis": 13,
+  "cha": 14,
+  "save": {
+    "str": "+7",
+    "con": "+6"
+  },
+  "skill": {
+    "athletics": "+7",
+    "intimidation": "+6",
+    "perception": "+4"
+  },
+  "passive": 14,
+  "languages": ["Common", "Thieves' Cant"],
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Stonehand Augmentation",
+      "entries": [
+        "Derrik's right arm has been replaced with a powerful pre-war mechanical gauntlet reinforced with stone-like plating. Derrik has advantage on Strength checks and Strength saving throws, and his unarmed strikes deal 9 ({@damage 1d10 + 4}) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Tactical Enforcer",
+      "entries": [
+        "As a bonus action, Derrik grants one ally within 30 feet advantage on its next attack roll or ability check."
+      ]
+    },
+    {
+      "name": "Relentless (1/Day)",
+      "entries": [
+        "When Derrik is reduced to 0 hit points but not killed outright, he drops to 1 hit point instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "Derrik makes two melee attacks, one with his Stonehand Gauntlet and one with his longsword."
+      ]
+    },
+    {
+      "name": "Stonehand Gauntlet",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 4}) bludgeoning damage. On a hit, the target must succeed on a {@dc 15} Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 4}) slashing damage, or 12 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+      ]
+    },
+    {
+      "name": "Shockwave Slam (Recharge 5-6)",
+      "entries": [
+        "Derrik slams the ground with his Stonehand Gauntlet. Each creature within 10 feet of him must make a {@dc 15} Constitution saving throw or be stunned until the end of its next turn."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Commanding Presence",
+      "entries": [
+        "Derrik grants one ally within 30 feet an immediate reaction to move up to its speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Reinforced Counter",
+      "entries": [
+        "When a creature within 5 feet of Derrik misses him with a melee attack, Derrik makes one melee attack against that creature."
+      ]
+    }
+  ],
+  "legendaryActions": 2
+}

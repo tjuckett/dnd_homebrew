@@ -1,0 +1,146 @@
+{
+  "name": "Isera Duskfall",
+  "source": "HB-STORMHAVEN",
+  "page": 5,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["human"]
+  },
+  "alignment": ["N", "E"],
+  "ac": [{ "ac": 15, "from": ["mage armor"] }],
+  "hp": {
+    "average": 66,
+    "formula": "12d8 + 12"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 10,
+  "dex": 14,
+  "con": 12,
+  "int": 18,
+  "wis": 13,
+  "cha": 16,
+  "save": {
+    "int": "+7",
+    "wis": "+5"
+  },
+  "skill": {
+    "arcana": "+9",
+    "deception": "+7",
+    "insight": "+5",
+    "persuasion": "+7"
+  },
+  "passive": 15,
+  "languages": ["Common", "Elvish", "Draconic", "Infernal"],
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Shadow Manipulation",
+      "entries": [
+        "As a bonus action, Isera creates an area of magical darkness within 30 feet that lasts for 1 minute, as in the {@spell darkness} spell. Once she uses this trait, she must finish a short or long rest before using it again."
+      ]
+    },
+    {
+      "name": "Master of Illusions",
+      "entries": [
+        "When Isera casts an illusion spell of 1st level or higher, she can make it last twice as long without requiring concentration."
+      ]
+    },
+    {
+      "name": "Dark Veil",
+      "entries": [
+        "Isera has advantage on saving throws against being charmed or frightened. If she succeeds on such a saving throw, the creature that attempted the effect takes 7 ({@damage 2d6}) psychic damage."
+      ]
+    }
+  ],
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "headerEntries": [
+        "Isera is a spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). She has the following spells prepared:"
+      ],
+      "spells": {
+        "0": {
+          "spells": [
+            "{@spell minor illusion}",
+            "{@spell prestidigitation}",
+            "{@spell mage hand}",
+            "{@spell toll the dead|xge}"
+          ]
+        },
+        "1": {
+          "slots": 4,
+          "spells": [
+            "{@spell mage armor}",
+            "{@spell shield}",
+            "{@spell disguise self}"
+          ]
+        },
+        "2": {
+          "slots": 3,
+          "spells": [
+            "{@spell mirror image}",
+            "{@spell misty step}"
+          ]
+        },
+        "3": {
+          "slots": 3,
+          "spells": [
+            "{@spell counterspell}",
+            "{@spell major image}"
+          ]
+        },
+        "4": {
+          "slots": 3,
+          "spells": [
+            "{@spell greater invisibility}",
+            "{@spell phantasmal killer}"
+          ]
+        },
+        "5": {
+          "slots": 2,
+          "spells": [
+            "{@spell wall of force}"
+          ]
+        }
+      }
+    }
+  ],
+  "action": [
+    {
+      "name": "Shadow Strike",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) psychic damage. The target must make a {@dc 15} Wisdom saving throw or be frightened until the end of Isera's next turn."
+      ]
+    },
+    {
+      "name": "Mind Spike (3/Day)",
+      "entries": [
+        "Isera targets one creature within 60 feet. The target must make a {@dc 15} Intelligence saving throw, taking 18 ({@damage 4d8}) psychic damage on a failed save. On a failed save, Isera also knows the target's location for 1 hour."
+      ]
+    },
+    {
+      "name": "Shadowstep (Recharge 4-6)",
+      "entries": [
+        "Isera teleports up to 30 feet to an unoccupied space she can see that is in dim light or darkness. She then has advantage on the next melee attack she makes before the end of her turn."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Dark Command",
+      "entries": [
+        "Isera forces one creature within 30 feet to make a {@dc 15} Wisdom saving throw or be charmed until the end of that creature's next turn."
+      ]
+    },
+    {
+      "name": "Echoing Illusion",
+      "entries": [
+        "Isera creates an illusory duplicate of herself within 10 feet that lasts until the start of her next turn. The duplicate imposes disadvantage on the next attack roll made against her."
+      ]
+    }
+  ],
+  "legendaryActions": 2
+}

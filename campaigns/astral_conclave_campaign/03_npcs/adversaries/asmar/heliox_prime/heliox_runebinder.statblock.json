@@ -1,0 +1,77 @@
+{
+  "name": "Heliox Runebinder",
+  "source": "HB-ASMAR",
+  "page": 1,
+  "size": ["M"],
+  "type": "construct",
+  "alignment": ["L", "N"],
+  "ac": [{ "ac": 16, "from": ["reinforced plating"] }],
+  "hp": { "average": 99, "formula": "18d8 + 18" },
+  "speed": { "walk": 30 },
+  "str": 12,
+  "dex": 14,
+  "con": 12,
+  "int": 18,
+  "wis": 14,
+  "cha": 10,
+  "save": { "int": "+7", "wis": "+5" },
+  "skill": { "arcana": "+7", "perception": "+5" },
+  "senses": ["darkvision 60 ft."],
+  "passive": 15,
+  "immune": ["poison"],
+  "resist": ["cold", "fire"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"],
+  "languages": ["Modron", "Construct Cant"],
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Construct Nature",
+      "entries": [
+        "The runebinder doesn't require air, food, drink, or sleep."
+      ]
+    },
+    {
+      "name": "Runebinder Spellcasting",
+      "entries": [
+        "The Heliox runebinder is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It requires no material components.",
+        "At will: {@spell ray of frost}, {@spell fire bolt}, {@spell shield}",
+        "3/day each: {@spell counterspell}, {@spell scorching ray}, {@spell web}",
+        "1/day each: {@spell fireball}, {@spell ice storm}"
+      ]
+    },
+    {
+      "name": "Ley-Null Ward",
+      "entries": [
+        "The runebinder has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The runebinder makes two Arc-Bolt attacks, or it casts a spell and makes one Arc-Bolt attack."
+      ]
+    },
+    {
+      "name": "Arc-Bolt",
+      "entries": [
+        "{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}13 ({@damage 3d6 + 3}) force damage."
+      ]
+    },
+    {
+      "name": "Rune Snare (Recharge 5-6)",
+      "entries": [
+        "The runebinder targets one creature it can see within 60 feet. The target must succeed on a {@dc 15} Strength saving throw or be {@condition restrained} for 1 minute by tightening, glowing bands. A {@condition restrained} target can repeat the save at the end of each of its turns, ending the effect on itself on a success. While restrained this way, the target takes 5 ({@damage 1d10}) force damage at the start of each of its turns."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Reactive Sigil",
+      "entries": [
+        "When the runebinder is hit by an attack, it can impose disadvantage on the attack roll (potentially causing it to miss). If the attack still hits, the runebinder gains 10 temporary hit points."
+      ]
+    }
+  ]
+}

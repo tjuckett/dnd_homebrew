@@ -1,0 +1,199 @@
+--------------------------------------------------
+
+| SYSTEM LOG: Valtoria Emergency Archive          |
+
+| Date: Unknown                   |
+
+--------------------------------------------------
+
+
+
+>> ENTRY 001: EMERGENCY EVACUATION ORDER
+
+
+
+Author: Mayor Alaric Valens
+
+Date: 208 Years Ago
+
+
+
+MESSAGE:
+
+--------------------------------------------------
+
+The situation has become untenable. The city has come under 
+
+attack from rogue elementals. These once-peaceful beings, 
+
+now corrupted by some unknown force, have turned against us. 
+
+They have breached the outer defenses and are wreaking havoc 
+
+in the residential districts. The elementals are relentless, 
+
+tearing through everything in their path—stone, metal, and 
+
+even our citizens.
+
+
+
+I am ordering the immediate evacuation of all districts. 
+
+Citizens are to make their way to the eastern gate where 
+
+transport is being arranged. Take only what you can carry. 
+
+The Elemental Nexus is unstable, and we cannot guarantee how 
+
+long the city will hold. May the elements guide us all in 
+
+this dark hour.
+
+
+
+--------------------------------------------------
+
+
+
+>> ENTRY 002: NEXUS DAMAGE REPORT
+
+
+
+Author: High Engineer Lira Destra
+
+Date: 207 Years Ago
+
+
+
+MESSAGE:
+
+--------------------------------------------------
+
+Mayor Valens, I regret to inform you that the situation is 
+
+far worse than anticipated. During the elemental assault, 
+
+several conduits connected to the Elemental Nexus were 
+
+critically damaged. The Nexus is now operating at a 
+
+dangerously unstable level. The energy output is erratic, 
+
+and we are detecting significant fluctuations in the 
+
+elemental balance. If these fluctuations continue, we risk 
+
+a catastrophic meltdown that could obliterate the entire city.
+
+
+
+I have dispatched teams to assess the damage, but I fear it 
+
+may be beyond repair. We must initiate an emergency shutdown 
+
+of the Nexus immediately to prevent further escalation. 
+
+I will need your authorization to proceed with the shutdown 
+
+sequence. Time is of the essence.
+
+
+
+--------------------------------------------------
+
+
+
+>> ENTRY 003: SHUTDOWN AUTHORIZATION
+
+
+
+Author: Mayor Alaric Valens
+
+Date: 207 Years Ago
+
+
+
+MESSAGE:
+
+--------------------------------------------------
+
+High Engineer Destra, you have my full authorization to 
+
+proceed with the emergency shutdown of the Elemental Nexus. 
+
+The safety of our citizens must come first. I understand 
+
+the risks involved in this process, but we have no other choice. 
+
+We must prevent the Nexus from going critical at all costs.
+
+
+
+I am coordinating with the evacuation teams to ensure that as 
+
+many people as possible are clear of the city before the 
+
+shutdown begins. I trust in your expertise to see this through. 
+
+May the elements be with us.
+
+
+
+--------------------------------------------------
+
+
+
+>> ENTRY 004: FINAL ENTRY – NEXUS FAILURE IMMINENT
+
+
+
+Author: High Engineer Lira Destra
+
+Date: 207 Years Ago
+
+
+
+MESSAGE:
+
+--------------------------------------------------
+
+Mayor Valens, I am afraid this will be my final report. 
+
+The damage to the Nexus is too severe. The emergency 
+
+shutdown sequence has failed—the Nexus is beyond our control. 
+
+The elemental energy is surging uncontrollably, and we are 
+
+witnessing rapid destabilization of the entire grid. 
+
+The city is already beginning to tear itself apart. 
+
+
+
+The rogue elementals continue their rampage, their actions 
+
+seemingly in sync with the Nexus’s corruption. All remaining 
+
+personnel are being ordered to evacuate immediately. 
+
+I will stay behind to try and mitigate the damage, 
+
+though I hold little hope.
+
+
+
+I am truly sorry, Alaric. This city was a beacon of progress 
+
+and harmony, and now it will be nothing but ruins. 
+
+May the elements have mercy on us all.
+
+
+
+--------------------------------------------------
+
+
+
+>> END OF ARCHIVED LOGS

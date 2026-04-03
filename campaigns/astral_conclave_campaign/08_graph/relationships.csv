@@ -1,0 +1,97 @@
+source,target,relationship,notes
+Astral Conclave,Null Bloom Facility,operates,Primary extraction and suppression site
+Astral Conclave,Aetheris Island,commands,Major headquarters location
+Astral Conclave,Kira,hunts,She defected after learning the scale of its anti-elemental agenda
+Astral Conclave,Shadow Fangs,uses,Proxy logistics and covert manpower
+Shadow Fangs,Stormhaven,controls,Runs the town through coercion and opportunism
+Aetheris Island,Talgin,located_on,Island stronghold situated within the continent's wider geography
+Director Solenne Varn,Null Bloom Facility,directs,Administrative and strategic authority
+Inquisitor Taelix Dren,Astral Conclave,enforces,Represents ideological discipline
+Alden Wren,Null Bloom Facility,imprisoned_in,Held after refusing cooperation
+Alden Wren,Astral Conclave,opposes,Knows how to destroy modified device
+Null Bloom Facility,Stormhaven,draws_prisoners_from,Disappearances and captive transport feed Bloomwell's experiments
+Kasha "Whisperclaw",Null Bloom Facility,hides_within,Escaped test subject navigating ducts and service routes
+Mira "Silent Step",Null Bloom Facility,imprisoned_in,Psi-resistant detainee kept under sedation
+Jinx "Nightwhisker",Null Bloom Facility,escaped_or_hidden_within,Redacted Subject J-00 tied to deeper facility failures
+Inquisitor Taelix Dren,Mira "Silent Step",studies,He sees her psi-resistance as a valuable anomaly
+Director Solenne Varn,Jinx "Nightwhisker",redacted,She treats the J-00 file as exceptionally dangerous
+Kasha "Whisperclaw",Stormhaven,was_taken_from,Her captivity ties Bloomwell directly to regional disappearances
+Sylas,Players,watches,Uncertain whether they prevent or cause calamity
+Workshop Network,Astral Conclave,supports,Feeds power and infrastructure goals
+Swamp Corruption,Elemental Corruption,instance_of,Known active corruption zone
+Northern Base,Astral Conclave,supports,Potential recipient of shipped hearts
+Northern Base,Aetheris Island,part_of,Strategic forward base organized under the island stronghold
+Talgin,Elemental Corruption,scarred_by,Humanoid settlement patterns were shaped by the elemental invasion and its aftermath
+Kira,Kira's Hidden Lab,hides_in,Uses the decommissioned underwater station as a refuge and research site
+Kira,Astral Conclave,defected_from,Fled after opposing its genocidal anti-elemental plans
+Kira,Planar Mechanics,understands,Designed key breach systems and calibration methods
+Kira,Workshop Network,helped_design,Her earlier research legacy underpins parts of the active network
+Kira's Hidden Lab,Forbidden Lands,hidden_off_coast_of,The station lies west of the region in hostile ocean waters
+Falldrift,Snowy Reaches,located_in,Small winter hamlet surviving in the cold frontier region
+Srosa,Snowy Reaches,located_in,Frontier town founded after the Elemental Invasion in the cold northwestern region
+Wintervale,Snowy Reaches,located_in,Larger northern settlement serving as a regional trade and craft center
+Forbidden Lands,Talgin,located_on,Dangerous elemental border region within the continent
+The Verdant Expanse,Talgin,located_on,Green and overgrown region shaped by covert activity and dangerous frontier pressures
+Snowy Reaches,Talgin,located_on,Cold frontier region of rivers, forest, and winter-bound settlements
+Brenn Ironfist,Wintervale,works_in,Master smith overseeing Emberstone Forge and the training of apprentices
+Ithilwen Moonshadow,Wintervale,serves_in,Guides the Temple of Eternal Winter and Wintervale's spiritual life
+Torel Greenthumb,Wintervale,operates_in,Inventor and remedy-seller whose gadgets and salvage work support the town
+Commander Orlan,Northern Base,commands,Pragmatic military leader overseeing Aetherion Outpost
+Captain Alrinia Frostwing,Northern Base,operates_from,Leads the Sky Dock and aerial operations
+Chief Engineer Eryndor,Northern Base,maintains,Oversees the observatory and arcane systems
+Chief Engineer Eryndor,Astral Conclave,monitors_for,Tracks comet-linked cosmic and planar activity
+Vesper "Pinkshade" Arlin,Astral Conclave,serves,Acts as a high-trust covert operative and security specialist
+Vesper "Pinkshade" Arlin,Aetheris Island,stationed_on,Assigned to protect sensitive comet-harvesting infrastructure
+Orion,Kira,may_aid,Knows traces of her ward logic and may help others reach her
+Orion,Astral Conclave,opposes,Would sabotage comet-harvesting systems rather than let them stabilize
+Sylas,Orion,helped,Past assistance ties Sylas to an anti-Conclave druidic contact
+Stonehearth,Elemental Corruption,threatened_by,Corruption spreading through elemental lands endangers the village
+Stonehearth,Forbidden Lands,located_in,Ancient earth elemental settlement hidden within the dangerous border region
+Eldara Stonewise,Stonehearth,leads,High chieftain guiding the earth elemental village
+Granitefist,Stonehearth,defends,Warrior chieftain responsible for village defense
+Crystalmender,Stonehearth,heals,Ritualist and healer maintaining the springs and spiritual well-being
+Eldara Stonewise,Swamp Corruption,initiates,Asks the players to investigate the corrupted swamp
+The Technomire,Elemental Corruption,embodies,Ancient magitech contamination has warped the swamp into a living corruption zone
+The Technomire,Forbidden Lands,located_in,Corrupted swamp region within the elemental borderlands
+Swamp Corruption,The Technomire,centered_in,The quest focuses on the corrupted swamp itself
+Stonehearth,The Technomire,threatened_by,The spreading mire endangers nearby elemental lands
+Valtoria,The Technomire,buried_within,The lost city lies at the corrupted heart of the swamp
+Valtoria,Forbidden Lands,located_in,Lost city ruin hidden within the dangerous interior of the region
+Valtoria,Elemental Corruption,source_of,Its fallen Nexus infrastructure contributes to the region's corruption
+Swamp Corruption,Valtoria,may_reveal,Investigating the mire can uncover the lost city's buried systems
+Sky Vault Observatory,Planar Mechanics,studies,Ancient observatory focused on celestial movement and protected arcane routes
+Sky Vault Observatory,Talgin,located_on,Ancient mountaintop observatory ruin within the continent
+Stormhaven,The Verdant Expanse,located_in,Run-down coastal settlement within the region
+Null Bloom Facility,The Verdant Expanse,located_in,Bloomwell site hidden within the region's dangerous interior
+Kaelric "The Veil",Stormhaven,rules,Maintains Shadow Fang control through coercion leverage and dependency
+Kaelric "The Veil",Shadow Fangs,leads,Acts as the faction's local ruler and criminal broker in town
+Kaelric "The Veil",Astral Conclave,bargains_with,Maintains a mutually useful but distrustful arrangement around the hidden portal
+Isera Duskfall,Stormhaven,operates_in,Oversees covert Conclave activity and portal-linked operations in town
+Isera Duskfall,Astral Conclave,represents,Serves as the Conclave's embedded liaison in Stormhaven
+Isera Duskfall,Shadow Fangs,coordinates_with,Manages the working relationship while preparing contingencies if they become liabilities
+Derrik "Stonehand" Veynor,Stormhaven,enforces,Acts as Kaelric's brutal chief enforcer inside the town
+Derrik "Stonehand" Veynor,Shadow Fangs,serves,Leads intimidation and direct violence for the faction
+Derrik "Stonehand" Veynor,Kaelric "The Veil",guards,Functions as Kaelric's right-hand battlefield lieutenant
+Eric Torne,Stormhaven,rebels_in,Organizes local resistance against Shadow Fang control
+Eric Torne,Shadow Fangs,opposes,Leads the rebellion seeking to break their rule over Stormhaven
+Eric Torne,Astral Conclave,investigates,Suspects their local experiments are tied to disappearances and deeper abuses
+Asmar,Talgin,separated_from,Construct and humanoid civilizations rebuilt on different continents after the Construct Accord
+Asmar,Astral Conclave,targeted_by,Its crystal reserves and Sovereign-era systems are valuable to Conclave plans
+Calyxis Forge,Asmar,located_in,Adaptive construct city carved into the western mountains of the continent
+Heliox Prime,Asmar,located_in,Preservationist construct city dominating the eastern desert approaches
+The Hollow Veins,Asmar,located_in,Collapsed under-network linking mines conduits and sealed Sovereign-era chambers
+Magistra Pyra-IX,Calyxis Forge,leads,Ruler of the city and chief advocate of continuance through adaptation
+Arch-Calculant Veyrix,Heliox Prime,leads,Mathematical ruler enforcing preservation through limits
+Calyxis Forge,Heliox Prime,truce_with,Cold civil truce holds because neither city can afford renewed total war
+Heliox Prime,Calyxis Forge,sabotages,Covert units target extraction infrastructure to slow depletion
+Heliox Prime,The Calyxis Reclaimer,deploys,Mobile fortress used for crystal seizure and convoy raids
+The Calyxis Reclaimer,Calyxis Forge,raids,Targets crystal routes and mine output without committing Heliox to open conventional war
+The Calyxis Reclaimer,Asmar,operates_in,Desert siege crawler built for long-range pursuit and withdrawal
+Asmar,Elemental Crucible,depends_on,Its crystal economy was extended by the Sovereign-era recharge network
+Elemental Crucible,Planar Mechanics,intersects_with,Its recharge behavior depends on ley flow and severed elemental connections
+Magistra Pyra-IX,Astral Conclave,opposes,Sees the Conclave as an existential threat to Asmar's survival
+Arch-Calculant Veyrix,Astral Conclave,distrusts,Fears outside exploitation but may respond with ruthless restraint
+Shattered Gears of Asmar,Asmar,centered_on,Quest arc begins with first contact and mine defense on the construct continent
+Shattered Gears of Asmar,Calyxis Forge,begins_in,The party is escorted there after warning of the Conclave threat
+Shattered Gears of Asmar,Heliox Prime,complicates,Heliox sabotage reframes the conflict as more than simple villainy
+Shattered Gears of Asmar,The Calyxis Reclaimer,may_feature,Heliox crystal-heist chase can escalate the mine conflict into open moving warfare

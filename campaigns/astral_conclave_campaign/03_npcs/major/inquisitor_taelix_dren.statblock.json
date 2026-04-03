@@ -1,0 +1,134 @@
+{
+  "name": "Inquisitor Taelix Dren",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["tiefling"]
+  },
+  "alignment": ["L","E"],
+  "ac": [16],
+  "hp": {
+    "average": 110,
+    "formula": "13d8 + 52"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 11,
+  "dex": 14,
+  "con": 18,
+  "int": 13,
+  "wis": 16,
+  "cha": 18,
+  "save": {
+    "wis": "+7",
+    "cha": "+8",
+    "con": "+8"
+  },
+  "skill": {
+    "arcana": "+5",
+    "insight": "+7",
+    "intimidation": "+8",
+    "perception": "+5"
+  },
+  "passive": 15,
+  "senses": ["darkvision 60 ft."],
+  "languages": ["Common", "Primordial", "Deep Speech"],
+  "cr": "7",
+  "trait": [
+    {
+      "name": "Zealous Focus",
+      "entries": [
+        "Taelix has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Mental Overload",
+      "entries": [
+        "When a creature within 30 feet of Taelix fails a saving throw against a charm, fear, or confusion effect caused by him, that creature takes 7 ({@damage 2d6}) psychic damage."
+      ]
+    }
+  ],
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "headerEntries": [
+        "Taelix is a 10th-level spellcaster. Taelix's spellcasting ability is Charisma (spell save DC 16, {@hit 8} to hit with spell attacks). Taelix has the following spells prepared:"
+      ],
+      "spells": {
+        "0": {
+          "spells": [
+            "{@spell eldritch blast}",
+            "{@spell minor illusion}",
+            "{@spell thaumaturgy}",
+            "{@spell chill touch}"
+          ]
+        },
+        "1": {
+          "slots": 4,
+          "spells": [
+            "{@spell command}",
+            "{@spell detect magic}",
+            "{@spell hex}",
+            "{@spell shield}"
+          ]
+        },
+        "2": {
+          "slots": 3,
+          "spells": [
+            "{@spell hold person}",
+            "{@spell mirror image}",
+            "{@spell misty step}"
+          ]
+        },
+        "3": {
+          "slots": 3,
+          "spells": [
+            "{@spell counterspell}",
+            "{@spell fear}",
+            "{@spell vampiric touch}"
+          ]
+        },
+        "4": {
+          "slots": 3,
+          "spells": [
+            "{@spell banishment}",
+            "{@spell greater invisibility}",
+            "{@spell phantasmal killer}"
+          ]
+        },
+        "5": {
+          "slots": 2,
+          "spells": [
+            "{@spell dominate person}",
+            "{@spell synaptic static|xge}"
+          ]
+        }
+      },
+      "ability": "cha",
+      "type": "spellcasting"
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "Taelix makes two attacks with his null rod, or he casts one spell and makes one null rod attack."
+      ]
+    },
+    {
+      "name": "Null Rod",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage plus 7 ({@damage 2d6}) force damage."
+      ]
+    },
+    {
+      "name": "Fear Pulse (Recharge 6)",
+      "entries": [
+        "Each creature of Taelix's choice within 20 feet must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ]
+}

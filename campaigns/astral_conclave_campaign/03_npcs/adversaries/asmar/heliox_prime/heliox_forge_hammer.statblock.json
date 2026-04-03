@@ -1,0 +1,54 @@
+{
+  "name": "Heliox Forge-Hammer",
+  "source": "HB-ASMAR",
+  "page": 4,
+  "size": ["M"],
+  "type": "construct",
+  "alignment": ["L", "N"],
+  "ac": [{ "ac": 16, "from": ["tempered plates"] }],
+  "hp": { "average": 76, "formula": "9d8 + 36" },
+  "speed": { "walk": 30 },
+  "str": 16,
+  "dex": 12,
+  "con": 18,
+  "int": 10,
+  "wis": 12,
+  "cha": 8,
+  "save": { "con": "+7" },
+  "skill": { "perception": "+4" },
+  "senses": ["darkvision 60 ft."],
+  "passive": 14,
+  "immune": ["poison"],
+  "resist": ["fire"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"],
+  "languages": ["Modron", "Construct Cant"],
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Heat-Sink Plating",
+      "entries": [
+        "When the forge-hammer takes fire damage, it reduces the damage by 5 (to a minimum of 0)."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The forge-hammer makes two Hammer attacks."
+      ]
+    },
+    {
+      "name": "Hammer",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage plus 3 ({@damage 1d6}) fire damage."
+      ]
+    },
+    {
+      "name": "Anvil Lock (Recharge 6)",
+      "entries": [
+        "One creature the forge-hammer can see within 5 feet must succeed on a {@dc 15} Strength saving throw or be {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained}. The forge-hammer can grapple only one creature at a time."
+      ]
+    }
+  ]
+}

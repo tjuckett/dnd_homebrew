@@ -1,0 +1,119 @@
+{
+  "name": "The Calyxis Reclaimer",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["G"],
+  "type": {
+    "type": "construct",
+    "tags": ["vehicle", "siege"]
+  },
+  "alignment": ["U"],
+  "ac": [20],
+  "hp": {
+    "average": 330,
+    "formula": "20d20 + 120"
+  },
+  "speed": {
+    "walk": 60
+  },
+  "str": 26,
+  "dex": 8,
+  "con": 22,
+  "int": 8,
+  "wis": 12,
+  "cha": 5,
+  "save": {
+    "str": "+13",
+    "con": "+12",
+    "wis": "+7"
+  },
+  "skill": {
+    "perception": "+7"
+  },
+  "passive": 17,
+  "senses": ["darkvision 120 ft."],
+  "languages": ["understands Common and Modron but can't speak"],
+  "immune": ["poison", "psychic"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned", "prone"],
+  "resist": ["bludgeoning, piercing, and slashing from nonmagical attacks", "lightning"],
+  "vulnerable": ["thunder"],
+  "cr": "14",
+  "trait": [
+    {
+      "name": "Colossal Vehicle",
+      "entries": [
+        "The Calyxis Reclaimer is a three-car fortress platform. It is best treated as a moving set-piece with targetable subsystems, crew stations, and compartment fighting rather than as a stationary monster."
+      ]
+    },
+    {
+      "name": "Damage Threshold",
+      "entries": [
+        "The Calyxis Reclaimer has a damage threshold of 15. If it would take 14 damage or less from a single source, it takes no damage instead."
+      ]
+    },
+    {
+      "name": "Siege Engine",
+      "entries": [
+        "The Calyxis Reclaimer deals double damage to objects and structures."
+      ]
+    },
+    {
+      "name": "Unstoppable Advance",
+      "entries": [
+        "The Calyxis Reclaimer is not slowed by difficult terrain made of sand, scree, or shallow rubble."
+      ]
+    },
+    {
+      "name": "Crew Dependencies",
+      "entries": [
+        "Its claws require Heliox Arm Operators to function, its harpoon system requires a Heliox Harpoon Gunner, and steering shifts work best while a Heliox Engine Overseer remains active at the control station."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Titan Drill (Recharge 5-6)",
+      "entries": [
+        "Each creature or vehicle in a 15-foot line directly in front of the Calyxis Reclaimer must make a DC 18 Dexterity saving throw, taking 33 ({@damage 6d10}) piercing damage on a failed save, or half as much on a successful one. A target that fails is also restrained (escape DC 18) as the drill catches or pins it."
+      ]
+    },
+    {
+      "name": "Gripper Claws",
+      "entries": [
+        "The Calyxis Reclaimer makes two gripper claw attacks."
+      ]
+    },
+    {
+      "name": "Gripper Claw",
+      "entries": [
+        "{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage, and the target is grappled (escape DC 18). A grappled target is restrained."
+      ]
+    },
+    {
+      "name": "Harpoon Shot",
+      "entries": [
+        "{@atk rw} {@hit 11} to hit, range 150/600 ft., one target. {@h}25 ({@damage 4d10 + 3}) piercing damage, and the target is tethered until it escapes with a DC 18 Strength check."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Rockfield Advance",
+      "entries": [
+        "At initiative count 20, the Calyxis Reclaimer surges 60 feet forward. The DM can spawn 1d4 + 1 incoming rocks across six battlefield columns. Creatures or vehicles struck by rocks typically make Dexterity saves against bludgeoning damage, forced movement, or crash effects as appropriate to the encounter map."
+      ]
+    },
+    {
+      "name": "Column Shift",
+      "entries": [
+        "At initiative count 20, the Calyxis Reclaimer may shift 1 battlefield column left or right. Creatures or vehicles caught beneath or beside the shift must usually make a Dexterity saving throw or take crushing damage."
+      ]
+    },
+    {
+      "name": "Runaway Engine",
+      "entries": [
+        "If the engine crew are defeated but the Reclaimer is not disabled, it continues to move forward as a runaway fortress until its engine or steering systems are sabotaged."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+Elemental Detection Ward
+Description
+The Elemental Detection Ward is a large, rune-inscribed arcane device set up around the portal by the Astral Conclave. It’s embedded with powerful planar binding spells and triggers an automatic response whenever an elemental enters its detection radius. The device’s inner mechanism activates to cast a pre-stored spell targeting the elemental, resetting every minute for one hour.
+
+Mechanics of the Elemental Detection Ward
+Activation: When an elemental creature enters within 30 feet of the portal, the ward instantly activates, emitting a faint hum and a glow that intensifies each time it pulses.
+Spell Effect: Once activated, the ward casts a pre-stored spell on the detected elemental creature once per minute for 1 hour.
+Duration: Each spell lasts 1 round and gives any non-elemental creatures nearby a chance to observe, prepare, and strategize before the elemental can attempt to escape.
+Pre-Stored Spell Options
+The spell cast by the ward can be chosen from the following based on the desired level of control or deterrent. The pre-stored spell is cast automatically every minute, targeting the elemental creature only.
+
+Hold Monster
+Effect: The elemental must make a Wisdom saving throw (DC 16). On a failure, the elemental is paralyzed for the round, allowing others nearby to prepare attacks or defenses. The effect ends at the start of the next round or if the creature succeeds on its saving throw.
+Banishment
+Effect: The elemental must succeed on a Charisma saving throw (DC 17) or be temporarily banished to its native plane for 1 round. After 1 round, the elemental reappears in the same spot and the ward reactivates after a minute.
+Elemental Binding
+Effect: The elemental must make a Constitution saving throw (DC 18). On a failure, it is bound by magical chains made of opposing elemental energy, causing it to be restrained and take 2d8 damage of the opposing type.
+Planar Repulsion
+Effect: The elemental must succeed on a Strength saving throw (DC 16) or be forcibly repelled 20 feet away from the portal, taking 3d6 force damage. This gives nearby creatures a chance to place obstacles or traps while the elemental is repelled.
+Strategic Options for Nearby Creatures
+Each time the Elemental Detection Ward activates, it creates a brief opening for other creatures to act. Here are some tactics that players or NPCs can use:
+
+Set Up Traps: If the elemental is held or bound, players can use this time to set up traps, like caltrops or alchemical concoctions, for when it attempts to escape.
+Prepare Actions: Nearby allies can ready their actions or prepare spells, targeting the elemental as soon as the ward’s effect wears off.
+Restrain with Physical Means: The short break provided by the ward could be enough to physically bind the elemental with shackles, nets, or even magical ropes.
+Redirect the Elemental: If repelled, allies could herd or drive the elemental toward another trap or even away from the portal entirely.
+Activate Other Defenses: Guards or Conclave mages stationed near the ward can use the interval to reinforce the ward’s spells, reposition for an ambush, or even bring in reinforcements.
+Breaking the Ward
+The Elemental Detection Ward is crafted with layers of arcane protections, making it difficult to disable or destroy. However, if the players attempt to do so:
+
+Arcana or Investigation Check (DC 20): Players can attempt to understand the ward’s magic and locate any weak points.
+Dispel Magic (5th level or higher): A powerful Dispel Magic spell can deactivate the ward for 1 hour, provided the caster succeeds on a DC 18 spellcasting check.
+Physical Attack: The ward has AC 15 and 50 HP, with resistance to non-magical damage. Destroying the ward disrupts its activation entirely, but Conclave forces may immediately respond to such attempts.

@@ -1,0 +1,81 @@
+{
+  "name": "Heliox Engine Overseer",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "construct"
+  },
+  "alignment": ["L","E"],
+  "ac": [18],
+  "hp": {
+    "average": 135,
+    "formula": "18d8 + 54"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 16,
+  "dex": 10,
+  "con": 20,
+  "int": 14,
+  "wis": 14,
+  "cha": 8,
+  "save": {
+    "con": "+9",
+    "int": "+6",
+    "wis": "+6"
+  },
+  "skill": {
+    "arcana": "+6",
+    "investigation": "+6",
+    "perception": "+6"
+  },
+  "passive": 16,
+  "senses": ["darkvision 60 ft."],
+  "languages": ["understands Common, Elvish, and Modron but can't speak"],
+  "immune": ["poison", "psychic"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "poisoned"],
+  "resist": ["bludgeoning, piercing, and slashing from nonmagical attacks", "lightning"],
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Overclock Authority",
+      "entries": [
+        "While within 10 feet of a linked engine or control panel, the Heliox Engine Overseer can use a bonus action to gain 10 temporary hit points. While it has these temporary hit points, it has advantage on Constitution saving throws."
+      ]
+    },
+    {
+      "name": "Damage Threshold Handler",
+      "entries": [
+        "If the Heliox Engine Overseer is conscious and actively operating a mobile fortress engine console, that fortress's damage threshold increases by 5."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The Heliox Engine Overseer makes two Arcane Arc attacks."
+      ]
+    },
+    {
+      "name": "Arcane Arc",
+      "entries": [
+        "{@atk rs} {@hit 8} to hit, range 90 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage."
+      ]
+    },
+    {
+      "name": "Shock Pulse (Recharge 5-6)",
+      "entries": [
+        "Each creature of the overseer's choice within 20 feet must make a DC 16 Constitution saving throw, taking 22 ({@damage 4d10}) thunder damage on a failed save, or half as much on a successful one."
+      ]
+    },
+    {
+      "name": "Emergency Repairs (1/Day)",
+      "entries": [
+        "While at an engine panel, the Heliox Engine Overseer restores 30 hit points to one construct vehicle subsystem or linked mechanical installation."
+      ]
+    }
+  ]
+}

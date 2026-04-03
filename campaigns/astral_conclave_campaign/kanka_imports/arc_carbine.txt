@@ -1,0 +1,7 @@
+Arc-Carbine *(Weapon, uncommon)
+Ranged Weapon (gun), range 80/240 ft.
+Damage: 2d6 lightning damage
+Properties: Two-handed, reload (4 shots per charge)
+Weight: 5 lbs
+Special Features:
+Overload Shot (1/day): Instead of a normal attack, fire a searing line of force in a 30 ft. line. Each creature in line must make a DC 14 Dexterity saving throw or take 4d6 lightning damage, half on success. The carbine overheats and cannot be used until the end of the wielder’s next turn.

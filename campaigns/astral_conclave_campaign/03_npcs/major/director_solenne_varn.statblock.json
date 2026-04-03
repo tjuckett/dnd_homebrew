@@ -1,0 +1,88 @@
+{
+  "name": "Director Solenne Varn",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["elf", "augmented"]
+  },
+  "alignment": ["L","N"],
+  "ac": [18],
+  "hp": {
+    "average": 136,
+    "formula": "16d8 + 64"
+  },
+  "speed": {
+    "walk": 35
+  },
+  "str": 12,
+  "dex": 18,
+  "con": 18,
+  "int": 16,
+  "wis": 14,
+  "cha": 13,
+  "save": {
+    "dex": "+8",
+    "con": "+8",
+    "int": "+7"
+  },
+  "skill": {
+    "acrobatics": "+8",
+    "intimidation": "+5",
+    "investigation": "+7",
+    "medicine": "+7"
+  },
+  "passive": 12,
+  "resist": ["psychic", "lightning", "force"],
+  "conditionImmune": ["charmed", "frightened", "paralyzed"],
+  "senses": ["darkvision 60 ft."],
+  "languages": ["Common", "Elvish", "Primordial"],
+  "cr": "9",
+  "trait": [
+    {
+      "name": "Augmented Reflex Suite",
+      "entries": [
+        "Varn has advantage on Dexterity saving throws against effects that target only her."
+      ]
+    },
+    {
+      "name": "Integrated Conduit Core",
+      "entries": [
+        "Once on each of her turns when Varn hits with a melee attack, she deals an extra 11 ({@damage 2d10}) lightning or force damage."
+      ]
+    },
+    {
+      "name": "Phase Step",
+      "entries": [
+        "As a bonus action, Varn teleports up to 20 feet to an unoccupied space she can see. Until the start of her next turn, attack rolls against her are made with disadvantage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "Varn makes two Surge Claw attacks."
+      ]
+    },
+    {
+      "name": "Surge Claws",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 11 ({@damage 2d10}) lightning or force damage."
+      ]
+    },
+    {
+      "name": "Force Pulse Strike",
+      "entries": [
+        "Each creature in a 15-foot cone originating from Varn must make a DC 16 Strength saving throw, taking 13 ({@damage 3d8}) force damage and falling prone on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Neural Override Pulse (Recharge 5-6)",
+      "entries": [
+        "Each creature of Varn's choice within 20 feet must succeed on a DC 16 Intelligence saving throw or be stunned until the end of its next turn. Constructs and implanted creatures make this save with disadvantage."
+      ]
+    }
+  ]
+}

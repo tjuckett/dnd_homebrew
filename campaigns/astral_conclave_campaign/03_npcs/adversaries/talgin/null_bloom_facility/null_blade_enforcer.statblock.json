@@ -1,0 +1,80 @@
+{
+  "name": "Null-Blade Enforcer",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["human"]
+  },
+  "alignment": ["L","N"],
+  "ac": [17],
+  "hp": {
+    "average": 102,
+    "formula": "12d10 + 36"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 18,
+  "dex": 12,
+  "con": 16,
+  "int": 11,
+  "wis": 14,
+  "cha": 10,
+  "save": {
+    "str": "+7",
+    "wis": "+5"
+  },
+  "skill": {
+    "athletics": "+7",
+    "intimidation": "+5"
+  },
+  "passive": 12,
+  "resist": ["fire", "cold", "lightning", "force"],
+  "senses": ["darkvision 60 ft."],
+  "languages": ["Common", "Primordial"],
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Magic Suppression Field",
+      "entries": [
+        "Enemy creatures within 10 feet of the Null-Blade Enforcer cannot teleport by magical means and make concentration saves with disadvantage."
+      ]
+    },
+    {
+      "name": "Adaptive Shielding",
+      "entries": [
+        "When the Null-Blade Enforcer takes damage from a spell, it can gain resistance to that damage type until the end of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The Null-Blade Enforcer makes two Null-Greatsword attacks."
+      ]
+    },
+    {
+      "name": "Null-Greatsword",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 7 ({@damage 2d6}) force damage."
+      ]
+    },
+    {
+      "name": "Void Pulse Slam (Recharge 5-6)",
+      "entries": [
+        "Each creature in a 15-foot cone must make a DC 15 Constitution saving throw, taking 13 ({@damage 3d8}) force damage and becoming stunned until the end of its next turn on a failed save, or taking half as much damage on a successful one."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Surge Step",
+      "entries": [
+        "The Null-Blade Enforcer moves up to 15 feet without provoking opportunity attacks."
+      ]
+    }
+  ]
+}

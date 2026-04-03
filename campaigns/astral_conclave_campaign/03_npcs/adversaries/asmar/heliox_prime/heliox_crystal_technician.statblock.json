@@ -1,0 +1,67 @@
+{
+  "name": "Heliox Crystal Technician",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "construct"
+  },
+  "alignment": ["L","E"],
+  "ac": [15],
+  "hp": {
+    "average": 68,
+    "formula": "8d8 + 32"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 12,
+  "dex": 14,
+  "con": 18,
+  "int": 12,
+  "wis": 12,
+  "cha": 6,
+  "save": {
+    "dex": "+5",
+    "con": "+7"
+  },
+  "skill": {
+    "perception": "+4",
+    "sleight of hand": "+5"
+  },
+  "passive": 14,
+  "senses": ["darkvision 60 ft."],
+  "languages": ["understands Common but can't speak"],
+  "immune": ["poison", "psychic"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "poisoned"],
+  "resist": ["bludgeoning, piercing, and slashing from nonmagical attacks"],
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Volatile Cargo",
+      "entries": [
+        "When the Heliox Crystal Technician drops to 0 hit points, crystalline shrapnel bursts from its body. Each creature within 10 feet must make a DC 14 Dexterity saving throw, taking 10 ({@damage 3d6}) force damage on a failed save, or half as much on a successful one."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The Heliox Crystal Technician makes two Shard Knife attacks, or one Shard Knife attack and uses Crystal Scatter."
+      ]
+    },
+    {
+      "name": "Shard Knife",
+      "entries": [
+        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 3 ({@damage 1d6}) force damage."
+      ]
+    },
+    {
+      "name": "Crystal Scatter",
+      "entries": [
+        "Each creature in a 15-foot cone must make a DC 14 Dexterity saving throw, taking 14 ({@damage 4d6}) piercing damage on a failed save, or half as much on a successful one. A creature that fails also has its speed reduced by 10 feet until the end of its next turn."
+      ]
+    }
+  ]
+}

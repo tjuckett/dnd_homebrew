@@ -1,0 +1,31 @@
+Rurik Blackthorn, Bandit Leader:
+
+Description: Rurik is a burly and imposing figure, with a scruffy beard and a scar across his cheek. Wearing dark leather armor and a cloak, he exudes an air of confidence and authority. Rurik commands respect among the bandits with his ruthless demeanor and strategic mind.
+
+Weapon: Rurik wields a wickedly sharp greatsword, the blade showing signs of frequent use in illicit activities.
+
+Mara Shadowswift, Stealthy Rogue:
+
+Description: Mara is a nimble and quick-footed rogue, known for her ability to slip in and out of shadows unnoticed. With a hooded cloak and agile movements, she excels in ambushes and surprise attacks.
+
+Weapon: Mara favors twin daggers, her preferred tools for swift and silent takedowns.
+
+Grizzled Bartok, Gruff Brute:
+
+Description: Bartok is a hulking brute, towering over his companions with a grizzled beard and muscular frame. His sheer strength and intimidating presence make him the enforcer of the group.
+
+Weapon: Bartok wields a massive war club, its surface embedded with menacing spikes.
+
+Seraphina Embereye, Cunning Archer:
+
+Description: Seraphina is a sharp-eyed archer with a slender and agile build. Clad in dark leather armor and a hood, she is deadly accurate with her bow and excels in picking off targets from a distance.
+
+Weapon: Seraphina's weapon of choice is a finely crafted longbow, adorned with engravings.
+
+Larkin "Whisper" Swiftblade, Agile Duelist:
+
+Description: Larkin, known as "Whisper" among the bandits, is a nimble and agile duelist. Wearing light leather armor, he relies on speed and precision in close-quarters combat.
+
+Weapon: Larkin wields a pair of finely crafted shortswords, his movements a blur of calculated strikes.
+
+Role in the Campaign: The bandits, led by Rurik Blackthorn, can serve as antagonists in the campaign. They might be involved in extortion, smuggling, or other criminal activities that draw the attention of the player characters. The group's diverse skills and backgrounds make them a formidable and challenging opponent for the adventurers.

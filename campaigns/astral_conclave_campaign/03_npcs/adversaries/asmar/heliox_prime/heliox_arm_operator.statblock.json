@@ -1,0 +1,74 @@
+{
+  "name": "Heliox Arm Operator",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "construct"
+  },
+  "alignment": ["L","E"],
+  "ac": [17],
+  "hp": {
+    "average": 95,
+    "formula": "10d8 + 50"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 18,
+  "dex": 12,
+  "con": 20,
+  "int": 10,
+  "wis": 12,
+  "cha": 6,
+  "save": {
+    "str": "+7",
+    "con": "+8",
+    "wis": "+4"
+  },
+  "skill": {
+    "athletics": "+7",
+    "perception": "+4"
+  },
+  "passive": 14,
+  "senses": ["darkvision 60 ft."],
+  "languages": ["understands Common but can't speak"],
+  "immune": ["poison", "psychic"],
+  "conditionImmune": ["charmed", "exhaustion", "frightened", "poisoned"],
+  "resist": ["bludgeoning, piercing, and slashing from nonmagical attacks"],
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Integrated Harness",
+      "entries": [
+        "While within 5 feet of a control station, the Heliox Arm Operator has advantage on Strength checks and Strength saving throws, and it can't be forcibly moved more than 10 feet by nonmagical effects."
+      ]
+    },
+    {
+      "name": "Boarder Rejection Protocol",
+      "entries": [
+        "The Heliox Arm Operator has advantage on opportunity attacks against creatures that are climbing, jumping, or boarding a vehicle or structure."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The Heliox Arm Operator makes two Servo Slam attacks."
+      ]
+    },
+    {
+      "name": "Servo Slam",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage, and the target must succeed on a DC 15 Strength saving throw or be pushed 10 feet."
+      ]
+    },
+    {
+      "name": "Clamp and Toss (Recharge 5-6)",
+      "entries": [
+        "One creature within 10 feet must succeed on a DC 15 Dexterity saving throw or take 18 ({@damage 3d8 + 5}) bludgeoning damage and be grappled (escape DC 15). While grappled this way, the Heliox Arm Operator can use a bonus action on its next turn to throw the target up to 20 feet to an unoccupied space it can see. The thrown creature lands prone and takes 7 ({@damage 2d6}) bludgeoning damage."
+      ]
+    }
+  ]
+}

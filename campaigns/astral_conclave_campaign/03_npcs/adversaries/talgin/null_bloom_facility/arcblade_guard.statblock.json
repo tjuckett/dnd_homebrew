@@ -1,0 +1,72 @@
+{
+  "name": "Arcblade Guard",
+  "source": "Homebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["human"]
+  },
+  "alignment": ["L","N"],
+  "ac": [18],
+  "hp": {
+    "average": 78,
+    "formula": "12d8 + 24"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 16,
+  "dex": 14,
+  "con": 14,
+  "int": 10,
+  "wis": 12,
+  "cha": 10,
+  "save": {
+    "str": "+6",
+    "con": "+5"
+  },
+  "skill": {
+    "athletics": "+6",
+    "perception": "+4"
+  },
+  "passive": 14,
+  "languages": ["Common", "Thieves' Cant"],
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Null-Iron Weapons",
+      "entries": [
+        "The Arcblade Guard's weapon attacks ignore resistance to nonmagical weapon damage. When the guard hits a creature concentrating on a spell, that creature makes the concentration save with disadvantage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The Arcblade Guard makes two Arcblade attacks."
+      ]
+    },
+    {
+      "name": "Arcblade",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 3 ({@damage 1d6}) force damage."
+      ]
+    },
+    {
+      "name": "Suppressing Strike (Recharge 5-6)",
+      "entries": [
+        "One creature hit by an Arcblade attack this turn must succeed on a DC 14 Wisdom saving throw or be unable to cast spells until the end of its next turn."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Null Field Bash",
+      "entries": [
+        "When a creature within 5 feet of the Arcblade Guard casts a spell, the guard makes one Arcblade attack against that creature."
+      ]
+    }
+  ]
+}
