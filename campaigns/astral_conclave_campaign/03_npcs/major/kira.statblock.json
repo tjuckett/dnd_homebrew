@@ -1,0 +1,202 @@
+{
+  "name": "Kira",
+  "source": "ChaosIncHomebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["artificer"]
+  },
+  "alignment": ["N", "G"],
+  "ac": [
+    {
+      "ac": 21,
+      "from": ["infused half plate", "repulsion shield"]
+    }
+  ],
+  "hp": {
+    "average": 188,
+    "formula": "20d8 + 100"
+  },
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "str": 10,
+  "dex": 14,
+  "con": 20,
+  "int": 20,
+  "wis": 14,
+  "cha": 12,
+  "save": {
+    "con": "+17",
+    "int": "+17",
+    "wis": "+14"
+  },
+  "skill": {
+    "arcana": "+11",
+    "history": "+11",
+    "investigation": "+11",
+    "perception": "+8",
+    "sleightOfHand": "+8"
+  },
+  "resist": ["acid", "cold", "lightning"],
+  "passive": 18,
+  "languages": ["Common", "Primordial", "Deep Speech", "Aquan"],
+  "cr": "17",
+  "pb": "+6",
+  "trait": [
+    {
+      "name": "Arcane Firearm",
+      "entries": [
+        "When Kira casts an artificer spell through her tuning rod, one damage roll of that spell deals an extra 4 ({@damage 1d8}) force damage."
+      ]
+    },
+    {
+      "name": "Tool Expertise",
+      "entries": [
+        "Kira's proficiency bonus is doubled for any ability check she makes that uses a tool proficiency."
+      ]
+    },
+    {
+      "name": "Flash of Genius (5/Day)",
+      "entries": [
+        "When Kira or another creature she can see within 30 feet makes an ability check or saving throw, Kira adds 5 to the roll."
+      ]
+    },
+    {
+      "name": "Spell-Storing Item",
+      "entries": [
+        "Kira carries a calibrated ward emitter loaded with {@spell web}. The device can cast the spell 10 times (spell save {@dc 19})."
+      ]
+    },
+    {
+      "name": "Soul of Artifice",
+      "entries": [
+        "Kira is attuned to six magic items and gains a +6 bonus to all saving throws, which is included in her statistics. If she is reduced to 0 hit points but not killed outright, she can end one of her artificer infusions and drop to 1 hit point instead."
+      ]
+    }
+  ],
+  "spellcasting": [
+    {
+      "name": "Artificer Spellcasting",
+      "headerEntries": [
+        "Kira is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). She has the following artificer spells prepared:"
+      ],
+      "spells": {
+        "0": {
+          "spells": [
+            "{@spell fire bolt}",
+            "{@spell guidance}",
+            "{@spell mending}",
+            "{@spell ray of frost}",
+            "{@spell shocking grasp}"
+          ]
+        },
+        "1": {
+          "slots": 4,
+          "spells": [
+            "{@spell absorb elements|xge}",
+            "{@spell cure wounds}",
+            "{@spell detect magic}",
+            "{@spell faerie fire}",
+            "{@spell shield}"
+          ]
+        },
+        "2": {
+          "slots": 3,
+          "spells": [
+            "{@spell aid}",
+            "{@spell lesser restoration}",
+            "{@spell mirror image}",
+            "{@spell see invisibility}",
+            "{@spell web}"
+          ]
+        },
+        "3": {
+          "slots": 3,
+          "spells": [
+            "{@spell counterspell}",
+            "{@spell dispel magic}",
+            "{@spell fly}",
+            "{@spell revivify}",
+            "{@spell water breathing}"
+          ]
+        },
+        "4": {
+          "slots": 3,
+          "spells": [
+            "{@spell fabricate}",
+            "{@spell freedom of movement}",
+            "{@spell Otiluke's resilient sphere}",
+            "{@spell summon construct|tce}"
+          ]
+        },
+        "5": {
+          "slots": 2,
+          "spells": [
+            "{@spell Bigby's hand}",
+            "{@spell greater restoration}",
+            "{@spell wall of force}"
+          ]
+        }
+      },
+      "ability": "int",
+      "type": "spellcasting"
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "Kira makes two attacks with her arcane sidearm or elemental tuning rod in any combination."
+      ]
+    },
+    {
+      "name": "Arcane Sidearm",
+      "entries": [
+        "{@atk rw} {@hit 11} to hit, range 90/300 ft., one target. {@h}16 ({@damage 2d10 + 5}) force damage."
+      ]
+    },
+    {
+      "name": "Elemental Tuning Rod",
+      "entries": [
+        "{@atk rs} {@hit 11} to hit, range 120 ft., one target. {@h}23 ({@damage 4d8 + 5}) force damage, and the target can't take reactions until the start of Kira's next turn. Elementals and constructs take an extra 9 ({@damage 2d8}) lightning damage."
+      ]
+    },
+    {
+      "name": "Recalibrate Breach Harmonics (Recharge 5-6)",
+      "entries": [
+        "Kira emits a burst of tuned anti-planar force in a 20-foot-radius sphere centered on a point she can see within 120 feet. Each creature of her choice in the area must make a {@dc 19} Constitution saving throw, taking 36 ({@damage 8d8}) force damage on a failed save, or half as much on a successful one. On a failed save, a creature also can't teleport or benefit from extradimensional movement until the end of Kira's next turn. Elementals and constructs make this save with disadvantage."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Eldritch Cannon",
+      "entries": [
+        "Kira commands a Small eldritch cannon she can see within 60 feet. The cannon has AC 18, 30 hit points, and immunity to poison and psychic damage. Kira chooses one of the following effects:"
+      ]
+    },
+    {
+      "name": "Force Ballista",
+      "entries": [
+        "{@atk rs} {@hit 11} to hit, range 120 ft., one target. {@h}18 ({@damage 3d8 + 5}) force damage, and the target is pushed up to 5 feet away from the cannon."
+      ]
+    },
+    {
+      "name": "Protector",
+      "entries": [
+        "Kira and each creature of her choice within 10 feet of the cannon gains 12 ({@damage 2d8 + 3}) temporary hit points."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Repulsion Shield",
+      "entries": [
+        "When a creature Kira can see hits her with a melee attack, she pushes that creature up to 15 feet away."
+      ]
+    }
+  ]
+}

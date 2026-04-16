@@ -16,11 +16,13 @@ Ancient, hostile, and half-understood. The region feels less conquered than surv
 
 ## Hidden Sites
 - [[Kira's Hidden Lab]] lies somewhere off the western coast, outside normal travel routes and beneath hostile waters.
+- [[Kira's Abandoned Workshop]] lies somewhere within the interior wastes, one of the old hidden nodes tied to the workshop boundary.
 
 ## Connected Entities
 - [[Talgin]]
 - [[Elemental Corruption]]
 - [[Kira]]
+- [[Workshop Network]]
 
 ## Open Questions
 - How much of the Forbidden Lands are truly impassable, and how much is merely feared?
