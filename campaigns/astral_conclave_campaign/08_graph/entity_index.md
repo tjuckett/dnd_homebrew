@@ -3,6 +3,8 @@
 ## Factions
 - [[Astral Conclave]]
 - [[Shadow Fangs]]
+- [[Gods]]
+- [[Others]]
 
 ## Locations
 - [[Asmar]]
@@ -25,6 +27,7 @@
 - [[Heliox Prime]]
 - [[The Calyxis Reclaimer]]
 - [[The Hollow Veins]]
+- [[Sandglass Relay]]
 
 ## NPCs
 - [[Sylas]]
@@ -52,6 +55,9 @@
 - [[Magistra Pyra-IX]]
 - [[Arch-Calculant Veyrix]]
 - [[Derrik "Stonehand" Veynor]]
+- [[Astral Conclave Field Technician]]
+- [[Astral Conclave Relay Handler]]
+- [[Astral Conclave Veil Escort]]
 
 ## Quests
 - [[Null Bloom Infiltration]]

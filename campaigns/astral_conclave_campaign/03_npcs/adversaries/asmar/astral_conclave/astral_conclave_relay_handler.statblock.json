@@ -1,0 +1,88 @@
+{
+  "name": "Astral Conclave Relay Handler",
+  "source": "ChaosIncHomebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["any race"]
+  },
+  "alignment": ["L","E"],
+  "ac": [14],
+  "hp": {
+    "average": 52,
+    "formula": "8d8 + 16"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 9,
+  "dex": 14,
+  "con": 14,
+  "int": 17,
+  "wis": 13,
+  "cha": 14,
+  "save": {
+    "int": "+5",
+    "wis": "+3"
+  },
+  "skill": {
+    "arcana": "+5",
+    "deception": "+4",
+    "investigation": "+5"
+  },
+  "passive": 11,
+  "languages": ["Common", "Primordial", "telepathy 30 ft. through relay devices"],
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Emergency Portal Stabilization",
+      "entries": [
+        "At the start of an encounter, the handler can begin stabilizing an emergency portal if a relay focus is within 30 feet. Stabilizing the portal normally requires 3 rounds of concentration as if concentrating on a spell. Each allied Field Technician that uses its action to assist reduces the remaining time by 1 round. When stabilized, the portal remains open until the end of the handler's next turn, and the handler and willing creatures within 5 feet of it can escape. The process is interrupted while the handler is incapacitated."
+      ]
+    },
+    {
+      "name": "Mission Preservation",
+      "entries": [
+        "The handler has advantage on saving throws against being charmed or frightened while within 30 feet of a relay device."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Relay Dagger",
+      "entries": [
+        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+      ]
+    },
+    {
+      "name": "Command Static",
+      "entries": [
+        "One creature the handler can see within 60 feet must make a DC 13 Wisdom saving throw. On a failed save, the target takes 10 ({@damage 3d6}) psychic damage and can't take reactions until the start of the handler's next turn. On a successful save, the target takes half damage and suffers no other effect."
+      ]
+    },
+    {
+      "name": "Signal Snare (Recharge 5-6)",
+      "entries": [
+        "The handler chooses a point it can see within 60 feet. Each creature of the handler's choice within 10 feet of that point must succeed on a DC 13 Strength saving throw or be restrained by bands of hard-light signal until the end of the handler's next turn. A restrained creature can use its action to repeat the save, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Scrub Trace",
+      "entries": [
+        "The handler targets one relay device, console, or document bundle within 30 feet. Until the start of the handler's next turn, checks to recover evidence from that target are made with disadvantage."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Redirect Pulse",
+      "entries": [
+        "When the handler is hit by an attack while within 30 feet of a relay device, it adds 2 to its AC against that attack, potentially causing the attack to miss."
+      ]
+    }
+  ]
+}
+

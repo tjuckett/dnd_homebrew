@@ -45,6 +45,9 @@ Vesper "Pinkshade" Arlin,Aetheris Island,stationed_on,Assigned to protect sensit
 Orion,Kira,may_aid,Knows traces of her ward logic and may help others reach her
 Orion,Astral Conclave,opposes,Would sabotage comet-harvesting systems rather than let them stabilize
 Sylas,Orion,helped,Past assistance ties Sylas to an anti-Conclave druidic contact
+Sylas,Gods,serves,Acts as an indirect messenger constrained from revealing future information
+Sylas,Others,opposes,Warns against mortal advancement that could attract interdimensional conquerors
+Astral Conclave,Others,risks_attracting,Its asteroid-pull device and planar research may push the world past the threshold the gods fear
 Stonehearth,Elemental Corruption,threatened_by,Corruption spreading through elemental lands endangers the village
 Stonehearth,Forbidden Lands,located_in,Ancient earth elemental settlement hidden within the dangerous border region
 Eldara Stonewise,Stonehearth,leads,High chieftain guiding the earth elemental village
@@ -95,3 +98,8 @@ Shattered Gears of Asmar,Asmar,centered_on,Quest arc begins with first contact a
 Shattered Gears of Asmar,Calyxis Forge,begins_in,The party is escorted there after warning of the Conclave threat
 Shattered Gears of Asmar,Heliox Prime,complicates,Heliox sabotage reframes the conflict as more than simple villainy
 Shattered Gears of Asmar,The Calyxis Reclaimer,may_feature,Heliox crystal-heist chase can escalate the mine conflict into open moving warfare
+Astral Conclave Field Technician,Astral Conclave,serves,Maintains temporary relay equipment and purges evidence during Asmar field operations
+Astral Conclave Relay Handler,Astral Conclave,serves,Commands temporary relay sites and coordinates portal extraction
+Astral Conclave Veil Escort,Astral Conclave,serves,Covers field teams long enough for evidence denial and escape
+Sandglass Relay,Astral Conclave,operated_by,Temporary desert relay used to command the Reclaimer operation
+Sandglass Relay,The Calyxis Reclaimer,commands,Sends desert relay packets to the Reclaimer obedience device

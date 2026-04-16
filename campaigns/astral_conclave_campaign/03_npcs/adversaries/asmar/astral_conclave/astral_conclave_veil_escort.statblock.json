@@ -1,0 +1,79 @@
+{
+  "name": "Astral Conclave Veil Escort",
+  "source": "ChaosIncHomebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["any race"]
+  },
+  "alignment": ["L","N"],
+  "ac": [15],
+  "hp": {
+    "average": 44,
+    "formula": "8d8 + 8"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 13,
+  "dex": 16,
+  "con": 12,
+  "int": 12,
+  "wis": 12,
+  "cha": 10,
+  "save": {
+    "dex": "+5"
+  },
+  "skill": {
+    "acrobatics": "+5",
+    "perception": "+3",
+    "stealth": "+5"
+  },
+  "passive": 13,
+  "languages": ["Common"],
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Extraction Discipline",
+      "entries": [
+        "The escort can take the Dash or Disengage action as a bonus action while within 60 feet of an allied Relay Handler."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The escort makes two Veil Saber attacks."
+      ]
+    },
+    {
+      "name": "Veil Saber",
+      "entries": [
+        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage plus 3 ({@damage 1d6}) force damage."
+      ]
+    },
+    {
+      "name": "Signal Bolt",
+      "entries": [
+        "{@atk rs} {@hit 5} to hit, range 60 ft., one target. {@h}10 ({@damage 2d6 + 3}) force damage."
+      ]
+    },
+    {
+      "name": "Veil Screen (Recharge 5-6)",
+      "entries": [
+        "The escort creates a 15-foot-radius cloud of silver-black static centered on a point it can see within 30 feet. The area is heavily obscured until the end of the escort's next turn. Conclave creatures can see through the area as if it were lightly obscured."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Cover The Handler",
+      "entries": [
+        "When an allied Relay Handler within 5 feet of the escort is hit by an attack, the escort can cause itself to be hit instead."
+      ]
+    }
+  ]
+}
+
