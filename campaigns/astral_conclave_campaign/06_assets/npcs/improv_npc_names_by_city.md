@@ -3,8 +3,6 @@
 Quick-pull name bank for when the party asks for a random guard, merchant, engineer, dockworker, courier, priest, or local troublemaker before you have time to think.
 
 ## Calyxis Forge
-- Varyn-6
-- Selix-4
 - Orya-9
 - Tazek-3
 - Luma-8
@@ -17,6 +15,8 @@ Quick-pull name bank for when the party asks for a random guard, merchant, engin
 - Cindra-1
 
 ## Heliox Prime
+- Selix
+- Varyn
 - Dhoral-5
 - Nemer-8
 - Solis-Veyn

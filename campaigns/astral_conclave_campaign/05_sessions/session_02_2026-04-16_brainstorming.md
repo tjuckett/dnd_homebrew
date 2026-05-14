@@ -1,4 +1,4 @@
-# Session 02 Brainstorming - April 3, 2026
+# Session 02 Brainstorming - April 16, 2026
 
 ## Current Snapshot
 - The party captured [[The Calyxis Reclaimer]] and reconnected it to the caboose.

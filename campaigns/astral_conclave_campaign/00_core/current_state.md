@@ -1,5 +1,9 @@
 # Current State
 
+## Player Party
+- The campaign currently has 5 level 10 player characters.
+- Party composition: 1 fighter, 1 druid, 1 rogue/barbarian, 1 monk, and 1 artificer.
+
 ## Latest Known Situation
 - The players have uncovered evidence that the Astral Conclave moved beyond elemental harvesting into humanoid essence extraction.
 - The Null Bloom Facility remains a central source of intelligence, danger, and moral horror.

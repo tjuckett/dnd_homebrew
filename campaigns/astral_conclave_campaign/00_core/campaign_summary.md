@@ -10,6 +10,10 @@ The Astral Conclave is exploiting elemental and void-derived power sources to re
 - The cost of survival and progress
 - Corruption spreading through systems, not just places
 
+## Player Party
+- The campaign currently has 5 level 10 player characters.
+- Party composition: 1 fighter, 1 druid, 1 rogue/barbarian, 1 monk, and 1 artificer.
+
 ## Major Facts
 - The Conclave uses void comet energy to create or empower **Astral Hearts**.
 - Older records describe some early constructs as "Harvesters," a name tied to the first phase of the Construct Uprising before later Asmari identities and states emerged.
