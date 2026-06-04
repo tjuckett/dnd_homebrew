@@ -16,17 +16,17 @@
 - The tuned crystals can help Stony and Selix retune the scanner toward Mirrordune and later identify Heliox-side infrastructure.
 
 ## Core Tension
-- The route is no longer "which relay next?" It is "can they catch the active charging operation before it disappears?"
+- The route is no longer "which relay next?" It is "can they survive the active signal that was left on purpose?"
 - Cinderhook's silence is a clue, not a destination focus:
   - the second relay has been cleaned out,
   - the Conclave has already reacted to Sandglass,
   - and the chain is collapsing backward toward Mirrordune and Heliox.
-- Mirrordune is the live operation:
-  - charged crystals,
-  - controlled or abandoned Heliox workers,
-  - evacuation,
-  - purge charges,
-  - and tracks or transit records leading to Heliox.
+- Mirrordune is the trap:
+  - decoy crystal charging,
+  - false workers or remote-controlled bodies,
+  - warp-out anchors,
+  - a leyline-amplified explosive,
+  - and enough real evidence to lure the party into the blast radius.
 - Heliox is the next arc:
   - the signal is faint because it is hidden inside ordinary civic systems,
   - the Conclave presence is administrative and embedded,
@@ -56,26 +56,29 @@
   - the scanner briefly tries to triangulate a dead side-bearing,
   - but the active pulse pulls harder toward Mirrordune.
 
-### 3. Mirrordune Countdown Scene
+### 3. Mirrordune Decoy Kill Site
 - Mirrordune should not start as a static dungeon.
-- It is an operation in the middle of shutdown.
+- It is staged to look like an operation in the middle of shutdown.
+- The Conclave knows the party is coming and wants them close to the leyline vent when the trap fires.
 - On arrival, the party sees:
   - a mirrored antenna frame folding inward,
   - charge cradles around a shallow leyline vent,
-  - a charged crystal crate being moved toward a Heliox-bound transport or portal route,
-  - purge crystals being armed around the relay table,
-  - a command bolt or stupor-field device being destroyed,
-  - and one or more Heliox workers abandoned, controlled, unconscious, or caught in the collapse of the field.
-- The players should immediately understand that acting fast matters.
+  - decoy technicians pretending to charge crystals,
+  - a fake charged-crystal crate staged where the party can see it,
+  - purge crystals and blast lenses hidden as ordinary relay components,
+  - a command bolt or stupor-field device left as bait,
+  - and one or more Heliox workers, simulacra, or already-doomed controlled bodies placed to pull the party inward.
+- As soon as the party commits, the decoys warp out and trigger a massive explosive amplified by the leyline.
+- The players should immediately understand that acting fast matters, but the truth is that the site wants them to act fast and rush in.
 
 ### 4. What They Can Interrupt
-- Stop the purge of the command bolt or stupor-field device.
-- Damage, steal, or mark the charged crystal crate.
-- Prevent the blast failsafe from destroying all Mirrordune evidence.
-- Capture a relay technician before the escape route closes.
-- Free or stabilize controlled Heliox workers.
-- Salvage cleaner tuning hardware than anything left at Sandglass.
-- Learn how the charged crystals are being routed into Heliox.
+- Notice the decoy behavior before entering the inner blast radius.
+- Disable or misalign one leyline blast lens.
+- Drag survivors or bait bodies out before the explosion.
+- Jam the warp-out anchor and force one decoy to remain behind.
+- Use the Reclaimer, terrain, or the Sovereign to ground part of the blast.
+- Salvage proof from the trap before it burns.
+- Learn how the charged crystals have already been routed into Heliox.
 
 ### 5. Point To Heliox
 - Mirrordune evidence should point hard toward [[Heliox Prime]].
@@ -127,10 +130,10 @@
 - It is the strongest active lead.
 - On a good check:
   - Mirrordune is not just relaying commands; it is tied to power movement,
-  - charged crystals are being gathered, stabilized, or routed,
-  - workers or technicians may still be present,
-  - and the signal is growing unstable because the site is preparing to evacuate.
-- Table line: `This one is alive. Not loud, exactly, but fed.`
+  - charged crystals were gathered, stabilized, or routed there,
+  - workers or technicians may still appear to be present,
+  - and the signal is growing unstable because the site has been converted into a trap.
+- Table line: `This one is alive. Not loud, exactly, but waiting.`
 
 ### Heliox Crystal
 - Signal feel: faint, layered, municipal.
@@ -143,14 +146,14 @@
 - Table line: `The pulse is there, but it is wearing the city like a mask.`
 
 ## Opening Read-Aloud
-The Reclaimer is too quiet now. Fifteen soldiers are gone, and only four remain with the captain, Selix, and Varyn. On the workbench, the three recovered crystals answer Stony's relay device in three different voices: one clean and silent, one hot with leyline charge, and one faint beneath the orderly murmur of a distant city. The silent one points to a site that no longer answers. The warm one points across the mirrored dunes. The faint one waits beyond it, wearing Heliox's voice.
+The Reclaimer is too quiet now. Fifteen soldiers are gone, and only four remain with the captain, Selix, and Varyn. On the workbench, the three recovered crystals answer Stony's relay device in three different voices: one clean and silent, one hot with leyline charge, and one faint beneath the orderly murmur of a distant city. The silent one points to a site that no longer answers. The warm one points across the mirrored dunes, steady as a held breath. The faint one waits beyond it, wearing Heliox's voice.
 
 ## Survivor Fallout
 - [[Selix]]:
   - focuses on function first: wounded, damaged hardware, scanner interpretation,
   - can explain that the crystals behave like receiver keys rather than simple batteries,
   - recognizes that the Mirrordune signal is tied to energy movement, not just command relay traffic,
-  - may become urgent if he realizes workers are probably still connected to the charging operation.
+  - may become urgent if he realizes the Mirrordune signal is too stable and too inviting.
 - [[Varyn]]:
   - reacts strongly to the Heliox crystal,
   - may be disturbed that the city signal feels normal from the outside,
@@ -160,43 +163,56 @@ The Reclaimer is too quiet now. Fifteen soldiers are gone, and only four remain 
   - has lost `15` soldiers and nearly the whole support group,
   - still has `4` soldiers alive and under command,
   - may argue for returning to Calyxis or at least reporting the losses,
-  - can be convinced to continue if the party frames Mirrordune as the chance to stop more deaths.
+  - can be convinced to continue if the party frames Mirrordune as the chance to stop more deaths, but may become furious if it turns out to be a trap.
 - Possible captain line: `I can keep this machine moving. I cannot pretend this is still a scouting mission.`
 
-## Mirrordune Broadcast Purpose
-- Mirrordune remains active because it is the leyline charging station.
-- Refined crystals or energy cores are being charged there before being moved by vehicle back toward [[Heliox Prime]].
-- Mirrordune's broadcast keeps convoy timing, relay masking, worker control, and charge-cycle discipline stable long enough for the final shipment to leave.
-- This means Mirrordune is not still up because the Conclave is slow. It is still up because the Conclave is willing to risk a field relay to save the crystal shipment.
-- Best reveal: Mirrordune's signal does not sound like a retreat. It sounds like a countdown.
+## Mirrordune Trap Purpose
+- Mirrordune remains active because the Conclave wants the party to follow it.
+- The real charge operation has mostly moved on or been routed toward [[Heliox Prime]].
+- What remains is a staged charging site built around the leyline vent.
+- The decoy broadcast mimics convoy timing, charge-cycle discipline, worker control, and relay shutdown.
+- The trap is designed to make the party think they are catching the last moments of a real evacuation.
+- The actual goal is to draw the party, the Reclaimer, Stony's scanner, Selix, Varyn, and the surviving captain/soldiers into the blast radius.
+- Best reveal: Mirrordune's signal does not sound like a retreat. It sounds like a countdown because it is one.
 
-## Mirrordune Fast-Arrival Contingency
+## Mirrordune Trap Sequence
 - Use this because the party is likely skipping Cinderhook and pushing straight toward the Mirrordune signal.
-- Mirrordune should not become a full combat encounter unless the players force it.
-- If the party arrives in time, they see:
-  - a mirrored antenna frame folding inward,
-  - one last crate of charged crystals being lifted out of a leyline charge cradle and loaded onto a Heliox-bound transport,
-  - a relay handler arming the blast failsafe,
-  - and one or two technicians trying to purge the command bolt and stupor-field device that control the workers.
-- If the party hesitates, the transport clears the site and the relay blast fires.
-- If the party acts immediately, they might:
-  - stop one technician from escaping,
-  - knock loose one charged crystal crate or damage a transport,
-  - interrupt part of the purge sequence,
-  - or recover clean evidence from the charging station before it burns.
+- Mirrordune should begin as a deception encounter and become a disaster scene.
+- Stage 1 - Approach:
+  - the Mirrordune crystal warms,
+  - the scanner locks strongly,
+  - the site appears active,
+  - and the decoys make sure the party sees movement around the charge cradles.
+- Stage 2 - Bait:
+  - decoy technicians pretend to load or stabilize crystals,
+  - a fake command device is left visible,
+  - an apparent Heliox worker is placed near danger,
+  - and a false transport or crawler looks like it is about to leave.
+- Stage 3 - Commitment:
+  - trigger when the party enters the inner site, fires on the decoys, sends the Reclaimer forward, or touches the bait device/crate.
+  - The decoys warp out through prepared anchors.
+  - The relay table folds inward and the leyline charge spikes.
+- Stage 4 - Explosion:
+  - the leyline-amplified explosive detonates,
+  - mirrored dunes flash white,
+  - charge cradles erupt upward,
+  - and the blast tries to kill the party and wreck the Reclaimer.
+- Stage 5 - Aftermath:
+  - the trap leaves scorched proof, partial route clues to Heliox, and maybe one failed warp anchor or dead decoy if the party interrupted the sequence.
 
 ## What They Find At Mirrordune
-- Mirrordune is the leyline charging station and the final relay in the desert chain.
+- Mirrordune was the leyline charging station and the final relay in the desert chain.
 - It sits on mirrored dunes and low glassy ridges above a shallow leyline vent, with charge cradles sunk into glassy sand.
 - Collapsible antenna frames crown the site, angled toward Cinderhook and Heliox while the charging equipment draws power below.
-- Its job is to charge refined crystals, mask the operation, and keep controlled workers synchronized until the final shipment clears.
-- The Conclave presence is small, technical, and urgent:
-  - one relay handler in command,
-  - two or three field technicians,
-  - one convoy-load coordinator,
-  - one portal or escape specialist if you want a named noncombatant,
-  - and possibly two controlled Heliox laborers or drivers being used as tools rather than soldiers.
-- There should not be a large combat squad unless the party makes a loud approach or you want escalation.
+- Its old job was to charge refined crystals, mask the operation, and keep controlled workers synchronized until shipments cleared.
+- Its current job is to impersonate that operation long enough to kill the party.
+- The Conclave presence is small, staged, and expendable:
+  - one relay handler or projected handler baiting the response,
+  - two or three decoy field technicians,
+  - one fake convoy-load coordinator,
+  - prepared warp anchors,
+  - and possibly controlled Heliox bodies, simulacra, or already-doomed workers used as emotional bait.
+- There should not be a large combat squad. The explosive is the weapon.
 
 ### First View
 - A mirrored antenna frame is half-folded, catching sunlight or starlight in hard flashes.
@@ -205,82 +221,112 @@ The Reclaimer is too quiet now. Fifteen soldiers are gone, and only four remain 
   - down into the leyline charge field,
   - and toward Heliox-side infrastructure.
 - A low relay table is covered in tuning crystals, wrist-device sync clamps, grounding braids, and purge crystals.
-- Several charge cradles glow around a shallow leyline vent, each holding or recently holding refined crystals.
-- A small transport or crawler sled is loaded with a crate of charged crystals or relay components.
-- A portal frame, emergency transit circle, or folded escape arch is being prepared nearby.
+- Several charge cradles glow around a shallow leyline vent, but the glow is too even and too synchronized.
+- A small transport or crawler sled is loaded with a crate that looks like charged crystals or relay components.
+- A portal frame, emergency transit circle, or folded escape arch is already active enough for a fast warp-out.
 - The site sounds wrong: not like conversation, but like a countdown made of crystal hums, relay clicks, and clipped wrist-device gestures.
 
 ### Astral Conclave Activity
 - They are not trying to hold territory.
-- They are trying to finish three things:
-  - keep the charge cycle stable until the last crystal crate leaves,
-  - purge the command hardware controlling the workers,
-  - and destroy Mirrordune's relay hardware before the party can use it.
-- The relay crew already knows Sandglass failed and Cinderhook is gone.
-- Their default plan is escape and evidence denial, not a stand-up fight.
+- They are not truly trying to save the last crate.
+- They are trying to sell the illusion of urgency until the party steps into the kill radius.
+- They already know Sandglass failed and Cinderhook is gone.
+- Their default plan is warp out, trigger the blast, and let the official story say unstable pre-war charging hardware killed the intruders.
 
 ### If The Party Watches Before Acting
-- A relay handler checks a wrist device, then adjusts the mirrored antenna by a few degrees.
-- A technician removes a tuning crystal, compares it to the Heliox-side bearing, and packs it into a padded case.
-- Another technician arms purge crystals around the relay table.
-- A controlled Heliox worker or driver stands too still until given a wrist-device instruction.
-- The charged crate is moved toward the transport or portal route.
-- The command bolt and stupor-field device are being prepared for destruction once the final crate clears.
+- A relay handler checks a wrist device, then deliberately adjusts the mirrored antenna by a few degrees while watching the approach route.
+- A technician removes a tuning crystal, compares it to the Heliox-side bearing, and packs it into a padded case that may be empty.
+- Another technician arms "purge crystals" that are actually blast lenses.
+- A controlled Heliox worker or decoy body stands too still near the inner cradles.
+- The charged crate is moved toward the transport or portal route, but the transport's wheels, skids, or engine are not truly under load.
+- The command bolt and stupor-field device are positioned to look recoverable, but their wires run down into the leyline vent.
+- Perception/Insight tells:
+  - DC 13: the workers are performing urgency rather than working naturally.
+  - DC 15: the charge cycle is too synchronized and too smooth.
+  - DC 16: the visible crate is a lure or shielding shell, not the real shipment.
+  - DC 17: the purge crystals are shaped to focus an explosion, not erase evidence.
+  - DC 18: the whole site is keyed to detonate when disturbed or when the decoys leave.
 
 ### What They Can Interrupt
-- Stop the purge of the command bolt or stupor-field device.
-- Damage or steal a tuned crystal that cleanly identifies the charge cycle.
-- Prevent the blast failsafe from destroying all Mirrordune evidence.
-- Knock loose the charged crystal crate before it leaves.
-- Capture a relay technician before the escape portal closes.
-- Free or stabilize a controlled Heliox worker before the purge sequence catches them.
+- Misalign a blast lens: DC 15 Arcana, Tinker's Tools, or Athletics; reduces blast damage or narrows the kill zone.
+- Cut a grounding braid: DC 15 Sleight of Hand, Tinker's Tools, or attack against AC 15/HP 15; causes a smaller explosion away from the party.
+- Drag someone out of the inner ring: DC 14 Athletics or vehicle maneuver; saves a worker/decoy body and may reveal the bait.
+- Jam a warp anchor: DC 16 Arcana, Tinker's Tools, or Sovereign resonance; one decoy fails to escape or leaves behind gear/proof.
+- Reverse a charge cradle: DC 17 Arcana or Sovereign resonance; vents part of the blast into the sand.
+- Use the Reclaimer as cover or grounding: vehicle check DC 15; reduces party damage but risks Reclaimer subsystem damage.
+- Full disarm: DC 20 with two successful checks before detonation; prevents the main blast and leaves the most evidence.
+
+### Leyline-Amplified Explosion
+- Trigger when:
+  - the party enters the inner charge ring,
+  - the Reclaimer crosses the outer grounding line,
+  - someone touches the bait crate/device,
+  - a decoy is attacked,
+  - or the decoy leader chooses to spring the trap.
+- Base effect:
+  - 60-foot inner ring and 180-foot shockwave from the leyline vent.
+  - Inner ring: DC 18 Dexterity saving throw, `12d10` force plus `8d10` fire, half on success.
+  - Shockwave: DC 16 Dexterity or Constitution saving throw, `8d10` force/fire mixed, half on success.
+  - Creatures that fail by 5 or more are knocked prone and pushed 30 feet.
+  - Constructs, vehicles, and exposed crystal hardware also take thunder stress or subsystem damage at your discretion.
+- Reclaimer effects:
+  - If the Reclaimer is in the inner ring, one subsystem is damaged even on a successful vehicle save.
+  - Possible subsystem damage: gun mount warped, brake line cracked, antenna mount shattered, coupling strained, steering misaligned, or hull plates fused with glassed sand.
+- Mitigation:
+  - each successful interruption above reduces damage by `2d10`, grants advantage to saves, saves a subsystem, or leaves better evidence.
+  - strong creative play can convert the explosion into a hazard/chase scene instead of pure damage.
 
 ### If They Arrive Too Late
-- The transport has left or the portal has closed.
-- The mirrored antenna frame is warped from its own failsafe blast.
-- The relay table is slagged, but not as completely as Sandglass because the crew was rushing.
+- The trap has already fired or self-burned because the decoy team judged the party too slow.
+- The real transport has left or the portal has closed.
+- The mirrored antenna frame is warped from the leyline blast.
+- The relay table is slagged, but the blast pattern still proves it was a deliberate weaponized overload.
 - The party can still find:
   - evidence of a charged-crystal transfer,
   - a half-melted tuning crystal that matches the Mirrordune crystal they recovered,
-  - signs that Heliox workers were controlled here,
+  - signs that Heliox workers were controlled or used as bait here,
+  - blast lenses disguised as purge crystals,
   - and damaged charge cradles around the leyline vent.
 
 ### Evidence At Mirrordune
 - Tuning crystals prove Mirrordune was actively linking Cinderhook, Heliox, and its own charge field.
-- The antenna geometry shows Mirrordune was masking and stabilizing the charging operation, not merely forwarding military commands.
-- Charged crystal residue and leyline stress patterns prove refined crystals were charged here.
+- The antenna geometry shows Mirrordune was masking and stabilizing the charging operation before it was converted into a trap.
+- Charged crystal residue and leyline stress patterns prove refined crystals were charged here, but the freshest pattern is explosive focusing rather than ordinary charging.
 - Wrist-device sync clamps show Conclave leaders controlled the site through addressed devices, not open broadcasts the party could casually read.
 - Controlled-worker marks show Heliox personnel were being used by the Conclave rather than all willingly collaborating.
-- Purge crystal placement proves the crew intended to destroy the relay after the final transfer.
+- Blast-lens placement proves the crew intended to kill pursuers, not simply destroy evidence.
 - The work orders, route tags, or dispatch cadence look official enough to pass Heliox systems, implying the Conclave has compromised the city's command structure rather than merely hiding in the desert.
+- Failed warp residue or a damaged anchor can prove the decoys escaped through a prepared emergency route.
+- A deliberately planted false ledger may be recognizable as false because the counts do not match the charge residue.
 
 ### Mirrordune Choices
-- Chase the charged-crystal transport toward Heliox.
-- Capture a technician or stabilize a controlled worker.
-- Use the Feedback Spike against Mirrordune, risking anyone attached to its active branch.
-- Salvage Mirrordune's cleaner tuning hardware before it burns.
-- Turn toward Heliox with proof that city-linked infrastructure is being used by the [[Astral Conclave]].
+- Survive or mitigate the leyline blast.
+- Capture a decoy, failed warp trace, or abandoned control device.
+- Decide whether to save any bait workers before the explosion.
+- Salvage proof from the blast site before residual leyline surges erase it.
+- Chase the real charged-crystal route toward Heliox.
+- Turn toward Heliox with proof that city-linked infrastructure is being used by the [[Astral Conclave]] and that the Conclave is now trying to kill the party directly.
 
 ## Mirrordune Personnel
-Use these only if the party catches the crew before the portal closes.
+Use these as decoys or remote operators. If the party jams a warp anchor, one of them may be left behind.
 
 ### Cael Orison
 - Rank: Astral Conclave Relay Handler, Mirrordune node lead.
-- Role: Maintains the final relay broadcast and authorizes the blast failsafe.
+- Role: Maintains the decoy broadcast and authorizes the leyline blast.
 - Demeanor: Calm, exhausted, and quietly contemptuous.
-- Useful Line: "You are chasing antennas while the charge is already moving."
+- Useful Line: "You are chasing antennas while the charge is already home."
 
 ### Nessa Vey
 - Rank: Astral Conclave Field Technician, purge and calibration specialist.
-- Role: Handles teardown crystals, warning pulses, and relay alignment records.
+- Role: Disguises blast lenses as purge crystals and maintains the false charge cycle.
 - Demeanor: Nervous, practical, more afraid of Conclave failure protocols than of the party.
-- Useful Line: "Sandglass should have gone quiet. If it did not, someone left the heart in the stone."
+- Useful Line: "This was never meant to hold. It was meant to wait."
 
 ### Corvin Nhal
 - Rank: Astral Conclave Field Technician, convoy-load assistant.
-- Role: Moves charged crystal crates and coordinates the final transport.
+- Role: Moves fake crystal crates and coordinates the decoy warp-out.
 - Demeanor: Focused, irritated, and desperate to finish the job.
-- Useful Line: "The last crate leaves whether I do or not."
+- Useful Line: "The last crate left before you chose a direction."
 
 ## Mirrordune Charging Station Details
 Use this once the party reaches Mirrordune. These are not a separate location.
@@ -291,26 +337,26 @@ Use this once the party reaches Mirrordune. These are not a separate location.
 - Working local name if needed: Mirrordune Station.
 
 ### What They Find
-- The final charged-crystal shipment is mostly gone by the time the party arrives.
-- The Mirrordune operators began destroying evidence as soon as Cinderhook went silent.
-- The command bolt at the site may be shattered, melting, or still recoverable if the party moves fast.
-- The stupor-field device may be cracked, purged, or partly dumped into the leyline vent.
-- Several crystal cradles are empty but still glowing with residual charge.
+- The final charged-crystal shipment is already gone by the time the party arrives.
+- The Mirrordune operators converted the remaining station into a decoy kill site as soon as Cinderhook went silent.
+- The command bolt at the site is bait, but may still contain useful residue if recovered before or after the blast.
+- The stupor-field device may be real, partly fake, or wired into the detonation as emotional bait.
+- Several crystal cradles are empty but still glowing with residual charge and blast-focus geometry.
 - One or two damaged refined cores remain because they were too unstable to load safely.
-- A half-filled crate of uncharged but refined crystals remains near the loading area.
-- Vehicle tracks lead away from Mirrordune toward [[Heliox Prime]].
-- A five-seat sand buggy sits half-destroyed near the loading area or tucked behind a rock shelf.
-- Four Heliox workers remain unconscious when the party arrives. They were likely caught in the collapse of the stupor-field device or abandoned because they were not portable evidence.
+- A half-filled crate near the loading area contains decoy crystal shells, unstable rejects, or traceable tags.
+- Vehicle tracks lead away from Mirrordune toward [[Heliox Prime]], but the freshest tracks are older than the staged activity implies.
+- A five-seat sand buggy sits half-destroyed near the loading area or tucked behind a rock shelf as part of the deception.
+- Four Heliox workers, decoy bodies, or unconscious controlled workers remain when the party arrives. They are bait, victims, or both.
 
 ### Useful Evidence
 - Residue from the destroyed command bolt proves Mirrordune was receiving orders through the same family of command hardware as the Reclaimer.
 - The broken stupor-field device proves the Conclave was controlling or suppressing workers at the charging site.
 - The charge cradles show that the Conclave needed refined crystals already processed elsewhere, tying back to Selix's memory of factory or refinement work.
-- A damaged transit ledger may show count totals but not final destinations:
+- A damaged or false transit ledger may show count totals but not final destinations:
   - `12` charged cores prepared,
   - `10` transferred,
   - `2` unstable or abandoned.
-- A leyline stress pattern suggests the charging process is forcing Mirrordune harder than it was meant to be used.
+- A leyline stress pattern suggests the charging process forced Mirrordune harder than it was meant to be used, then redirected that stress into a weaponized blast.
 
 ## Transition From Mirrordune To Heliox
 - Mirrordune should make Heliox feel unavoidable.
@@ -535,17 +581,18 @@ Use these as public dispatches, ration-board slogans, work-shift chimes, wrist-d
 - Do not activate the citywide takeover field immediately on arrival. Let the party discover the possibility first, then trigger it only if the Conclave chooses last-resort escalation.
 
 ## Good Ending Beats
-- The party commits to Mirrordune and reaches the live charging operation.
-- They interrupt at least one purge, escape, shipment, or worker-control action.
-- They recover proof that Mirrordune is tied to Heliox logistics.
+- The party commits to Mirrordune and discovers the Conclave knew they were coming.
+- They survive, mitigate, or partly redirect the leyline-amplified explosion.
+- They recover proof that Mirrordune was converted from a charging station into a decoy kill site tied to Heliox logistics.
 - Selix or Varyn confirms that Heliox infrastructure is implicated.
 - The Heliox crystal grows clearer after Mirrordune evidence is recovered.
-- End on the road to Heliox, the charged-crystal tracks ahead of them, and the faint city signal becoming a little less faint.
+- End on the road to Heliox, the real charged-crystal tracks already ahead of them, and the faint city signal becoming a little less faint.
 
 ## Open Questions
 - What is the captain's name, if it has been established at the table?
 - Did Stony successfully understand the retuning device, or only use it with help?
 - How damaged is [[The Calyxis Reclaimer]] after the Sandglass fighting?
-- Does the party chase the Mirrordune transport immediately or stop to save workers and salvage evidence?
+- Does the party spot the Mirrordune trap before entering the inner blast radius?
+- Do they chase the real Mirrordune transport immediately or stop to save workers and salvage evidence?
 - Do they bring [[The Calyxis Reclaimer]] openly into Heliox territory or approach quietly?
 - What proof do they preserve from Mirrordune before the site burns?
