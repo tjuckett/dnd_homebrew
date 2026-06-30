@@ -9,6 +9,11 @@ Heliox Prime gives the Asmar arc its strongest moral counterweight. It is not si
 ## Tone
 Ordered, severe, and dignified. Heliox feels stable at first glance, but that stability is purchased through austerity, mandatory dormancy, and increasingly ruthless interventions.
 
+## Layout
+- Heliox Prime is built as a circular industrial city of concentric rings and radial transit spokes.
+- Every district is expected to justify its energy cost through labor, storage, routing, defense, repair, or command function.
+- See also: [[layout]]
+
 ## Leadership
 - [[Arch-Calculant Veyrix]]: Mathematical ruler of Heliox Prime and chief voice of preservation through imposed limits
 

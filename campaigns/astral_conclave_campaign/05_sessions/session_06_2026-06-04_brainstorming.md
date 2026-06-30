@@ -263,18 +263,46 @@ The Reclaimer is too quiet now. Fifteen soldiers are gone, and only four remain 
   - someone touches the bait crate/device,
   - a decoy is attacked,
   - or the decoy leader chooses to spring the trap.
+- Intended threat level:
+  - this is meant to be genuinely lethal to level `10` characters who rush into the kill zone without reading the trap,
+  - and strong enough to disable or nearly cripple [[The Calyxis Reclaimer]] if it commits too far forward.
 - Base effect:
-  - 60-foot inner ring and 180-foot shockwave from the leyline vent.
-  - Inner ring: DC 18 Dexterity saving throw, `12d10` force plus `8d10` fire, half on success.
-  - Shockwave: DC 16 Dexterity or Constitution saving throw, `8d10` force/fire mixed, half on success.
-  - Creatures that fail by 5 or more are knocked prone and pushed 30 feet.
-  - Constructs, vehicles, and exposed crystal hardware also take thunder stress or subsystem damage at your discretion.
+  - 80-foot inner kill ring, 200-foot primary shockwave, and glass-rain fallout beyond that from the leyline vent.
+  - Inner kill ring: DC 19 Dexterity saving throw, taking `18d10` force plus `12d10` fire on a failure, or half on a success.
+  - Primary shockwave: DC 17 Dexterity or Constitution saving throw, taking `10d10` force plus `6d10` fire on a failure, or half on a success.
+  - Glass-rain fallout: creatures and exposed crew between 200 and 300 feet take `4d10` slashing/fire mixed damage unless fully behind hard cover.
+  - Creatures that fail the inner-ring save by 5 or more are knocked prone, pushed 40 feet, and may be buried under glassed sand, broken rigging, or charging debris.
+  - Unprotected bait workers, decoys, and ordinary NPCs in the inner ring should usually die outright unless the party specifically rescues them first.
 - Reclaimer effects:
-  - If the Reclaimer is in the inner ring, one subsystem is damaged even on a successful vehicle save.
-  - Possible subsystem damage: gun mount warped, brake line cracked, antenna mount shattered, coupling strained, steering misaligned, or hull plates fused with glassed sand.
+  - If the Reclaimer is in the inner kill ring, it should be treated as facing catastrophic subsystem failure, not cosmetic damage.
+  - On a failed vehicle save, the Reclaimer is disabled on site:
+    - motive power stalls,
+    - at least `2` major subsystems fail,
+    - one car may shear, lock, or partially overturn,
+    - and exposed weapons, couplings, or mounted antenna hardware are warped or blown out.
+  - On a successful vehicle save in the inner ring, the Reclaimer stays intact enough to survive but still suffers one severe subsystem failure and one secondary complication.
+  - If the Reclaimer is only in the primary shockwave, it still risks one major subsystem failure on a failed save or a lesser impairment on a success.
+  - Good severe failures:
+    - drive system locked or stalled,
+    - steering linkage misaligned,
+    - gun mount destroyed,
+    - antenna mast shattered,
+    - brake assembly cracked,
+    - forward hull plates fused with glassed sand,
+    - or a coupling twisted so a car must be abandoned, repaired under pressure, or dragged badly.
+- NPC consequence guidance:
+  - surviving soldiers, Selix, Varyn, or the captain should be in real danger if they are exposed.
+  - If the party does nothing to position or protect them, assume severe casualties among non-player allies inside the primary shockwave.
 - Mitigation:
-  - each successful interruption above reduces damage by `2d10`, grants advantage to saves, saves a subsystem, or leaves better evidence.
-  - strong creative play can convert the explosion into a hazard/chase scene instead of pure damage.
+  - each successful interruption above should matter a lot:
+    - reduce inner-ring damage by `4d10`,
+    - shrink the kill ring by 10 to 20 feet,
+    - downgrade a Reclaimer failure by one tier,
+    - grant advantage to saves,
+    - create a safe lane for escape,
+    - or preserve one cluster of NPCs.
+  - Two or more strong interventions should make the scene survivable without making it trivial.
+  - Strong creative play can turn the blast from a kill box into a brutal chase, partial collapse, or vehicle-disabling disaster instead of an immediate massacre.
 
 ### If They Arrive Too Late
 - The trap has already fired or self-burned because the decoy team judged the party too slow.
@@ -380,6 +408,121 @@ Use this once the party reaches Mirrordune. These are not a separate location.
 - No one in authority admits there is a crisis, but citizens are beginning to question the strange activities of their leaders.
 - The Heliox-tuned crystal does not point to one villain tower. It pulls toward a command district, then begins catching the same cadence in multiple official signals.
 
+## Is There A Heliox Resistance?
+- Yes, but not a clean underground army with a banner and a headquarters.
+- Heliox is too procedural, too surveilled, and too self-disciplined for an open resistance to have formed yet.
+- What exists is a loose, frightened pattern of dissent:
+  - workers who know schedules have become wrong,
+  - archivists who saw sealed orders appear without proper chain,
+  - patrol officers disturbed by repeated commands nobody voiced,
+  - and engineers who know the [[Civic Directive Lattice]] has been altered.
+- Most of them do not think of themselves as "the resistance."
+- They think of themselves as citizens trying to keep the city sane, protect coworkers, or preserve records before they disappear.
+- Important tone:
+  - they are cautious, useful, and morally serious,
+  - but they are not yet coordinated enough to overthrow anyone on their own,
+  - and if the party gives them proof and momentum, they can begin becoming a real resistance.
+
+## The Quiet Resistance
+Use this as the party's first real foothold in Heliox if they arrive with proof from Mirrordune.
+
+- Working name: the quiet resistance does not use one public name.
+- Internal phrase if you want one: `the Uncounted`.
+- Why that name works:
+  - Heliox measures, tracks, and assigns everything,
+  - so people who fall outside the official count become hard to classify and harder to control,
+  - and the name sounds like rumor rather than organized rebellion.
+- What they are:
+  - maintenance workers quietly copying altered schematics,
+  - archivists preserving records before "secure review" erases them,
+  - dispatch clerks comparing route changes off the books,
+  - and a few civic engineers creating blind spots in old systems.
+- What they are not:
+  - not a militia,
+  - not openly anti-Heliox,
+  - not fully aware of the [[Astral Conclave]],
+  - and not able to protect the party in a straight fight.
+- What they can do for this session:
+  - provide a safe room for one rest or one private meeting,
+  - hide Selix or Varyn briefly from official review,
+  - identify one suspicious district or substation,
+  - pass along altered shift logs or reassignment lists,
+  - and warn the party which officials are dangerous to trust first.
+
+## Why A Resistance Exists At All
+- Heliox discipline cuts both ways.
+- The same people who believe in preservation, accountability, and correct process are the first to notice when procedure becomes a mask.
+- The Conclave's compromise is effective, but it is not elegant:
+  - records are too clean,
+  - routes change without proper countersign,
+  - public justifications no longer match resource math,
+  - and citizens are being reassigned faster than the city can explain.
+- That means dissent grows first among people whose jobs depend on noticing inconsistency.
+
+## Resistance Pressure Points
+- Dispatch clerks notice route tables changing after final authorization.
+- Maintenance archivists find access logs that exist in machine memory but not in official copies.
+- Refinement workers lose hours, coworkers, or whole assignments under sealed authority.
+- Patrol officers hear repeated instruction cadence that did not come from any visible superior.
+- Civic engineers see "signal smoothing" hardware installed where only passive relays should be.
+- Ration boards and labor queues become the public face of the problem because ordinary citizens can see disruptions there even if they cannot name the cause.
+
+## First Resistance Contact Options
+Use one or two of these, not all at once. The point is to make Heliox feel inhabited by wary people, not quest givers lining up.
+
+### Dhoral-5
+- Role: maintenance archivist attached to a dispatch records annex.
+- Demeanor: exhausted, exacting, and angry in a very controlled Heliox way.
+- Why he helps:
+  - he knows records are being altered after certification,
+  - and he has already hidden copies because he expects to disappear next.
+- What he can offer:
+  - a list of reassigned workers,
+  - proof that sealed preservation orders bypassed normal review,
+  - or one hidden entrance into a records crawlspace or service corridor.
+- What he wants:
+  - proof that the desert sites were real,
+  - and assurance the party is not just Calyxis trying to destabilize Heliox.
+
+### Sevra-6
+- Role: dispatch cadence clerk at a public relay board.
+- Demeanor: quiet, fast-thinking, and visibly frightened when patterns repeat wrong.
+- Why she helps:
+  - she has heard civic announcements carrying private command cadence underneath the official phrasing.
+- What she can offer:
+  - the hour and district where a compromised dispatch will repeat,
+  - a copied route tag tied to Mirrordune crystal shipments,
+  - or a warning that the party has already been flagged for procedural interception.
+- What she wants:
+  - one person saved from reassignment,
+  - or help getting evidence to someone outside her own chain of command.
+
+### Halix-10
+- Role: patrol officer with a good procedural record.
+- Demeanor: stiff, skeptical, and dangerous only if cornered into choosing duty over doubt.
+- Why he helps:
+  - his squad executed a reroute none of them remembered receiving clearly.
+- What he can offer:
+  - patrol timings,
+  - a route that avoids the first checkpoint net,
+  - or testimony that official commands are being injected into normal traffic.
+- What he wants:
+  - evidence strong enough to justify betraying his own superiors,
+  - and a plan that does not put civilians directly in the line of fire.
+
+### Veyra-9
+- Role: civic engineer responsible for signal-smoothing inspections.
+- Demeanor: dry, technical, and openly offended that someone modified her systems badly.
+- Why she helps:
+  - she found unauthorized calibration shims in Lattice-adjacent equipment.
+- What she can offer:
+  - access to a substation,
+  - an explanation of which parts of the Lattice are compromised,
+  - or a way to create a temporary blind spot in city surveillance.
+- What she wants:
+  - to know whether the problem is sabotage, takeover, or pre-war contamination,
+  - and enough time to inspect the party's recovered hardware herself.
+
 ## Immediate Heliox Complication
 - If the party arrives openly with [[The Calyxis Reclaimer]], Heliox treats it as a military provocation or captured war asset.
 - If they arrive with Calyxis soldiers, patrol response escalates faster.
@@ -403,6 +546,40 @@ Use this once the party reaches Mirrordune. These are not a separate location.
 - A small group of citizens argue quietly near a ration board because several work crews were reassigned with no public explanation.
 - A civic clerk lowers their voice and admits the preservation directives have begun contradicting older law.
 - A maintenance worker has noticed sealed access doors opening for people who should not have authorization.
+
+## First Resistance Beats
+Use these to let the party feel the resistance before they know it exists as a pattern.
+
+- A records clerk pretends to misfile a form, but actually slips Selix a district code written in maintenance shorthand.
+- A patrol officer gives a warning more precise than procedure requires, then walks away before questions can trap him.
+- Someone has chalked an old service sigil near a sealed access hatch, marking it as watched but still usable.
+- A ration-board argument turns out to be cover for passing a copied reassignment chit.
+- A dispatch tower stutters for half a second and repeats a line twice; one nearby clerk goes pale because the duplicate cadence means an unauthorized insert.
+- A maintenance worker quietly asks to see the Mirrordune tags, then immediately says the party cannot bring those into a public office alive.
+
+## How The Resistance Evaluates The Party
+- The party does not get trust for free.
+- Heliox dissenters are watching for three things:
+  - are these outsiders bringing proof,
+  - are they disciplined enough not to cause a city panic,
+  - and are they trying to help Heliox or simply expose it.
+- Ways to earn trust quickly:
+  - produce Mirrordune or Sandglass proof that can be checked,
+  - protect a worker or witness instead of chasing only the main objective,
+  - notice a cadence irregularity before an NPC points it out,
+  - or avoid public grandstanding that would trigger immediate crackdown.
+- Ways to lose trust:
+  - waving Calyxis authority around,
+  - treating all Heliox officials as collaborators,
+  - causing obvious infrastructure damage too early,
+  - or ignoring the danger to ordinary workers.
+
+## What A Resistance Contact Can Point To This Session
+- A records annex where altered work orders can be compared against preserved originals.
+- A dispatch relay district where the Heliox crystal grows louder at certain hours.
+- A logistics corridor used to move charged crystals under preservation seals.
+- A safe maintenance crawlspace that bypasses the first official checkpoint layer.
+- The name of one respectable official who is probably not compromised, but is being isolated from real information.
 
 ## Broadcast Sayings
 Use these as public dispatches, ration-board slogans, work-shift chimes, wrist-device reminders, or phrases repeated by controlled workers. They should sound almost normal for Heliox, but too smooth, too frequent, and slightly wrong.
