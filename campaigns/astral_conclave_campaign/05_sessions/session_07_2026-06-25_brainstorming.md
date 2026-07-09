@@ -851,3 +851,10 @@ Use these as public dispatches, ration-board slogans, work-shift chimes, wrist-d
 - What proof, if any, can the party still present from Mirrordune besides the crater, blast pattern, and surviving crystals?
 - Who sent the drone, and how close is that group now?
 - Does the party trust Sevra quickly enough to avoid getting trapped by Heliox procedure?
+
+
+There is a corpse they found from heliox in the mountain cave
+Also there is a stupor device intact from the mountains
+
+Rehm and Selix are the two from heliox
+Selix is the warforged tinkerer, Rehm is the female that woke up first.
