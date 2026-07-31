@@ -9403,6 +9403,516 @@
 				"name": "Calyxis Reclaimer Chase",
 				"source": "HB-Asmar"
 			}
+		},
+		{
+			"name": "Astral Conclave Field Technician",
+			"source": "ChaosIncHomebrew",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 10,
+			"int": 16,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+5"
+			},
+			"skill": {
+				"arcana": "+5",
+				"investigation": "+5",
+				"sleight of hand": "+4"
+			},
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Primordial"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Relay Crew",
+					"entries": [
+						"If the technician uses its action to assist a creature stabilizing a portal, the remaining time needed to stabilize that portal is reduced by 1 round."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Signal Prod",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 3 ({@damage 1d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Arc Spark",
+					"entries": [
+						"{@atk rs} {@hit 5} to hit, range 60 ft., one target. {@h}7 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Purge Crystal (1/Day)",
+					"entries": [
+						"The technician activates a volatile crystal against one unattended object, document bundle, or console within 5 feet. The target begins burning or glassing over. A creature can use an action to stop the purge with a successful DC 13 Dexterity (Sleight of Hand), Intelligence (Arcana), or relevant tool check. If not stopped before the start of the technician's next turn, mundane documents are destroyed and a small device or console loses one recoverable clue."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Pack Component",
+					"entries": [
+						"The technician packs or grabs one Tiny or Small relay component within 5 feet. Until the technician drops it, that component is no longer available as evidence unless the technician is stopped."
+					]
+				}
+			]
+		},
+		{
+			"name": "Astral Conclave Relay Handler",
+			"source": "ChaosIncHomebrew",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 14,
+			"int": 17,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"int": "+5",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+5",
+				"deception": "+4",
+				"investigation": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Primordial",
+				"telepathy 30 ft. through relay devices"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Emergency Portal Stabilization",
+					"entries": [
+						"At the start of an encounter, the handler can begin stabilizing an emergency portal if a relay focus is within 30 feet. Stabilizing the portal normally requires 3 rounds of concentration as if concentrating on a spell. Each allied Field Technician that uses its action to assist reduces the remaining time by 1 round. When stabilized, the portal remains open until the end of the handler's next turn, and the handler and willing creatures within 5 feet of it can escape. The process is interrupted while the handler is incapacitated."
+					]
+				},
+				{
+					"name": "Mission Preservation",
+					"entries": [
+						"The handler has advantage on saving throws against being charmed or frightened while within 30 feet of a relay device."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Relay Dagger",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Command Static",
+					"entries": [
+						"One creature the handler can see within 60 feet must make a DC 13 Wisdom saving throw. On a failed save, the target takes 10 ({@damage 3d6}) psychic damage and can't take reactions until the start of the handler's next turn. On a successful save, the target takes half damage and suffers no other effect."
+					]
+				},
+				{
+					"name": "Signal Snare (Recharge 5-6)",
+					"entries": [
+						"The handler chooses a point it can see within 60 feet. Each creature of the handler's choice within 10 feet of that point must succeed on a DC 13 Strength saving throw or be restrained by bands of hard-light signal until the end of the handler's next turn. A restrained creature can use its action to repeat the save, ending the effect on itself on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Scrub Trace",
+					"entries": [
+						"The handler targets one relay device, console, or document bundle within 30 feet. Until the start of the handler's next turn, checks to recover evidence from that target are made with disadvantage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Redirect Pulse",
+					"entries": [
+						"When the handler is hit by an attack while within 30 feet of a relay device, it adds 2 to its AC against that attack, potentially causing the attack to miss."
+					]
+				}
+			]
+		},
+		{
+			"name": "Astral Conclave Veil Escort",
+			"source": "ChaosIncHomebrew",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 44,
+				"formula": "8d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 12,
+			"int": 12,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"acrobatics": "+5",
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Extraction Discipline",
+					"entries": [
+						"The escort can take the Dash or Disengage action as a bonus action while within 60 feet of an allied Relay Handler."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The escort makes two Veil Saber attacks."
+					]
+				},
+				{
+					"name": "Veil Saber",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage plus 3 ({@damage 1d6}) force damage."
+					]
+				},
+				{
+					"name": "Signal Bolt",
+					"entries": [
+						"{@atk rs} {@hit 5} to hit, range 60 ft., one target. {@h}10 ({@damage 2d6 + 3}) force damage."
+					]
+				},
+				{
+					"name": "Veil Screen (Recharge 5-6)",
+					"entries": [
+						"The escort creates a 15-foot-radius cloud of silver-black static centered on a point it can see within 30 feet. The area is heavily obscured until the end of the escort's next turn. Conclave creatures can see through the area as if it were lightly obscured."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Cover The Handler",
+					"entries": [
+						"When an allied Relay Handler within 5 feet of the escort is hit by an attack, the escort can cause itself to be hit instead."
+					]
+				}
+			]
+		},
+		{
+			"name": "Astral Conclave Null Cantor",
+			"source": "ChaosIncHomebrew",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 82,
+				"formula": "11d8 + 33"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 16,
+			"int": 18,
+			"wis": 15,
+			"cha": 12,
+			"save": {
+				"con": "+6",
+				"int": "+7",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+7",
+				"insight": "+5",
+				"perception": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Primordial",
+				"telepathy 30 ft. through Conclave relays"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Extraction Zeal",
+					"entries": [
+						"While within 30 feet of a portal anchor, control station, or relay device, the cantor has advantage on Constitution saving throws made to maintain concentration."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Conclave Spellcasting",
+					"headerEntries": [
+						"The cantor casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell mind sliver}",
+						"{@spell ray of frost}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell counterspell}",
+							"{@spell dispel magic}",
+							"{@spell hold person}"
+						],
+						"2e": [
+							"{@spell slow}",
+							"{@spell thunder step}"
+						],
+						"1e": [
+							"{@spell dimension door}"
+						]
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cantor makes two Null Lance attacks."
+					]
+				},
+				{
+					"name": "Null Lance",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage, and the target can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Signal Fracture (Recharge 5-6)",
+					"entries": [
+						"The cantor chooses a point it can see within 90 feet. Each enemy in a 15-foot-radius sphere centered there must make a DC 15 Intelligence saving throw, taking 22 ({@damage 4d10}) psychic damage on a failed save, or half as much damage on a successful one. On a failed save, a creature also has disadvantage on the next concentration check it makes before the end of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Null Rebuke (2/Day)",
+					"entries": [
+						"When a creature the cantor can see within 60 feet succeeds on a saving throw against a spell or magical effect, the cantor forces it to reroll the save and use the new result."
+					]
+				}
+			]
+		},
+		{
+			"name": "Astral Conclave Rift Magister",
+			"source": "ChaosIncHomebrew",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 104,
+				"formula": "16d8 + 32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 19,
+			"wis": 16,
+			"cha": 13,
+			"save": {
+				"con": "+5",
+				"int": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+7",
+				"investigation": "+7",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Primordial",
+				"telepathy 60 ft. through Conclave relays"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Planar Footing",
+					"entries": [
+						"The magister has advantage on saving throws against being pushed, pulled, knocked prone, or teleported against its will."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Conclave Spellcasting",
+					"headerEntries": [
+						"The magister casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell minor illusion}",
+						"{@spell ray of frost}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell counterspell}",
+							"{@spell misty step}",
+							"{@spell shield}"
+						],
+						"2e": [
+							"{@spell banishment}",
+							"{@spell ice storm}"
+						],
+						"1e": [
+							"{@spell dimension door}",
+							"{@spell Evard's black tentacles}"
+						]
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The magister makes two Rift Lance attacks."
+					]
+				},
+				{
+					"name": "Rift Lance",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage. The magister can move the target 5 feet horizontally if it is Large or smaller."
+					]
+				},
+				{
+					"name": "Gravitic Fold (Recharge 5-6)",
+					"entries": [
+						"Each enemy in a 20-foot-radius sphere centered on a point the magister can see within 90 feet must make a DC 15 Strength saving throw. On a failed save, a creature takes 22 ({@damage 5d8}) force damage, is pulled up to 15 feet toward the center, and is knocked prone. On a successful save, it takes half as much damage and isn't moved or knocked prone."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Vector Step",
+					"entries": [
+						"The magister teleports itself or one willing allied creature it can see within 30 feet up to 15 feet to an unoccupied space the magister can see."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Trajectory",
+					"entries": [
+						"When the magister or a creature within 10 feet of it is hit by a ranged attack, the magister adds 3 to the target's AC against that attack, potentially causing it to miss."
+					]
+				}
+			]
 		}
 	],
 	"legendaryGroup": [

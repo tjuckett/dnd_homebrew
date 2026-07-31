@@ -1,6 +1,7 @@
 # Heliox Portal Encounter Stat Blocks
 
 ## 5eTools Import
+- Table-facing roster sheet: [Heliox Portal Encounter Cheat Sheet](heliox_portal_encounter_cheat_sheet.md)
 - Combined bestiary: [Heliox Portal Encounter Bestiary](heliox_portal_encounter_bestiary.json)
 - Contains all `14` creature stat blocks required by the six anchor encounters and reinforcement packages.
 - Source tag: `ChaosIncHomebrew`.

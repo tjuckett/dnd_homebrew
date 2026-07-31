@@ -1,5 +1,7 @@
 # Session 09 Brainstorming - July 23, 2026
 
+Table-facing summary: [Session 09 GM Run Sheet](session_09_gm_run_sheet.md)
+
 ## Current Snapshot
 - The party is inside the Central Spire of [[Heliox Prime]].
 - They entered from the top and descended roughly `20` flights through a restricted section.
@@ -275,7 +277,7 @@ Offer two or three viable paths rather than dictating the next scene.
 - Show that the control room contains a portable local command system capable of overriding the fivefold signal at close range.
 - Make the tradeoff explicit:
   - descend now and fight impossible numbers before more citizens are taken,
-  - or spend precious time learning and configuring a coercive tool that can turn part of the crowd into defenders.
+  - or spend precious time learning and authenticating a locked safety tool that can shut down controlled Heliox near the portal.
 - Do not hide the danger of the direct assault behind vague narration.
 - Do not make the control route a consequence-free correct answer.
 - The real choice is lives lost now versus a better chance of saving everyone still outside the portal.
@@ -571,14 +573,14 @@ ESTIMATED INTAKE COMPLETION: 01:12
 
 ## Strong Visual Beats
 - As the device activates, five violet control rhythms are answered by a single sharp amber pulse.
-- The first citizen touched by the pulse stops, drops a tool, turns away from the portal, and begins guiding an injured neighbor toward the stair.
-- Another citizen outside the field attacks them without hesitation.
-- A line of constructs forms around the projector while their friends and relatives push against them from the other side.
-- Every few rounds, the field visibly contracts and defenders at its edge suddenly change sides.
-- When the portal closes, both commands vanish at once and surviving citizens realize what they were forced to do.
+- The first citizen touched by the pulse releases a tool, lowers into a stable posture, and goes dark.
+- Another controlled citizen crosses the boundary to attack and shuts down mid-stride without striking.
+- Inert constructs remain scattered around the projector while those outside the field continue advancing.
+- Every few rounds, the field visibly contracts; previously affected citizens remain dormant while new arrivals get closer before shutting down.
+- When the portal closes, the fivefold command loses synchronization, but dormant citizens remain safely offline until the ten-minute latch expires.
 
 ## Recommended Reveal Line
-`The machine cannot free anyone. But for sixty feet and a handful of minutes, it can decide whose orders sound like law.`
+`The machine cannot free anyone. But for sixty feet and a handful of minutes, it can make the violence go quiet.`
 
 ## Recommended Explanation For The Control At The Spire
 ### The Fivefold Convergence
