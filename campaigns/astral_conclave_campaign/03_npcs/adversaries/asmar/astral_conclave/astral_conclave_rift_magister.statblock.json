@@ -1,0 +1,66 @@
+{
+  "name": "Astral Conclave Rift Magister",
+  "source": "ChaosIncHomebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": { "type": "humanoid", "tags": ["any race"] },
+  "alignment": ["L", "E"],
+  "ac": [16],
+  "hp": { "average": 104, "formula": "16d8 + 32" },
+  "speed": { "walk": 30 },
+  "str": 10,
+  "dex": 14,
+  "con": 15,
+  "int": 19,
+  "wis": 16,
+  "cha": 13,
+  "save": { "con": "+5", "int": "+7", "wis": "+6" },
+  "skill": { "arcana": "+7", "investigation": "+7", "perception": "+6" },
+  "passive": 16,
+  "languages": ["Common", "Primordial", "telepathy 60 ft. through Conclave relays"],
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Planar Footing",
+      "entries": ["The magister has advantage on saving throws against being pushed, pulled, knocked prone, or teleported against its will."]
+    }
+  ],
+  "spellcasting": [
+    {
+      "name": "Conclave Spellcasting",
+      "headerEntries": ["The magister casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"],
+      "will": ["{@spell mage hand}", "{@spell minor illusion}", "{@spell ray of frost}"],
+      "daily": {
+        "3e": ["{@spell counterspell}", "{@spell misty step}", "{@spell shield}"],
+        "2e": ["{@spell banishment}", "{@spell ice storm}"],
+        "1e": ["{@spell dimension door}", "{@spell Evard's black tentacles}"]
+      }
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": ["The magister makes two Rift Lance attacks."]
+    },
+    {
+      "name": "Rift Lance",
+      "entries": ["{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage. The magister can move the target 5 feet horizontally if it is Large or smaller."]
+    },
+    {
+      "name": "Gravitic Fold (Recharge 5-6)",
+      "entries": ["Each enemy in a 20-foot-radius sphere centered on a point the magister can see within 90 feet must make a DC 15 Strength saving throw. On a failed save, a creature takes 22 ({@damage 5d8}) force damage, is pulled up to 15 feet toward the center, and is knocked prone. On a successful save, it takes half as much damage and isn't moved or knocked prone."]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Vector Step",
+      "entries": ["The magister teleports itself or one willing allied creature it can see within 30 feet up to 15 feet to an unoccupied space the magister can see."]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Deflect Trajectory",
+      "entries": ["When the magister or a creature within 10 feet of it is hit by a ranged attack, the magister adds 3 to the target's AC against that attack, potentially causing it to miss."]
+    }
+  ]
+}

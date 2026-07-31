@@ -3,6 +3,8 @@
 ## Summary
 [[Heliox Prime]] is a circular industrial survivor-city built around efficiency, continuity, and energy discipline. Its layout reflects the Preservation Doctrine completely: no wasted plazas, no decorative districts without function, and no building allowed to exist unless it captures, stores, routes, defends, repairs, or preserves something the city needs.
 
+For the complete floor-by-floor structure of the city's central tower, see [[Central Spire]].
+
 ## Core Design Logic
 - Circular, concentric city plan.
 - Every ring has a defined civic or industrial purpose.
@@ -18,6 +20,7 @@
 - Deep command chambers.
 - Restricted Lattice access.
 - Administrative and strategic center of Heliox Prime.
+- Contains `40` above-ground floors plus a foundation level; see [[Central Spire]].
 
 ### 2. Directive Ring
 - Ministries.

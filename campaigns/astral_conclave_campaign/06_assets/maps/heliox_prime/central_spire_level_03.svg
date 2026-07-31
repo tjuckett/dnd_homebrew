@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0 L0 0 0 25" fill="none" stroke="#33404d" stroke-width="1"/></pattern>
+    <style>
+      .wall{fill:url(#grid);stroke:#d3ad65;stroke-width:8}.thin{fill:none;stroke:#d3ad65;stroke-width:4}
+      .door{stroke:#ef9b4d;stroke-width:9}.route{fill:#163947;stroke:#69c7dc;stroke-width:4}
+      .portal{fill:#352453;stroke:#a783ff;stroke-width:5}.void{fill:#070b10;stroke:#69c7dc;stroke-width:4;stroke-dasharray:10 8}
+      .console{fill:#4b356c;stroke:#c5a8ff;stroke-width:4}.label{fill:#edf2f6;font-family:Arial,sans-serif;font-size:18px;text-anchor:middle}
+      .small{font-size:14px}.title{fill:#f3d593;font-family:Arial,sans-serif;font-size:26px;font-weight:bold;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1000" height="1000" fill="#111820"/>
+  <rect x="100" y="100" width="800" height="800" fill="url(#grid)" class="wall"/>
+  <text x="500" y="48" class="title">LEVEL 3 — PORTAL CONTROL GALLERY • 5 FT GRID • NORTH ↑</text>
+  <text x="500" y="76" class="label small">DISABLE ANY 2 STATIONS → SHROUD DROPS → WRIST CLOSURE ENABLED</text>
+
+  <!-- Central void and gallery -->
+  <rect x="275" y="225" width="450" height="500" rx="20" class="void"/>
+  <text x="500" y="475" class="label">OPEN TO LEVEL 2</text>
+  <text x="500" y="500" class="label small">PORTAL CHAMBER BELOW</text>
+
+  <!-- Control stations -->
+  <rect x="125" y="310" width="120" height="120" class="console"/>
+  <text x="185" y="360" class="label small">WEST ANCHOR</text><text x="185" y="380" class="label small">CONTROL</text>
+  <rect x="755" y="310" width="120" height="120" class="console"/>
+  <text x="815" y="360" class="label small">EAST ANCHOR</text><text x="815" y="380" class="label small">CONTROL</text>
+  <rect x="420" y="115" width="160" height="90" class="console"/>
+  <text x="500" y="150" class="label small">UPPER ANCHOR</text><text x="500" y="170" class="label small">CONTROL</text>
+
+  <!-- Shroud and phase key -->
+  <rect x="650" y="115" width="220" height="135" class="portal"/>
+  <text x="760" y="170" class="label">NULL-KEY</text><text x="760" y="195" class="label">SHROUD</text>
+  <circle cx="760" cy="270" r="35" class="console"/>
+  <text x="760" y="275" class="label small">PHASE KEY</text>
+
+  <!-- Logs and handler -->
+  <rect x="130" y="115" width="220" height="130" class="thin"/>
+  <text x="240" y="170" class="label">DESTINATION</text><text x="240" y="195" class="label">&amp; TRANSIT LOGS</text>
+  <rect x="755" y="500" width="120" height="110" class="thin"/>
+  <text x="815" y="545" class="label small">PORTAL</text><text x="815" y="565" class="label small">HANDLER</text>
+
+  <!-- Vertical access -->
+  <rect x="760" y="720" width="115" height="145" class="route"/>
+  <text x="817" y="786" class="label small">SERVICE</text><text x="817" y="806" class="label small">LIFT</text>
+  <rect x="125" y="720" width="125" height="145" class="route"/>
+  <text x="188" y="785" class="label small">COMMAND</text><text x="188" y="805" class="label small">STAIR ↑</text>
+  <rect x="630" y="760" width="85" height="105" class="route"/>
+  <text x="672" y="800" class="label small">STAIR TO</text><text x="672" y="820" class="label small">LEVEL 2</text>
+  <rect x="285" y="760" width="85" height="105" class="route"/>
+  <text x="327" y="800" class="label small">ANCHOR</text><text x="327" y="820" class="label small">LADDERS ↓</text>
+
+  <!-- Rail gaps / doors -->
+  <line x1="455" y1="725" x2="545" y2="725" class="door"/>
+  <text x="500" y="755" class="label small">UPPER-ANCHOR ACCESS BRIDGE</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#33404d" stroke-width="1"/>
+    </pattern>
+    <style>
+      .wall{fill:url(#grid);stroke:#d3ad65;stroke-width:8}.thin{fill:none;stroke:#d3ad65;stroke-width:4}
+      .door{stroke:#ef9b4d;stroke-width:9}.route{fill:#163947;stroke:#69c7dc;stroke-width:4}
+      .portal{fill:#352453;stroke:#a783ff;stroke-width:5}.zone{fill:none;stroke:#8796a5;stroke-width:3;stroke-dasharray:10 8}
+      .label{fill:#edf2f6;font-family:Arial,sans-serif;font-size:18px;text-anchor:middle}.small{font-size:14px}
+      .title{fill:#f3d593;font-family:Arial,sans-serif;font-size:26px;font-weight:bold;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1000" height="1000" fill="#111820"/>
+  <rect x="50" y="50" width="900" height="900" fill="url(#grid)" class="wall"/>
+  <text x="500" y="32" class="title">LEVEL 1 — GRAND INTAKE CONCOURSE • 5 FT GRID • NORTH ↑</text>
+
+  <!-- Four civic entrances -->
+  <line x1="430" y1="50" x2="570" y2="50" class="door"/>
+  <line x1="430" y1="950" x2="570" y2="950" class="door"/>
+  <line x1="50" y1="430" x2="50" y2="570" class="door"/>
+  <line x1="950" y1="430" x2="950" y2="570" class="door"/>
+  <text x="500" y="76" class="label small">NORTH CIVIC ENTRY</text>
+  <text x="500" y="930" class="label small">SOUTH CIVIC ENTRY</text>
+  <text x="82" y="505" class="label small" transform="rotate(-90 82 505)">WEST ENTRY</text>
+  <text x="918" y="505" class="label small" transform="rotate(90 918 505)">EAST ENTRY</text>
+
+  <!-- Crowd pens -->
+  <rect x="100" y="115" width="270" height="250" class="zone"/>
+  <rect x="630" y="115" width="270" height="250" class="zone"/>
+  <rect x="100" y="635" width="270" height="250" class="zone"/>
+  <rect x="630" y="635" width="270" height="250" class="zone"/>
+  <text x="235" y="235" class="label">CROWD PEN A</text>
+  <text x="765" y="235" class="label">CROWD PEN B</text>
+  <text x="235" y="755" class="label">CROWD PEN C</text>
+  <text x="765" y="755" class="label">CROWD PEN D</text>
+
+  <!-- Scan gates and central sorting -->
+  <rect x="395" y="655" width="210" height="115" class="portal"/>
+  <text x="500" y="705" class="label">IDENTITY &amp;</text>
+  <text x="500" y="730" class="label">CORE SCANS</text>
+  <rect x="385" y="405" width="230" height="190" class="thin"/>
+  <text x="500" y="485" class="label">CENTRAL</text>
+  <text x="500" y="510" class="label">SORTING FLOOR</text>
+
+  <!-- Ramps to Level 2 -->
+  <polygon points="370,365 455,365 455,145 370,145" class="route"/>
+  <polygon points="545,365 630,365 630,145 545,145" class="route"/>
+  <text x="412" y="255" class="label small" transform="rotate(-90 412 255)">RAMP A → LEVEL 2</text>
+  <text x="588" y="255" class="label small" transform="rotate(-90 588 255)">RAMP B → LEVEL 2</text>
+
+  <!-- Service lift and manual controls -->
+  <rect x="800" y="430" width="100" height="140" class="route"/>
+  <text x="850" y="493" class="label small">SERVICE</text><text x="850" y="512" class="label small">LIFT</text>
+  <rect x="100" y="430" width="110" height="140" class="thin"/>
+  <text x="155" y="485" class="label small">MANUAL</text><text x="155" y="504" class="label small">SHUTTERS</text>
+
+  <!-- Lane markings -->
+  <path d="M500 900 L500 780 M500 650 L500 600 M385 500 L220 500 M615 500 L780 500" class="zone"/>
+  <text x="500" y="825" class="label small">CONTROLLED INTAKE FLOW ↑</text>
+</svg>

@@ -1,0 +1,61 @@
+{
+  "name": "Astral Conclave Null Cantor",
+  "source": "ChaosIncHomebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": { "type": "humanoid", "tags": ["any race"] },
+  "alignment": ["L", "E"],
+  "ac": [15],
+  "hp": { "average": 82, "formula": "11d8 + 33" },
+  "speed": { "walk": 30 },
+  "str": 9,
+  "dex": 14,
+  "con": 16,
+  "int": 18,
+  "wis": 15,
+  "cha": 12,
+  "save": { "con": "+6", "int": "+7", "wis": "+5" },
+  "skill": { "arcana": "+7", "insight": "+5", "perception": "+5" },
+  "passive": 15,
+  "languages": ["Common", "Primordial", "telepathy 30 ft. through Conclave relays"],
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Extraction Zeal",
+      "entries": ["While within 30 feet of a portal anchor, control station, or relay device, the cantor has advantage on Constitution saving throws made to maintain concentration."]
+    }
+  ],
+  "spellcasting": [
+    {
+      "name": "Conclave Spellcasting",
+      "headerEntries": ["The cantor casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"],
+      "will": ["{@spell mage hand}", "{@spell mind sliver}", "{@spell ray of frost}"],
+      "daily": {
+        "3e": ["{@spell counterspell}", "{@spell dispel magic}", "{@spell hold person}"],
+        "2e": ["{@spell slow}", "{@spell thunder step}"],
+        "1e": ["{@spell dimension door}"]
+      }
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": ["The cantor makes two Null Lance attacks."]
+    },
+    {
+      "name": "Null Lance",
+      "entries": ["{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage, and the target can't take reactions until the start of its next turn."]
+    },
+    {
+      "name": "Signal Fracture (Recharge 5-6)",
+      "entries": ["The cantor chooses a point it can see within 90 feet. Each enemy in a 15-foot-radius sphere centered there must make a DC 15 Intelligence saving throw, taking 22 ({@damage 4d10}) psychic damage on a failed save, or half as much damage on a successful one. On a failed save, a creature also has disadvantage on the next concentration check it makes before the end of its next turn."]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Null Rebuke (2/Day)",
+      "entries": ["When a creature the cantor can see within 60 feet succeeds on a saving throw against a spell or magical effect, the cantor forces it to reroll the save and use the new result."]
+    }
+  ]
+}
+

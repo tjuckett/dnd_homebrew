@@ -18,6 +18,13 @@
 - The players have reached [[Asmar]], where construct civilization is split between [[Calyxis Forge]] and [[Heliox Prime]] under a fragile cold truce.
 - The [[Astral Conclave]] is poised to target Asmar's mountain crystal supply and any Sovereign-era infrastructure connected to the [[Elemental Crucible]].
 - One construct player character may be the lost Sovereign of Accord, but their memory remains fractured.
+- The party has infiltrated the Central Spire of [[Heliox Prime]] from above and remains undetected near the chamber behind the throne room.
+- Heliox's populace is being funneled into the base of the spire toward an open portal of unknown destination.
+- The party suspects the [[Astral Conclave]] is abandoning Heliox and harvesting its citizens as a final act of extraction, though the fate of those sent through the portal is not yet confirmed.
+- The party's Aetherbind wrist devices cannot shut down the active portal; stopping it requires reaching its physical controls, power anchors, or master relay.
+- One of Heliox's original six control hubs was destroyed by Stony's feedback method, killing roughly half the citizens affected through that part of the network.
+- The party has confirmed that no control device inside the Central Spire is emitting the signal affecting Heliox's populace.
+- The leading theory is that the five remaining external control devices overlap their coverage at the spire, though an unknown alternative control source remains possible.
 
 ## Immediate Threats
 - Expansion of essence-harvesting operations
@@ -28,6 +35,8 @@
 - Discovery of player interference by Conclave leadership
 - Collapse of the Asmar truce into renewed civil war
 - External theft or sabotage of Asmar's finite crystal reserves
+- Mass removal or harvesting of Heliox's populace through the active spire portal
+- Collapse of the portal before citizens already taken can be located or rescued
 
 ## Immediate Opportunities
 - Rescue or recruit key prisoners and defectors

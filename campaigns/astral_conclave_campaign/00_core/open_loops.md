@@ -15,3 +15,7 @@
 - What severed or weakened the ley flow feeding Asmar's Elemental Crucible?
 - What mission was the Sovereign of Accord pursuing when their memory was lost?
 - Can Asmar survive without either Heliox austerity or Calyxis overreach becoming a death sentence?
+- Where does the active portal beneath the Heliox spire lead, and what happens to citizens sent through it?
+- Can the party stop the suspected Conclave harvest without stranding or killing citizens who have already crossed the portal?
+- Are the five remaining control devices creating overlapping coverage at the spire, or is another mechanism controlling the population there?
+- What Conclave countermeasure prevents the party's Aetherbind wrist devices from closing or blocking the portal?

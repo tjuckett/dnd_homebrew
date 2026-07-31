@@ -25,6 +25,7 @@
 - [[Sky Vault Observatory]]
 - [[Calyxis Forge]]
 - [[Heliox Prime]]
+- [[Central Spire]]
 - [[The Calyxis Reclaimer]]
 - [[The Hollow Veins]]
 - [[Sandglass Relay]]
@@ -58,6 +59,8 @@
 - [[Astral Conclave Field Technician]]
 - [[Astral Conclave Relay Handler]]
 - [[Astral Conclave Veil Escort]]
+- [[Astral Conclave Null Cantor]]
+- [[Astral Conclave Rift Magister]]
 
 ## Quests
 - [[Null Bloom Infiltration]]

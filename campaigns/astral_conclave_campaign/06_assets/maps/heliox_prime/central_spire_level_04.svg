@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0 L0 0 0 25" fill="none" stroke="#33404d" stroke-width="1"/></pattern>
+    <style>
+      .wall{fill:url(#grid);stroke:#d3ad65;stroke-width:8}.thin{fill:none;stroke:#d3ad65;stroke-width:4}
+      .door{stroke:#ef9b4d;stroke-width:9}.route{fill:#163947;stroke:#69c7dc;stroke-width:4}
+      .portal{fill:#352453;stroke:#a783ff;stroke-width:5}.zone{fill:none;stroke:#8796a5;stroke-width:3;stroke-dasharray:10 8}
+      .label{fill:#edf2f6;font-family:Arial,sans-serif;font-size:18px;text-anchor:middle}.small{font-size:14px}
+      .title{fill:#f3d593;font-family:Arial,sans-serif;font-size:26px;font-weight:bold;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1000" height="1000" fill="#111820"/>
+  <rect x="125" y="125" width="750" height="750" fill="url(#grid)" class="wall"/>
+  <text x="500" y="58" class="title">LEVEL 4 — WITHDRAWAL STORES • 5 FT GRID • NORTH ↑</text>
+
+  <!-- Main cross corridor -->
+  <rect x="440" y="125" width="120" height="750" class="zone"/>
+  <rect x="125" y="440" width="750" height="120" class="zone"/>
+
+  <!-- NW stolen components -->
+  <rect x="150" y="150" width="260" height="245" class="thin"/>
+  <text x="280" y="255" class="label">STOLEN</text><text x="280" y="280" class="label">COMPONENTS</text>
+  <path d="M175 325 H385 M175 350 H385" class="zone"/>
+
+  <!-- NE core cradles / departure queue -->
+  <rect x="590" y="150" width="260" height="155" class="portal"/>
+  <text x="720" y="215" class="label">POWER-CORE</text><text x="720" y="240" class="label">CRADLES</text>
+  <rect x="590" y="325" width="260" height="75" class="zone"/>
+  <text x="720" y="368" class="label small">CONCLAVE DEPARTURE QUEUE</text>
+
+  <!-- SW holding cells and purge -->
+  <rect x="150" y="600" width="170" height="245" class="thin"/>
+  <line x1="150" y1="680" x2="320" y2="680" class="thin"/><line x1="150" y1="760" x2="320" y2="760" class="thin"/>
+  <text x="235" y="640" class="label small">HOLDING CELL 1</text><text x="235" y="720" class="label small">HOLDING CELL 2</text><text x="235" y="800" class="label small">HOLDING CELL 3</text>
+  <rect x="340" y="600" width="80" height="245" class="portal"/>
+  <text x="380" y="720" class="label small" transform="rotate(-90 380 720)">RECORD-PURGE CHAMBER</text>
+
+  <!-- SE security muster and armory -->
+  <rect x="590" y="600" width="260" height="150" class="thin"/>
+  <text x="720" y="670" class="label">PORTAL SECURITY</text><text x="720" y="695" class="label">MUSTER</text>
+  <rect x="590" y="770" width="140" height="75" class="thin"/>
+  <text x="660" y="815" class="label small">ARMORY</text>
+
+  <!-- Lift and stairs -->
+  <rect x="755" y="455" width="95" height="90" class="route"/>
+  <text x="802" y="493" class="label small">SERVICE</text><text x="802" y="513" class="label small">LIFT</text>
+  <rect x="150" y="455" width="115" height="90" class="route"/>
+  <text x="207" y="493" class="label small">COMMAND</text><text x="207" y="513" class="label small">STAIR</text>
+
+  <!-- Barricade doors -->
+  <line x1="440" y1="420" x2="560" y2="420" class="door"/>
+  <line x1="440" y1="580" x2="560" y2="580" class="door"/>
+  <line x1="420" y1="440" x2="420" y2="560" class="door"/>
+  <line x1="580" y1="440" x2="580" y2="560" class="door"/>
+  <text x="500" y="515" class="label small">BARRICADED CROSSROADS</text>
+</svg>

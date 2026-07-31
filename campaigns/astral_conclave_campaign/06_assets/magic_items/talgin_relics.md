@@ -18,6 +18,8 @@ This file tracks reusable Talgin-side relics, field devices, and elemental-era t
 - Effects:
 - Can send brief voice transmissions to linked receivers in the same region.
 - Stores several authorized teleport-circle signatures, but activation usually requires security clearance or matching relay infrastructure.
+- Can normally request emergency closure, quarantine a stored destination, or interfere with compatible Conclave portal routing when the device has sufficient authorization.
+- Cannot override a portal protected by rotated authorization, distributed phase anchors, or specialized Aetherbind-denial countermeasures. Such protection can force operators to reach the portal hardware or defeat the countermeasure first.
 - Particularly valuable as an intelligence item because wiped logs, emergency traffic, and destination data may expose Conclave movement patterns.
 
 ### Elemental Suppression Bracer

@@ -13,6 +13,7 @@ Ordered, severe, and dignified. Heliox feels stable at first glance, but that st
 - Heliox Prime is built as a circular industrial city of concentric rings and radial transit spokes.
 - Every district is expected to justify its energy cost through labor, storage, routing, defense, repair, or command function.
 - See also: [[layout]]
+- The [[Central Spire]]'s complete floor guide is recorded separately.
 
 ## Leadership
 - [[Arch-Calculant Veyrix]]: Mathematical ruler of Heliox Prime and chief voice of preservation through imposed limits
