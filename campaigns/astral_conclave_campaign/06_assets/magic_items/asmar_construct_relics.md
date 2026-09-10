@@ -187,6 +187,22 @@ This file tracks reusable construct-themed magic items, museum-grade relics, and
 - On `1-2`, the wearer is stunned for `1 round`.
 - On `3-20`, no drawback occurs.
 
+### Orb of Snaring
+- Rarity: Rare
+- Type: Wondrous item
+- Attunement: Requires attunement
+- Description: A palm-sized brass and crystal orb built during the age of technology to project restraint filaments across floors, doors, and transit lanes.
+- Effects:
+- Holds `3 charges` and regains `1d3` expended charges daily at dawn.
+- As an action, expend `1 charge` to cast `snare` with save DC `15`.
+- When you cast `snare` this way, the casting time is `1 action` instead of `1 minute`.
+- The snare is made of luminous force-thread rather than rope or cord.
+- A creature restrained by the snare takes `1d6 force` damage at the start of each of its turns.
+- Construct creatures and creatures wearing mostly metal armor have disadvantage on the saving throw against this version of `snare`.
+- As an action, expend `3 charges` to cast `hold person` with save DC `15`.
+- When `hold person` is cast this way, the target is wrapped in the same luminous force-thread rather than being magically frozen in place.
+- Age Fault: If all `3` charges are spent before the orb recharges, roll a `d20`. On a `1`, the orb cracks and becomes inert until repaired with tinker's tools during a long rest.
+
 ### Modular Shield Armulator
 - Rarity: Rare
 - Type: Wondrous item
