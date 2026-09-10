@@ -25,6 +25,7 @@ Ancient, grounded, and quietly sacred. Stonehearth feels patient rather than sta
 
 ## Society
 - Around 100 earth elementals live in the village
+- Stonehearth is aligned with [[The Returning Tide]], which seeks the safe restoration of planar passage rather than conquest of the Material Plane.
 - Common roles include warriors, healers, miners, crafters, and ritualists
 - Daily life centers on mining, crystal cultivation, stonecraft, healing work, storytelling, and rites honoring the earth
 - Trusted trade partners may exchange rare goods for minerals, gemstones, healing crystals, crafted stone tools, and elemental essences
@@ -69,3 +70,4 @@ Ancient, grounded, and quietly sacred. Stonehearth feels patient rather than sta
 - [[Eldara Stonewise]]
 - [[Granitefist]]
 - [[Crystalmender]]
+- [[Elemental Factions]]

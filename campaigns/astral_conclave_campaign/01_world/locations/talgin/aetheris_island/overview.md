@@ -14,6 +14,10 @@
 ## Strategic Use
 Acts as a protected staging area for large-scale Conclave research, transport, and command.
 
+## Campaign Preparation
+
+- The island and Northern Base are prepared as a future multi-session infiltration/heist in [Aetheris Island Heist Preparation](../../../../04_quests/aetheris_island_heist.md).
+
 ## Connected Entities
 - [[Talgin]]
 - [[Astral Conclave]]
