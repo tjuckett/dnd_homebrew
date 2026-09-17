@@ -8,6 +8,7 @@ Stormhaven supports multiple overlapping arcs involving criminal rule, covert Co
 - Conclave Experiments: Stormhaven is being used as a covert testing ground for augmentations, implants, and planar devices
 - The Hidden Portal: The portal caverns beneath the town connect local criminal activity to wider Conclave operations
 - The Underground Auction: Shadow Fang and Conclave dealings may include captives, marked prisoners, and clandestine buyers
+- [[Echoes of Dapplefern]]: A surviving transfer ledger can lead the party to Tabaxi captives, the hidden Dapplefern Refuge, and an alliance that changes the approach to [[Aetheris Island]].
 
 ## Escalations and Complications
 - False Relief: Some townsfolk vanished only after accepting Conclave-linked offers of medical treatment, steady work, or material aid

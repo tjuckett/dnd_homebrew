@@ -12,6 +12,7 @@ Lush, uneasy, and compromised. The region feels alive, but not necessarily safe.
 ## Known Locations
 - [[Stormhaven]]
 - [[Null Bloom Facility]]
+- [[Dapplefern Refuge]]
 
 ## Connected Entities
 - [[Talgin]]

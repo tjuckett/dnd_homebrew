@@ -106,3 +106,14 @@ Astral Conclave Null Cantor,Astral Conclave,serves,Suppresses hostile magic whil
 Astral Conclave Rift Magister,Astral Conclave,serves,Shapes gravity and planar boundaries around active extraction portals
 Sandglass Relay,Astral Conclave,operated_by,Temporary desert relay used to command the Reclaimer operation
 Sandglass Relay,The Calyxis Reclaimer,commands,Sends desert relay packets to the Reclaimer obedience device
+Dapplefern Refuge,The Verdant Expanse,located_in,Concealed Tabaxi survivor settlement in the canopy ravines
+Dapplefern Refuge,Shadow Fangs,evades,Founded by survivors of raids and trafficking routes
+Dapplefern Refuge,The Thorn-Crowned Stag,threatened_by,The Unpaid Hunt targets marked residents beyond the root threshold
+Echoes of Dapplefern,Shadow Fangs,investigates,Uncovers the historical bargain that enabled the Tabaxi captives' capture
+Echoes of Dapplefern,Dapplefern Refuge,centers_on,Protecting the refuge and resolving the fey debt
+Echoes of Dapplefern,The Thorn-Crowned Stag,opposes,The party can break rewrite outwit or defeat the old bargain
+Echoes of Dapplefern,Aetheris Island,may_support,Dapplefern can freely grant a concrete infiltration or extraction advantage
+Sable Reedwhisper,Dapplefern Refuge,leads,Elected chief committed to protecting the hidden Tabaxi settlement
+Sable Reedwhisper,Echoes of Dapplefern,sets_terms,Requires the party to protect Dapplefern from the Unpaid Hunt before considering Aetheris support
+The Thorn-Crowned Stag,Shadow Fangs,holds_debt,Claims the Fangs' unpaid fey bargain after their leadership falls
+The Thorn-Crowned Stag,Gloamfold Chase,rulers,Rules the fey domain holding the Tabaxi family

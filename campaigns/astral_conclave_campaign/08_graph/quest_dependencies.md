@@ -11,6 +11,13 @@
 - May involve [[Kira]], [[Orion]], and [[Vesper "Pinkshade" Arlin]]
 - Strongly connected to [[Astral Heart System]] and wider [[Planar Mechanics]]
 
+## Echoes of Dapplefern
+- Begins with a surviving Shadow Fang transfer record, Tabaxi survivor testimony, or a lead from [[Kasha "Whisperclaw"]]
+- Investigates the Shadow Fangs' historical fey bargain and the Unpaid Hunt led by [[The Thorn-Crowned Stag]]
+- Leads to [[Dapplefern Refuge]], where Moonpaw learns that his wife and child are alive but trapped in the [[Gloamfold Chase]]
+- Requires the party to win the First Race and free Dapplefern from the Stag's forest-realm before the refuge considers Aetheris support
+- May provide a harbor route, forged identities, reconnaissance, safe extraction, or prisoner objective for [[Aetheris Island]]
+
 ## Swamp Corruption
 - Depends on the corruption-removal precedent with earth elementals
 - Begins through [[Eldara Stonewise]] of [[Stonehearth]]

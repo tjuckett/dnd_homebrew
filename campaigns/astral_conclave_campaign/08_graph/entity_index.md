@@ -26,6 +26,8 @@
 - [[Calyxis Forge]]
 - [[Heliox Prime]]
 - [[Central Spire]]
+- [[Dapplefern Refuge]]
+- [[Gloamfold Chase]]
 - [[The Calyxis Reclaimer]]
 - [[The Hollow Veins]]
 - [[Sandglass Relay]]
@@ -39,6 +41,8 @@
 - [[Kasha "Whisperclaw"]]
 - [[Mira "Silent Step"]]
 - [[Jinx "Nightwhisker"]]
+- [[Sable Reedwhisper]]
+- [[The Thorn-Crowned Stag]]
 - [[Kaelric "The Veil"]]
 - [[Isera Duskfall]]
 - [[Eric Torne]]
@@ -66,6 +70,7 @@
 - [[Null Bloom Infiltration]]
 - [[Swamp Corruption]]
 - [[Shattered Gears of Asmar]]
+- [[Echoes of Dapplefern]]
 
 ## Systems
 - [[Astral Heart System]]
