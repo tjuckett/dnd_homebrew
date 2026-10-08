@@ -3,6 +3,10 @@
 ## Role
 High chieftain of [[Stonehearth]] and primary leader of its earth elemental community.
 
+## Current Condition
+
+The party entrusted Eldara with a rod intended to power the **Primal Engine**, which is meant to open a portal to the elemental planes. An attempt to draw power through the rod incapacitated her. Eldara is recovering, while the other earth elementals have chosen to continue aiding the party, including committing twenty defenders to the planned assault on [[Wintervale]].
+
 ## Goals
 - Preserve the long-term safety and continuity of [[Stonehearth]]
 - Guide the village through threats without sacrificing its traditions

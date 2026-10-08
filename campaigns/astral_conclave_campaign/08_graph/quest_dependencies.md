@@ -35,3 +35,15 @@
 - May expose ties between Asmar's failing ley recharge and wider [[Planar Mechanics]]
 - Can reshape construct politics if the Sovereign of Accord's identity becomes public
 - May include a pursuit-and-boarding encounter against [[The Calyxis Reclaimer]] if Heliox escalates to overt mobile crystal seizure
+
+## Wintervale Assault
+- Begins with the party's decision to take [[Wintervale]] from the [[Astral Conclave]] before the Convergence
+- Has a three-week deadline until the Convergence
+- [[Stonehearth]] has committed twenty earth elementals to the operation
+- Warforged support is possible but not confirmed
+- Requires reconnaissance of Wintervale's Conclave forces, civilian conditions, defenses, and portal infrastructure
+
+## Primal Engine
+- Depends on the rod entrusted to [[Eldara Stonewise]] of [[Stonehearth]]
+- Intended to open a portal to the elemental planes
+- Its first recorded power attempt incapacitated Eldara, leaving safe operation unresolved

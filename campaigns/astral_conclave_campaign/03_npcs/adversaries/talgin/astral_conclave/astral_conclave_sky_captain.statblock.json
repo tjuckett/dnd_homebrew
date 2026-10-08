@@ -1,0 +1,82 @@
+{
+  "name": "Astral Conclave Sky-Captain",
+  "source": "ChaosIncHomebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": { "type": "humanoid", "tags": ["any race"] },
+  "alignment": ["L", "E"],
+  "ac": [19],
+  "hp": { "average": 225, "formula": "30d8 + 90" },
+  "speed": { "walk": 30 },
+  "str": 20,
+  "dex": 18,
+  "con": 20,
+  "int": 16,
+  "wis": 14,
+  "cha": 18,
+  "save": { "dex": "+9", "con": "+9", "wis": "+6", "cha": "+8" },
+  "skill": { "acrobatics": "+9", "athletics": "+9", "intimidation": "+8", "perception": "+6" },
+  "resist": ["cold", "force"],
+  "passive": 16,
+  "languages": ["Common", "Primordial", "telepathy 30 ft. through Conclave relays"],
+  "cr": "12",
+  "trait": [
+    {
+      "name": "Airship Command Ward",
+      "entries": ["While at least one allied deck battery is active, the sky-captain begins combat with 40 temporary hit points and has 3 uses of Legendary Resistance. If both batteries are disabled, the ward immediately fails and any unused Legendary Resistance from this trait is lost."]
+    },
+    {
+      "name": "Skybound Footing",
+      "entries": ["While aboard an airship, dock, or elevated platform, the sky-captain has advantage on saving throws against being pushed, pulled, knocked prone, or moved against its will."]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": ["The sky-captain makes three attacks with its aether cutlass or astral carbine in any combination."]
+    },
+    {
+      "name": "Aether Cutlass",
+      "entries": ["{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage plus 9 ({@damage 2d8}) force damage."]
+    },
+    {
+      "name": "Astral Carbine",
+      "entries": ["{@atk rw} {@hit 8} to hit, range 120/360 ft., one target. {@h}17 ({@damage 3d8 + 4}) force damage."]
+    },
+    {
+      "name": "Command Volley (Recharge 5-6)",
+      "entries": ["The sky-captain chooses up to three allied creatures it can see within 60 feet. Each can use its reaction to move up to half its speed without provoking opportunity attacks or make one weapon attack."]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Grapnel Step",
+      "entries": ["The sky-captain moves up to 40 feet to an unoccupied space it can see on the same airship, dock, or connected rigging. This movement doesn't provoke opportunity attacks."]
+    },
+    {
+      "name": "Second Wind (1/Day)",
+      "entries": ["The sky-captain regains 30 hit points."]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "entries": ["The sky-captain adds 3 to its AC against one melee attack that would hit it. To do so, it must see the attacker and be wielding its aether cutlass."]
+    }
+  ],
+  "legendaryActions": 3,
+  "legendary": [
+    {
+      "name": "Move",
+      "entries": ["The sky-captain moves up to half its speed without provoking opportunity attacks."]
+    },
+    {
+      "name": "Cutlass Attack",
+      "entries": ["The sky-captain makes one Aether Cutlass attack."]
+    },
+    {
+      "name": "Deck Command (Costs 2 Actions)",
+      "entries": ["One active deck battery fires a focused bolt at a creature the sky-captain can see within 120 feet. {@atk rs} {@hit 9} to hit. {@h}22 ({@damage 4d8 + 4}) force damage."]
+    }
+  ]
+}

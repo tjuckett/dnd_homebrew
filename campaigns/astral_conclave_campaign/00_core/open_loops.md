@@ -17,8 +17,15 @@
 - Can Asmar survive without either Heliox austerity or Calyxis overreach becoming a death sentence?
 - Who were the six to twenty humans seen running toward the Central Spire during the reboot crisis?
 - Who set fire to the six takeover-signal broadcast stations, and what did they intend to prevent or conceal?
-- How can Heliox protect its civilians and infrastructure while its newly immune warforged remain offline for the eight-hour reboot?
 - Can the Astral Conclave restore the main spire portal or extract personnel and assets by another route?
 - Why did the Astral Conclave classify the newly freed player character as an asset, and what did it plan to do with them?
+- Where did the team responsible for the Heliox bomb escape to through the desert portal?
+- What caused Calyxis's incapacitation, and how far does its new immunity to Conclave control extend?
+- Which two artifacts did the party retain, and what powers or risks do they hold?
+- What lies on the far side of the prewar mountain outpost portal, and what damage did the returned bomb cause?
+- Can the Primal Engine be safely powered while Eldara Stonewise recovers from its energy draw?
+- What Conclave forces, defenses, civilians, and portal assets await in Wintervale?
+- Will the warforged commit forces to the Wintervale assault?
+- What will occur at the Convergence in three weeks?
 - Can Moonpaw and the party win the First Race and release Dapplefern from the Thorn-Crowned Stag's forest-realm?
 - After the Astral Conclave arc, can Moonpaw win the Final Hunt in the Stag's true fey home and free his wife and child from the Gloamfold Chase?

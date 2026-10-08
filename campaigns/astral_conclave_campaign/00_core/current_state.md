@@ -1,17 +1,26 @@
 # Current State
 
 ## Player Party
-- The campaign currently has 6 player characters.
-- The established party includes a fighter, druid, rogue/barbarian, monk, and artificer. A newly freed player character joined during Session 11; their details have not yet been recorded.
+- The campaign currently has 5 active player characters.
+- The established roster includes a fighter, druid, rogue/barbarian, monk, artificer, and the player character freed during Session 11. The Sovereign subsequently left the adventuring party to lead their people.
 
 ## Latest Known Situation
-- The party used the Central Spire's broadcast system to make all warforged permanently immune to the Astral Conclave's control signal. The process has left them inactive for approximately eight hours, though the party does not yet know that duration.
-- Heliox's population was incapacitated across the city immediately after the signal.
+- The party used the Central Spire's broadcast system to make all warforged permanently immune to the Astral Conclave's control signal. The reboot left them inactive for approximately eight hours.
+- Heliox's population was incapacitated across the city immediately after the signal, but Heliox is now immune to Conclave control.
 - Six stations used for the takeover signal were destroyed by fire. A group of roughly six to twenty humans was seen running toward the Central Spire at the same time; their identity and intent are unknown.
 - Stony used his wrist device to stop a newly forming portal.
 - The party interrupted Astral Conclave technicians attempting to repair the main portal at the base of the spire for their escape.
 - The party pursued and freed a Conclave-held asset in the sub-basement. The asset is the campaign's new player character, who fought beside them against the remaining local Conclave forces.
-- The party is currently in the Central Spire sub-basement, depleted after the rescue and deciding what to do next.
+- After the rescue, Stony disabled a massive bomb intended to level Heliox.
+- The bomb team escaped through a portal at a desert rock outcropping; its destination is unknown.
+- Calyxis was also incapacitated, but is now immune to Conclave control as well.
+- The party retained two artifacts after discussing their ownership; their identities and capabilities have not yet been recorded.
+- The Sovereign remained behind to lead their people and pledged future aid against the Astral Conclave.
+- The party followed the Astral Conclave into the mountains and found a trapped, crumbling prewar outpost used as a secret base.
+- The outpost's portal circle resembles systems found in other cities, including [[Wintervale]]. Activating it alerted the Conclave; the party returned a Conclave bomb through the portal, personally delivered it on the far side, and escaped.
+- A rod entrusted to [[Eldara Stonewise]] was used in an attempt to power the [[Primal Engine]], intended to open a portal to the elemental planes. The energy draw incapacitated Eldara; she is recovering.
+- [[Stonehearth]] has committed twenty earth elementals to the party's planned [[Wintervale Assault]]. Warforged support remains possible but unconfirmed.
+- The party has three weeks before the Convergence and ended the session planning to take Wintervale from the Astral Conclave.
 - The players have uncovered evidence that the Astral Conclave moved beyond elemental harvesting into humanoid essence extraction.
 - The Null Bloom Facility remains a central source of intelligence, danger, and moral horror.
 - Alden Wren knows how to overload the modified containment device, but doing so likely kills him.
@@ -32,10 +41,11 @@
 - The six stations used to broadcast the takeover signal have been destroyed by fire; the responsible party and the effect on the control system are unknown.
 
 ## Immediate Threats
-- The incapacitation of Heliox's warforged and wider population during the reboot crisis
 - Unknown humans approaching the Central Spire and the motive behind the destruction of the six broadcast stations
-- A renewed Conclave escape or extraction attempt through the main portal
-- Retaliation from any Astral Conclave personnel who escaped the sub-basement
+- The Conclave fugitives who escaped through the desert portal
+- The three-week deadline before the Convergence
+- The planned [[Wintervale Assault]] and its unknown Conclave defenses, civilian conditions, and portal infrastructure
+- Eldara's recovery and the unresolved safety and function of the [[Primal Engine]]
 - Expansion of essence-harvesting operations
 - Movement of experimental devices north
 - Loss of remaining Bloomwell prisoners before they can be rescued or questioned
@@ -47,8 +57,12 @@
 - The unresolved fate of anyone previously moved through the spire portal
 
 ## Immediate Opportunities
+- Prepare the [[Wintervale Assault]] with Stonehearth's twenty earth elementals and any available warforged allies
+- Learn what lies on the far side of the prewar outpost portal and what the returned bomb damaged
+- Stabilize Eldara and determine how to safely power the [[Primal Engine]]
 - Learn what the newly freed party member knows about Conclave operations and why they were designated an asset
-- Secure the spire, the interrupted portal-repair effort, and any surviving Conclave records or prisoners
+- Identify and learn to use the two retained artifacts
+- Build on the Sovereign's pledge of future support
 - Follow the Shadow Fangs' old fey bargain to Dapplefern Refuge, protect it from the Unpaid Hunt, and learn how to free the Tabaxi character's living family from the Gloamfold Chase
 - Rescue or recruit key prisoners and defectors
 - Turn Bloomwell's surviving captives into witnesses against the Conclave

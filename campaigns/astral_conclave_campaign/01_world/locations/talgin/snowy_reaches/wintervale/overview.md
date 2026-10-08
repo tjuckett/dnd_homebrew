@@ -33,6 +33,19 @@ Hardy, smoke-lit, and resilient. Wintervale feels like a place that learned to s
 - Heavy snow, avalanches, and mountain-route isolation can cut Wintervale off for stretches of the year
 - Its relative prosperity makes it an attractive target for raiders, smugglers, and desperate opportunists
 
+## Current Situation
+- Wintervale has a portal circle matching the system found in the ruined prewar mountain outpost.
+- The party intends to take the town from [[Astral Conclave]] control before the Convergence.
+- [[Stonehearth]] has committed twenty earth elementals to the planned assault; warforged support remains possible but unconfirmed.
+
+## Map
+
+![Wintervale town map](../../../../06_assets/maps/wintervale/Wintervale.jpg)
+
+- The ocean borders the town to the north and west.
+- The regular docks occupy the northwestern waterfront.
+- The larger air dock is on the north shore beside the regular docks; this is the immediate target of the planned raid.
+
 ## Connected Entities
 - [[Snowy Reaches]]
 - [[Talgin]]

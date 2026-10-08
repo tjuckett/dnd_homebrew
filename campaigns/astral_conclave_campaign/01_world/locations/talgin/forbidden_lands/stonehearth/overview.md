@@ -22,6 +22,7 @@ Ancient, grounded, and quietly sacred. Stonehearth feels patient rather than sta
 - Earth elemental defenders know the cavern terrain intimately
 - Strong communal response under the leadership of [[Granitefist]]
 - Durable stone architecture and controlled access points make direct assault difficult
+- Twenty earth elementals have committed to join the party's planned assault on [[Wintervale]].
 
 ## Society
 - Around 100 earth elementals live in the village

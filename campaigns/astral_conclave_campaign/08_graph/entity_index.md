@@ -19,6 +19,7 @@
 - [[Falldrift]]
 - [[Srosa]]
 - [[Wintervale]]
+- [[Wintervale]]
 - [[Stonehearth]]
 - [[The Technomire]]
 - [[Valtoria]]
@@ -65,12 +66,14 @@
 - [[Astral Conclave Veil Escort]]
 - [[Astral Conclave Null Cantor]]
 - [[Astral Conclave Rift Magister]]
+- [[Astral Conclave Sky-Captain]]
 
 ## Quests
 - [[Null Bloom Infiltration]]
 - [[Swamp Corruption]]
 - [[Shattered Gears of Asmar]]
 - [[Echoes of Dapplefern]]
+- [[Wintervale Assault]]
 
 ## Systems
 - [[Astral Heart System]]
@@ -78,3 +81,4 @@
 - [[Workshop Network]]
 - [[Elemental Corruption]]
 - [[Elemental Crucible]]
+- [[Primal Engine]]

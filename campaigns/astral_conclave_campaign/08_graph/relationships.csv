@@ -31,6 +31,7 @@ Kira's Hidden Lab,Forbidden Lands,hidden_off_coast_of,The station lies west of t
 Falldrift,Snowy Reaches,located_in,Small winter hamlet surviving in the cold frontier region
 Srosa,Snowy Reaches,located_in,Frontier town founded after the Elemental Invasion in the cold northwestern region
 Wintervale,Snowy Reaches,located_in,Larger northern settlement serving as a regional trade and craft center
+Wintervale,Snowy Reaches,located_in,Town targeted for a planned liberation from Astral Conclave control
 Forbidden Lands,Talgin,located_on,Dangerous elemental border region within the continent
 The Verdant Expanse,Talgin,located_on,Green and overgrown region shaped by covert activity and dangerous frontier pressures
 Snowy Reaches,Talgin,located_on,Cold frontier region of rivers, forest, and winter-bound settlements
@@ -52,6 +53,8 @@ Astral Conclave,Others,risks_attracting,Its asteroid-pull device and planar rese
 Stonehearth,Elemental Corruption,threatened_by,Corruption spreading through elemental lands endangers the village
 Stonehearth,Forbidden Lands,located_in,Ancient earth elemental settlement hidden within the dangerous border region
 Eldara Stonewise,Stonehearth,leads,High chieftain guiding the earth elemental village
+Eldara Stonewise,Primal Engine,attempted_to_power,Energy draw through the entrusted rod incapacitated her
+Primal Engine,Stonehearth,connected_to,Rod entrusted to Stonehearth's leader is intended to power the engine
 Granitefist,Stonehearth,defends,Warrior chieftain responsible for village defense
 Crystalmender,Stonehearth,heals,Ritualist and healer maintaining the springs and spiritual well-being
 Eldara Stonewise,Swamp Corruption,initiates,Asks the players to investigate the corrupted swamp
@@ -59,6 +62,7 @@ The Technomire,Elemental Corruption,embodies,Ancient magitech contamination has 
 The Technomire,Forbidden Lands,located_in,Corrupted swamp region within the elemental borderlands
 Swamp Corruption,The Technomire,centered_in,The quest focuses on the corrupted swamp itself
 Stonehearth,The Technomire,threatened_by,The spreading mire endangers nearby elemental lands
+Stonehearth,Wintervale,commits_forces_to,Twenty earth elementals will join the party's planned assault
 Valtoria,The Technomire,buried_within,The lost city lies at the corrupted heart of the swamp
 Valtoria,Forbidden Lands,located_in,Lost city ruin hidden within the dangerous interior of the region
 Valtoria,Elemental Corruption,source_of,Its fallen Nexus infrastructure contributes to the region's corruption
@@ -104,6 +108,7 @@ Astral Conclave Relay Handler,Astral Conclave,serves,Commands temporary relay si
 Astral Conclave Veil Escort,Astral Conclave,serves,Covers field teams long enough for evidence denial and escape
 Astral Conclave Null Cantor,Astral Conclave,serves,Suppresses hostile magic while defending portal extraction sites
 Astral Conclave Rift Magister,Astral Conclave,serves,Shapes gravity and planar boundaries around active extraction portals
+Astral Conclave Sky-Captain,Astral Conclave,serves,Commands Conclave airships and protects high-value aerial logistics
 Sandglass Relay,Astral Conclave,operated_by,Temporary desert relay used to command the Reclaimer operation
 Sandglass Relay,The Calyxis Reclaimer,commands,Sends desert relay packets to the Reclaimer obedience device
 Dapplefern Refuge,The Verdant Expanse,located_in,Concealed Tabaxi survivor settlement in the canopy ravines
@@ -117,3 +122,6 @@ Sable Reedwhisper,Dapplefern Refuge,leads,Elected chief committed to protecting 
 Sable Reedwhisper,Echoes of Dapplefern,sets_terms,Requires the party to protect Dapplefern from the Unpaid Hunt before considering Aetheris support
 The Thorn-Crowned Stag,Shadow Fangs,holds_debt,Claims the Fangs' unpaid fey bargain after their leadership falls
 The Thorn-Crowned Stag,Gloamfold Chase,rulers,Rules the fey domain holding the Tabaxi family
+Astral Conclave,Wintervale,controls,The party intends to take the town from Conclave control
+Wintervale Assault,Wintervale,targets,Planned operation to take the town from the Astral Conclave
+Wintervale Assault,Stonehearth,allied_with,Twenty earth elementals have committed to the assault
