@@ -50,7 +50,7 @@ Use the Wintervale map as the overland layout. The **ocean lies north and west**
 
 ```text
                    NORTH / WEST: ocean and regular docks
-  [A] regular docks -- [B] cargo warehouse -- [C] relay beacon
+  [A] regular docks -- [B] Northshore Transit Warehouse -- [C] relay beacon
         |                    |                     |
   [D] waterfront yard -- [E] airdock cranes / gantry -- [F] guard post
                                       ||
@@ -65,7 +65,7 @@ Use the Wintervale map as the overland layout. The **ocean lies north and west**
 | Zone | Function | Encounter use |
 |---|---|---|
 | A. Regular docks | Secondary waterfront access and escape route | Small piers, fishing boats, slippery planks, and low cover |
-| B. Cargo warehouse | Holds cargo, prisoners, or dangerous equipment | Stacked crates; a civilian or prisoner rescue can happen here |
+| B. Northshore Transit Warehouse | Locked dockside warehouse holding the Planar Anchor before loading | Stone walls, a wide crane door, stacked crates, and a hazardous machine objective |
 | C. Relay beacon | Alarm and portal-network signal objective | Elevated beacon platform; disabling it delays reinforcements |
 | D. Waterfront yard | Open approach between docks and town | Carts, cargo piles, and crane shadows provide cover |
 | E. Airdock cranes / gantry | Main boarding route and shore-power point | High ground; controls access to the airship |
@@ -122,27 +122,27 @@ For a level-10 party, start with a compact force: a named captain or Rift Magist
 
 ### Why the Airship Matters When the Conclave Has Portals
 
-The Conclave can move **small, prepared objects** through its portal network: messages, crystal samples, coded slates, a fist-sized refined shard, or a compact control component. It cannot casually move a shipload of bulk material through that network without tying up a stable portal, revealing a destination, and risking a destructive resonance failure.
+The Conclave can move people, messages, and ordinary bombs through its portal network. This ship is not carrying ordinary cargo.
 
-The docked airship is therefore carrying the things the Conclave cannot safely or cheaply portal:
+The **Northshore Transit Warehouse**, immediately beside the air dock, holds an **Aetheric Planar Anchor**: a massive black-iron and crystal device that locks and distorts nearby portal magic. It cannot safely pass through a portal: its active resonance would cause catastrophic feedback at both ends. The airship is docked to load the Anchor and carry it to the [[Northern Base]].
 
-- **Three sealed bulk-crystal housings:** large, unrefined or unstable crystal masses used as power feedstock. Each is far too heavy and resonant for routine portal transfer.
-- **A calibration rig:** it cuts, tests, and packages tiny high-quality crystal wafers for portal dispatch. The players may see sealed thumb-sized packets vanish through a small cargo aperture; they do not need to know their destination.
-- **A living crew and specialized equipment:** living personnel can travel by portal only under more controlled conditions, while the ship moves a whole work team, tools, cages, and emergency supplies without consuming a secure fixed circle.
-- **The airship's own lift crystals:** its balloon and arcane lift array need sustained physical power. The dock's central stone column lets the ship recharge and conserve those crystals before the next leg of its flight.
+- **Portal lockdown:** the Anchor can shut down Wintervale's circle and interfere with teleportation across the dock.
+- **Elemental-command amplification:** coupled to the Relay Handler's geode engine, it can turn the party's earth-elemental assault force against them.
+- **Rupture threat:** if deliberately overloaded, it can destroy the air dock and damage the local portal infrastructure rather than fall into enemy hands.
+- **Northern Base provenance:** it is a prototype dispatched from [[Northern Base]], where larger anchors are being installed around the comet-capture infrastructure.
 
-This lets the Conclave use portals intelligently without making the airship pointless. The party can learn only the visible version: the ship is loading sealed crystal housings, dispatching small packets by portal, and preparing to depart.
+The party sees a wide warehouse door thrown open, a heavy loading sled beneath a shrouded ringed machine, and crane chains already hooked to its frame. It hums whenever the portal circle or an earth elemental is nearby. The party's intervention stopped the transfer before the Anchor cleared the building.
 
 ### What the Conclave Wants Tonight
 
-1. Load the final bulk-crystal housing and recharge the lift array from the central column.
-2. Send the last batch of refined wafers through the small cargo portal.
-3. Depart before the party can seize the ship or identify the shipment route.
-4. If defeat is certain, preserve the calibration records and deny the bulk crystals to the party—even if the airship must be abandoned.
+1. Activate the Anchor to lock Wintervale's portal circle and suppress party teleportation around the dock.
+2. Use the Anchor to amplify the Relay Handler's elemental-command engine when the earth elementals commit to the attack.
+3. Depart before the party can seize the ship or identify the Anchor's Northern Base origin.
+4. If defeat is certain, overload the Anchor rather than let the party capture it.
 
 The Conclave does **not** want to flatten Wintervale. The town, air dock, and column are useful infrastructure. Their preferred response is a controlled launch, cover from the deck, and a clean extraction.
 
-## Encounter Package: The Crystal Run
+## Encounter Package: The Anchor Run
 
 This is a challenging objective encounter for **five 11th-level adventurers**. The numbers below are intentionally compact: the danger comes from divided objectives, vertical terrain, the launch clock, and competent retreat tactics—not from flooding the map with bodies.
 
@@ -153,15 +153,15 @@ This is a challenging objective encounter for **five 11th-level adventurers**. T
 | [[Astral Conclave Rift Magister]] (operations mage) | 1 | Upper deck, beside the helm | Controls space, protects launch, and escapes only with indispensable records |
 | [[Astral Conclave Sky-Captain]] (airship commander) | 1 | Upper deck, at helm and deck batteries | Boss commander; directs batteries, keeps the party divided, and protects the ship's withdrawal |
 | [[Astral Conclave Null Cantor]] | 1 | Upper deck, behind cover or at the deck stair | Counters major magic, suppresses concentration, and protects the Magister |
-| [[Astral Conclave Relay Handler]] | 1 | Lower deck / central-column console | Runs the cargo aperture and emergency extraction focus |
+| [[Astral Conclave Relay Handler]] | 1 | Airship deck with a signal console linked by cable to the warehouse | Activates the Anchor, commands elementals, and runs emergency extraction |
 | [[Astral Conclave Veil Escort]] | 2 | One at the gangplank, one beside the Handler | Screens, shoves, and buys time rather than seeks kills |
-| [[Astral Conclave Field Technician]] | 2 | One at a bulk-crystal housing, one at the calibration rig | Advances the launch or evidence clock; fights only when cornered |
+| [[Astral Conclave Field Technician]] | 2 | Northshore Transit Warehouse | Arms the Anchor, readies it for loading, and holds the warehouse; fights only when cornered |
 
 Run the two technicians on one shared initiative. Their first action is always mission work, not an attack. If the party reaches the airship before the alarm, allow Celdric's information to remove one escort from its starting post or let the party begin with surprise against a technician—not the whole encounter.
 
 ### Sky-Captain: Optional Identity and Mindset
 
-Use a temporary name such as **Captain Serane Vale** if one helps the scene. The Sky-Captain is a professional logistics officer, not a cackling villain. They believe the crystal run is necessary to prevent a worse Conclave failure at the Convergence. They will sacrifice cargo, abandon the dock, or bargain for time; they will not willingly destroy Wintervale or die for a shipment that can be replaced.
+Use a temporary name such as **Captain Serane Vale** if one helps the scene. The Sky-Captain is a professional logistics officer, not a cackling villain. They believe the Anchor deployment is necessary to prevent a worse Conclave failure at the Convergence. They will sacrifice the airship or bargain for time; they will not willingly destroy Wintervale or die for a prototype that can be replaced.
 
 Their surrender condition: the airship cannot launch, the emergency portal is disabled, and at least one ally is down or captured. A captured Sky-Captain can identify the **purpose** of the shipment—feeding a larger Conclave operation—without identifying its final location unless the party gets specific leverage or evidence.
 
@@ -169,22 +169,16 @@ Their surrender condition: the airship cannot launch, the emergency portal is di
 
 - The airship's balloon is fully inflated and its lower deck is level with one airdock platform; the upper deck is reachable by stairs or climbing.
 - Two of four mooring chains are true launch locks. Celdric can identify them if he gets his full scout report to the party.
-- One bulk-crystal housing is still on the dock crane, one is in the lower hold, and one is being calibrated at the central column.
-- The small cargo portal is **not** person-sized. It can send a prepared package, not an adventurer, creature, or bomb.
-- The Conclave has installed an **Aetheric Quarantine Lattice** after repeated hostile uses of portal transit. Two visible ward nodes on the central column project a pale hexagonal field across the cargo aperture and the airship's deck-side transit controls.
+- The Aetheric Planar Anchor remains inside the Northshore Transit Warehouse, secured on its loading sled; a thick signal cable runs from it to the Relay Handler's deck console.
+- Once active, the Anchor blocks teleportation and portal use across the dock zone unless a creature succeeds on a DC 16 spellcasting ability check.
+- The Relay Handler can couple the Anchor to the Geode Command Engine to commandeer the earth elementals.
 - The central column remains structurally stable unless the party deliberately damages it. Tell the players plainly that breaking it risks the air dock and the ship together.
 
-### Aetheric Quarantine Lattice
+### Aetheric Planar Anchor
 
-The Conclave knows the party has used portals to remove or destroy people. This defense is a practical response, not an invisible "no" to player tactics.
+The Anchor is an explicit, visible defense—not an invisible veto of player magic. It blocks portal travel and interferes with teleportation only while active. Its location is clear: pale light leaks through the warehouse doors and travels up the cable to the Relay Handler's console. A character adjacent to the core can use an action to attempt a **DC 16 Arcana, Nature, tinker's tools, or thieves' tools** check; two successes shut it down. *Dispel magic* requires a DC 16 check. Breaking or removing the geode core also works, but risks beginning the rupture-overload clock.
 
-**Visible effect.** A creature pushed, dragged, thrown, or otherwise forced into a protected portal sees a pale hexagonal pattern seize around it. It is shunted into the nearest unoccupied space on the same side of the portal instead of crossing. The creature takes no damage from the shunt. The effect also prevents a person-sized portal from being opened through the protected transit controls without a keyed Conclave seal.
-
-**What it does not stop.** The lattice does not block normal movement, attacks, ranged spells, the party's *misty step* or other personal teleports, or a portal somewhere else. It only protects this airship's Conclave-controlled portal infrastructure and prevents using it as an instant forced-removal weapon.
-
-**How the party can beat it.** Each of the two visible ward nodes has **AC 15, 25 hit points**, immunity to poison and psychic damage, and resistance to nonmagical bludgeoning, piercing, and slashing damage. A creature adjacent to a node can use an action to attempt a **DC 15 Arcana, thieves' tools, or tinker's tools** check to disable it. Stony or a character using Celdric's precise scout information makes this check with advantage. Disabling both nodes drops the lattice. A successful DC 15 check at the transit console can instead **spoof a Conclave seal for one round**, allowing one deliberate creature transit before the lattice reasserts itself.
-
-**Conclave response.** The Relay Handler can spend an action to reactivate one disabled node if standing at the central-column console. This is an explicit choice: restore the defense, advance an escape clock, or fight.
+**Conclave response.** The Relay Handler can spend an action at the airship's linked signal console to reactivate the Anchor after it has been disabled, unless the geode core has been removed or broken. This is an explicit choice: restore the defense, advance an escape clock, or fight.
 
 ### Starting Clocks
 
@@ -228,9 +222,9 @@ At initiative count 20, the Sky-Captain chooses the active mode. The Captain can
 
 | Mode | What is powered | What it means |
 |---|---|---|
-| **Aegis** | Command ward and Quarantine Lattice | The lattice functions. The Sky-Captain gains +2 AC until the next initiative count 20. Batteries cannot take a Deck System Action and Lift cannot advance from ship power. |
-| **Arsenal** | Deck batteries | The ship takes one Deck System Action. The Quarantine Lattice is suppressed and the Sky-Captain does not receive the Aegis AC bonus. |
-| **Lift** | Balloon and launch array | Advance Launch by one segment. The Quarantine Lattice is suppressed and the ship cannot use a Deck System Action. |
+| **Aegis** | Command ward and Anchor standby field | The Anchor blocks teleportation through the dock zone. The Sky-Captain gains +2 AC until the next initiative count 20. Batteries cannot take a Deck System Action and Lift cannot advance from ship power. |
+| **Arsenal** | Deck batteries | The ship takes one Deck System Action. The Anchor's anti-teleport field is suppressed and the Sky-Captain does not receive the Aegis AC bonus. |
+| **Lift** | Balloon and launch array | Advance Launch by one segment. The Anchor's anti-teleport field is suppressed and the ship cannot use a Deck System Action. |
 
 **Player counterplay:** At the lower-deck central console, a creature can use an action to make a **DC 16 Arcana, thieves' tools, or tinker's tools** check. On a success, it chooses the mode at the next initiative count 20 and locks it for that round; the Sky-Captain cannot override it. Stony has advantage on this check. On a failure, the console emits a harmless but obvious feedback burst and the Sky-Captain knows it was tampered with.
 

@@ -24,8 +24,9 @@
 - Which two artifacts did the party retain, and what powers or risks do they hold?
 - What lies on the far side of the prewar mountain outpost portal, and what damage did the returned bomb cause?
 - Can the Primal Engine be safely powered while Eldara Stonewise recovers from its energy draw?
-- What Conclave forces, defenses, civilians, and portal assets await in Wintervale?
-- Will the warforged commit forces to the Wintervale assault?
+- Can the party seize the docked Conclave airship, and what is it carrying or bound for?
+- Has Wintervale's Conclave base been fully cleared, and what forces, civilians, and portal assets remain in the town?
+- What became of the earth elementals committed to clearing the base?
 - What will occur at the Convergence in three weeks?
 - Can Moonpaw and the party win the First Race and release Dapplefern from the Thorn-Crowned Stag's forest-realm?
 - After the Astral Conclave arc, can Moonpaw win the Final Hunt in the Stag's true fey home and free his wife and child from the Gloamfold Chase?

@@ -122,6 +122,7 @@ Sable Reedwhisper,Dapplefern Refuge,leads,Elected chief committed to protecting 
 Sable Reedwhisper,Echoes of Dapplefern,sets_terms,Requires the party to protect Dapplefern from the Unpaid Hunt before considering Aetheris support
 The Thorn-Crowned Stag,Shadow Fangs,holds_debt,Claims the Fangs' unpaid fey bargain after their leadership falls
 The Thorn-Crowned Stag,Gloamfold Chase,rulers,Rules the fey domain holding the Tabaxi family
-Astral Conclave,Wintervale,controls,The party intends to take the town from Conclave control
-Wintervale Assault,Wintervale,targets,Planned operation to take the town from the Astral Conclave
-Wintervale Assault,Stonehearth,allied_with,Twenty earth elementals have committed to the assault
+Astral Conclave,Wintervale,controls,The party has attacked its main base and is contesting its remaining control of the town
+Wintervale Assault,Wintervale,targets,Active operation to remove the Astral Conclave from Wintervale
+Wintervale Assault,Stonehearth,allied_with,Approximately ten earth elementals joined the assault and remained to clear the Conclave base
+Wintervale Assault,Astral Conclave Sky-Captain,opposes,The party is attempting to seize a docked Conclave airship
