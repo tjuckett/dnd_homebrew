@@ -2,6 +2,23 @@
 
 Detailed setup: [Session 14 Brainstorming](session_14_2026-11-05_brainstorming.md)
 
+> This sheet also carries the cancelled November 12 continuation material. The unresolved dock fight and its immediate consequences remain part of the Session 14 encounter package.
+
+## Resumption Quick Reference
+
+The party is fighting the [[Astral Conclave Sky-Captain]], [[Astral Conclave Relay Handler]], [[Astral Conclave Null Cantor]], and crew aboard the docked airship. The **Aetheric Planar Anchor** is still on its warehouse loading sled, with hoist chains attached but its weight still on the floor. A copper-and-crystal signal cable connects its smoky-geode core to the Handler's console.
+
+When the Conclave is losing, the Handler can connect the **Geode Command Engine**. After one round of warning, each allied earth elemental within 300 feet makes a **DC 16 Charisma save**; an elemental with an established bond, direct aid, or a party member within 30 feet has advantage. On a failure it follows *contain the intruders; do not destroy the dock* until the Engine is disabled; on a success it loses its reaction until its next turn. Run affected elementals as two five-elemental groups that block, grapple, shove, guard, and shield rather than kill.
+
+| Objective | Resolution |
+|---|---|
+| Free the elementals | Disable the Engine: AC 15, 45 HP, or two DC 16 Arcana/Nature/tinker's tools/thieves' tools successes; *dispel magic* (DC 16) works. |
+| Shut down the Anchor | Reach the warehouse core: two DC 16 relevant checks, *dispel magic* (DC 16), or remove/break the geode core. |
+| Stop the ship | Take the helm, secure two true mooring chains, or disable the lift array. |
+| Stop a rupture overload | A captain-ordered overload has a visible three-round clock; disable the Anchor, remove its core, or have freed elementals ground it. |
+
+While the Anchor is active, teleportation and portal travel into or out of the dock zone require a **DC 16 spellcasting ability check**; failure wastes the magic and leaves the creature in place.
+
 ## Win Conditions
 
 - Stop the airship from leaving.

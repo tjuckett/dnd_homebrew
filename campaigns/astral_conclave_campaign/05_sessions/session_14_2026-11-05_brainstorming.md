@@ -124,12 +124,12 @@ For a level-10 party, start with a compact force: a named captain or Rift Magist
 
 The Conclave can move people, messages, and ordinary bombs through its portal network. This ship is not carrying ordinary cargo.
 
-The **Northshore Transit Warehouse**, immediately beside the air dock, holds an **Aetheric Planar Anchor**: a massive black-iron and crystal device that locks and distorts nearby portal magic. It cannot safely pass through a portal: its active resonance would cause catastrophic feedback at both ends. The airship is docked to load the Anchor and carry it to the [[Northern Base]].
+The **Northshore Transit Warehouse**, immediately beside the air dock, holds an **Aetheric Planar Anchor**: a massive black-iron and crystal device that stabilizes the Northern Base's comet-capture array as it channels the comet's energy. Its active resonance also locks and distorts nearby portal magic. It cannot safely pass through a portal: its active resonance would cause catastrophic feedback at both ends. The airship is docked to load the Anchor and carry it to the [[Northern Base]].
 
 - **Portal lockdown:** the Anchor can shut down Wintervale's circle and interfere with teleportation across the dock.
 - **Elemental-command amplification:** coupled to the Relay Handler's geode engine, it can turn the party's earth-elemental assault force against them.
 - **Rupture threat:** if deliberately overloaded, it can destroy the air dock and damage the local portal infrastructure rather than fall into enemy hands.
-- **Northern Base provenance:** it is a prototype dispatched from [[Northern Base]], where larger anchors are being installed around the comet-capture infrastructure.
+- **Comet stabilizer:** it is the missing precision component for channeling comet energy into the capture array. The Conclave can attempt the process without it, but the work becomes far slower and substantially more dangerous.
 
 The party sees a wide warehouse door thrown open, a heavy loading sled beneath a shrouded ringed machine, and crane chains already hooked to its frame. It hums whenever the portal circle or an earth elemental is nearby. The party's intervention stopped the transfer before the Anchor cleared the building.
 
@@ -161,7 +161,7 @@ Run the two technicians on one shared initiative. Their first action is always m
 
 ### Sky-Captain: Optional Identity and Mindset
 
-Use a temporary name such as **Captain Serane Vale** if one helps the scene. The Sky-Captain is a professional logistics officer, not a cackling villain. They believe the Anchor deployment is necessary to prevent a worse Conclave failure at the Convergence. They will sacrifice the airship or bargain for time; they will not willingly destroy Wintervale or die for a prototype that can be replaced.
+Use a temporary name such as **Captain Serane Vale** if one helps the scene. The Sky-Captain is a professional logistics officer, not a cackling villain. They believe the Anchor deployment is necessary to keep the comet-capture process stable at the Convergence. They will sacrifice the airship or bargain for time; they will not willingly destroy Wintervale or die for a prototype that can be replaced.
 
 Their surrender condition: the airship cannot launch, the emergency portal is disabled, and at least one ally is down or captured. A captured Sky-Captain can identify the **purpose** of the shipment—feeding a larger Conclave operation—without identifying its final location unless the party gets specific leverage or evidence.
 
@@ -289,6 +289,39 @@ After that contribution, keep his turn abstract: he holds a zone, protects civil
 ## Session Goal
 
 If the dock raid becomes a townwide fight, use the following broader framework as a fallback. Otherwise, the airship-raid material above is the Session 14 plan.
+
+## Continuation and Fallout Material
+
+The November 12 game did not occur. Its unresolved-airship and aftermath material belongs to this Session 14 package so the full Wintervale assault remains in one place.
+
+### Resume Point
+
+Return directly to initiative if play resumes before the fight is resolved:
+
+> The gangplank bucks beneath you as the Conclave airship strains against its moorings. Below, earth elementals grind through the last resistance at the base; above, the captain's crew fights not to win Wintervale, but to escape it.
+
+Do not introduce fresh reinforcements in round one. Keep the visible stakes to launch, cargo, and command records. Use the Geode Command Engine and Aetheric Planar Anchor rules above as the Conclave's desperate countermeasure; the command is containment, not a license to make the allied elementals lethal enemies.
+
+### Resolve the Airship
+
+| Result | What the party gains | Follow-up |
+|---|---|---|
+| Captured ship | Flight codes, manifest, a legitimate hull, and possibly a defector or captive engineer | Fly to the Northern Base Sky Dock under the ship's identity |
+| Escaped ship | Damaged astral wake, navigation record, or visible route | Pursuit or interception toward Aetheris Island |
+| Destroyed ship | Command crystal, route, cargo schedule, and dock codes | Repair the crystal, then use a mountain, smuggler, or portal-adjacent route |
+| Grounded ship | The Anchor, manifest, and a repair project | Forged cargo or a service-culvert plan |
+
+If the party captures the vessel, the Northern Base expects it at the Sky Dock in four days. Treat arrival as a social/infiltration clock rather than immediate combat: routine signal, captain/cargo confirmation, isolated inspection berth, then Captain Frostwing's suspicion. Advance only for real contradictions, delay, or obvious magic.
+
+### Wintervale Aftermath
+
+Run two or three scenes rather than another siege.
+
+- The earth elementals report that the main garrison is broken, the town-hall undercroft portal remains dangerous, and a small Conclave team may have fled with a relay case.
+- Present one immediate problem: relay runners, an unstable portal, a civilian refuge, or a trapped elemental and valuable records beneath a collapse.
+- Establish a provisional settlement: [[Brenn Ironfist]] organizes repairs and dock work; [[Ithilwen Moonshadow]] tends the wounded; [[Torel Greenthumb]] studies recovered hardware; Celdric coordinates watches.
+
+Then give the party a visible choice: **fly now** for surprise, **secure the portal** to prevent retaliation, or **prepare a countermeasure** for one advantage during Northern Base infiltration. Each meaningful travel or preparation day advances the Convergence one step; it changes the enemy's posture but never completes the campaign off-screen.
 
 End the session with a meaningful result rather than an endless siege. The party should either:
 
