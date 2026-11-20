@@ -24,6 +24,7 @@ Detailed setup: [Session 14 Brainstorming](session_14_2026-11-05_brainstorming.m
 |  | Reserve Team | Five earth elementals; party's call |
 |  | Rift Magister | 135 HP; upper deck / helm |
 |  | Sky-Captain | 225 HP + 40 temp HP; upper deck / batteries |
+|  | War-Artificer (optional) | 178 HP; replaces Rift Magister and one Technician |
 |  | Null Cantor | 108 HP; upper deck |
 |  | Relay Handler | 52 HP; lower deck / column console |
 |  | Veil Escort 1 | 44 HP; gangplank |
@@ -32,6 +33,10 @@ Detailed setup: [Session 14 Brainstorming](session_14_2026-11-05_brainstorming.m
 |  | Ship Deck System | Initiative 20; one system action while directed |
 
 ## Enemy Stat Blocks
+
+### Optional War-Artificer Swap
+
+To field an artificer close to the Sky-Captain's strength, replace the **Rift Magister and one Field Technician** with the **Astral Conclave War-Artificer** below. This keeps the encounter near its intended difficulty. Adding the War-Artificer without removing anything creates a substantially more dangerous double-boss encounter.
 
 ---
 
@@ -135,6 +140,61 @@ The Sky-Captain can take 3 legendary actions, choosing from the options below, a
 ***Deck Command (Costs 2 Actions).*** One active deck battery fires a focused bolt at a creature the Sky-Captain can see within 120 feet. *Ranged Spell Attack:* +9 to hit. *Hit:* 22 (4d8 + 4) force damage.
 
 Source JSON: [Astral Conclave Sky-Captain](../03_npcs/adversaries/talgin/astral_conclave/astral_conclave_sky_captain.statblock.json).
+
+---
+
+### Astral Conclave War-Artificer
+
+*Medium humanoid (any race), lawful evil*
+
+**Armor Class** 18 (arcane half plate)<br>
+**Hit Points** 178 (21d8 + 84)<br>
+**Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+|---:|---:|---:|---:|---:|---:|
+| 12 (+1) | 16 (+3) | 18 (+4) | 20 (+5) | 16 (+3) | 11 (+0) |
+
+**Saving Throws** Con +8, Int +9, Wis +7<br>
+**Skills** Arcana +13, Investigation +9, Perception +7<br>
+**Damage Resistances** lightning<br>
+**Senses** passive Perception 17<br>
+**Languages** Common, Primordial, telepathy 30 ft. through Conclave relays<br>
+**Challenge** 11 (7,200 XP)
+
+***Arcane Armament.*** The War-Artificer's weapon attacks are magical. It uses Intelligence instead of Strength or Dexterity for their attack and damage rolls.
+
+***Siege Engineer.*** The War-Artificer has advantage on ability checks made to operate, disable, or repair constructs and magical devices.
+
+#### Actions
+
+***Multiattack.*** The War-Artificer makes three attacks, using Arc Carbine or Voltaic Maul in any combination.
+
+***Arc Carbine.*** *Ranged Weapon Attack:* +9 to hit, range 120/360 ft., one target. *Hit:* 18 (3d8 + 5) lightning damage.
+
+***Voltaic Maul.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) bludgeoning damage plus 9 (2d8) lightning damage. A creature hit by the maul cannot take reactions until the start of its next turn.
+
+***Storm-Coil Grenade (Recharge 5-6).*** The War-Artificer throws a device at a point within 90 feet. Creatures of its choice in a 20-foot-radius sphere make a DC 17 Dexterity save. Failure: 31 (7d8) lightning damage and pulled up to 10 feet toward the center. Success: half damage and no pull. The area is difficult terrain for hostile creatures until the start of the War-Artificer's next turn.
+
+***Emergency Overhaul (2/Day).*** The War-Artificer touches a construct or magical device and restores 30 hit points to it. Alternatively, it reactivates one disabled airship battery, ward node, or similar device within reach. A device reactivated this way cannot benefit from this feature again until the next dawn.
+
+#### Bonus Actions
+
+***Repulsor Step.*** The War-Artificer flies up to 20 feet without provoking opportunity attacks and must land on a surface capable of supporting it.
+
+#### Reactions
+
+***Flash Ward.*** When the War-Artificer or an ally within 30 feet is hit by an attack, add 4 to the target's AC against that attack, potentially causing it to miss.
+
+#### Legendary Actions
+
+The War-Artificer can take 2 legendary actions, one at a time at the end of another creature's turn, and regains them at the start of its turn.
+
+***Reposition.*** The War-Artificer moves up to half its speed without provoking opportunity attacks.
+
+***Arc Carbine (Costs 2 Actions).*** The War-Artificer makes one Arc Carbine attack.
+
+Source JSON: [Astral Conclave War-Artificer](../03_npcs/adversaries/talgin/astral_conclave/astral_conclave_war_artificer.statblock.json).
 
 ---
 

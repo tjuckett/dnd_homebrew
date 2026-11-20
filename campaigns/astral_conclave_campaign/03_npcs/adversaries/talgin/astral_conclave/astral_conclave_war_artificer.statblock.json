@@ -1,0 +1,50 @@
+{
+  "name": "Astral Conclave War-Artificer",
+  "source": "ChaosIncHomebrew",
+  "page": 0,
+  "size": ["M"],
+  "type": { "type": "humanoid", "tags": ["any race", "artificer"] },
+  "alignment": ["L", "E"],
+  "ac": [{ "ac": 18, "from": ["arcane half plate"] }],
+  "hp": { "average": 178, "formula": "21d8 + 84" },
+  "speed": { "walk": 30 },
+  "str": 12,
+  "dex": 16,
+  "con": 18,
+  "int": 20,
+  "wis": 16,
+  "cha": 11,
+  "save": { "con": "+8", "int": "+9", "wis": "+7" },
+  "skill": { "arcana": "+13", "investigation": "+9", "perception": "+7" },
+  "resist": ["lightning"],
+  "passive": 17,
+  "languages": ["Common", "Primordial", "telepathy 30 ft. through Conclave relays"],
+  "cr": "11",
+  "pb": "+4",
+  "trait": [
+    { "name": "Arcane Armament", "entries": ["The war-artificer's weapon attacks are magical. It uses Intelligence instead of Strength or Dexterity for their attack and damage rolls."] },
+    { "name": "Siege Engineer", "entries": ["The war-artificer has advantage on ability checks made to operate, disable, or repair constructs and magical devices."] }
+  ],
+  "action": [
+    { "name": "Multiattack", "entries": ["The war-artificer makes three attacks, using Arc Carbine or Voltaic Maul in any combination."] },
+    { "name": "Arc Carbine", "entries": ["{@atk rw} {@hit 9} to hit, range 120/360 ft., one target. {@h}18 ({@damage 3d8 + 5}) lightning damage."] },
+    { "name": "Voltaic Maul", "entries": ["{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 9 ({@damage 2d8}) lightning damage. If the target is a creature, it can't take reactions until the start of its next turn."] },
+    { "name": "Storm-Coil Grenade (Recharge 5–6)", "entries": ["The war-artificer throws a device at a point it can see within 90 feet. Each creature of its choice in a 20-foot-radius sphere centered there must make a {@dc 17} Dexterity saving throw. On a failed save, a creature takes 31 ({@damage 7d8}) lightning damage and is pulled up to 10 feet toward the center. On a successful save, it takes half as much damage and isn't pulled. The area is difficult terrain for hostile creatures until the start of the war-artificer's next turn."] },
+    { "name": "Emergency Overhaul (2/Day)", "entries": ["The war-artificer touches a construct or magical device and restores 30 hit points to it. Alternatively, it reactivates one disabled airship battery, ward node, or similar device within reach. A device reactivated this way can't be reactivated by this feature again until the next dawn."] }
+  ],
+  "bonus": [
+    { "name": "Repulsor Step", "entries": ["The war-artificer flies up to 20 feet to an unoccupied space it can see. This movement doesn't provoke opportunity attacks, and it must end this movement on a surface capable of supporting it."] }
+  ],
+  "reaction": [
+    { "name": "Flash Ward", "entries": ["When the war-artificer or an allied creature it can see within 30 feet is hit by an attack, the war-artificer adds 4 to the target's AC against that attack, potentially causing it to miss."] }
+  ],
+  "legendaryActions": 2,
+  "legendary": [
+    { "name": "Reposition", "entries": ["The war-artificer moves up to half its speed without provoking opportunity attacks."] },
+    { "name": "Arc Carbine (Costs 2 Actions)", "entries": ["The war-artificer makes one Arc Carbine attack."] }
+  ],
+  "traitTags": ["Magic Weapons"],
+  "actionTags": ["Multiattack"],
+  "damageTags": ["B", "L"],
+  "miscTags": ["MW", "RW"]
+}

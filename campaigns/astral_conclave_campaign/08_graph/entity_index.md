@@ -66,6 +66,7 @@
 - [[Astral Conclave Veil Escort]]
 - [[Astral Conclave Null Cantor]]
 - [[Astral Conclave Rift Magister]]
+- [[Astral Conclave War-Artificer]]
 - [[Astral Conclave Sky-Captain]]
 
 ## Quests
