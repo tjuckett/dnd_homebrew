@@ -19,8 +19,9 @@
 - The party followed the Astral Conclave into the mountains and found a trapped, crumbling prewar outpost used as a secret base.
 - The outpost's portal circle resembles systems found in other cities, including [[Wintervale]]. Activating it alerted the Conclave; the party returned a Conclave bomb through the portal, personally delivered it on the far side, and escaped.
 - A rod entrusted to [[Eldara Stonewise]] was used in an attempt to power the [[Primal Engine]], intended to open a portal to the elemental planes. The energy draw incapacitated Eldara; she is recovering.
-- [[Stonehearth]] has committed twenty earth elementals to the party's planned [[Wintervale Assault]]. Warforged support remains possible but unconfirmed.
-- The party has three weeks before the Convergence and ended the session planning to take Wintervale from the Astral Conclave.
+- Approximately ten earth elementals from [[Stonehearth]] accompanied the party's [[Wintervale Assault]].
+- The party cleared the initial area of the Astral Conclave's main base in Wintervale; the earth elementals remained to clear the rest.
+- The party then moved to seize a Conclave airship as it docked at Wintervale. The result is unresolved.
 - The players have uncovered evidence that the Astral Conclave moved beyond elemental harvesting into humanoid essence extraction.
 - The Null Bloom Facility remains a central source of intelligence, danger, and moral horror.
 - Alden Wren knows how to overload the modified containment device, but doing so likely kills him.
@@ -44,7 +45,7 @@
 - Unknown humans approaching the Central Spire and the motive behind the destruction of the six broadcast stations
 - The Conclave fugitives who escaped through the desert portal
 - The three-week deadline before the Convergence
-- The planned [[Wintervale Assault]] and its unknown Conclave defenses, civilian conditions, and portal infrastructure
+- The fight to secure Wintervale, including the docked Conclave airship and remaining Conclave forces, civilians, and portal infrastructure
 - Eldara's recovery and the unresolved safety and function of the [[Primal Engine]]
 - Expansion of essence-harvesting operations
 - Movement of experimental devices north
@@ -57,7 +58,8 @@
 - The unresolved fate of anyone previously moved through the spire portal
 
 ## Immediate Opportunities
-- Prepare the [[Wintervale Assault]] with Stonehearth's twenty earth elementals and any available warforged allies
+- Secure the Conclave airship and determine its cargo, destination, and commander
+- Confirm the condition of Wintervale's base, civilians, and portal infrastructure after the assault
 - Learn what lies on the far side of the prewar outpost portal and what the returned bomb damaged
 - Stabilize Eldara and determine how to safely power the [[Primal Engine]]
 - Learn what the newly freed party member knows about Conclave operations and why they were designated an asset

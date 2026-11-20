@@ -11,6 +11,7 @@ This is not a fair frontal assault. The party's objective is to enter with prepa
 - The Conclave's Heliox operation has been broken, exposing its control and elemental-resonance research.
 - The rescued genasi and Eldara's resonance trammel provide proof that the Conclave's elemental-control work is part of a larger program.
 - The Conclave has already shipped humanoid essence hearts north, likely toward Aetheris Island's heavy-array and observatory infrastructure.
+- The party captured the Aetheric Planar Anchor before it reached the island. The Anchor is the comet-capture array's intended stabilizer; without it, the Conclave can still attempt the channeling but needs much longer and risks a dangerous overload or failed capture.
 - Kira has lost her lab but is secretly rebuilding a supervised workshop in Heliox. The city's resources give her a path to prepare countermeasures for a northern operation.
 - [[Stonehearth]] is the immediate post-Heliox destination. It should provide political context, elemental support, or a concrete northern lead—not require the party to complete every elemental storyline before acting.
 
@@ -67,6 +68,7 @@ Do not require all of these in one operation. Present them as competing objectiv
 - **Shield layers and watch towers:** protect the obvious gates and sky routes, but require power relays that can be targeted.
 - **Sentinel golems:** reserve defenders for the Heart Array Vault and observatory, not routine patrols.
 - **Rapid response relay:** shutting down or feeding false data to the command center is the best way to prevent every zone from responding at once.
+- **Aetheris suppression field:** three linked towers around the island reject teleportation and portals entering its perimeter. Kira helped design the system, then sabotaged its shared calibration before leaving; disabling any one tower drops the entire field for one hour. Physical travel, including an airship approach, still crosses the perimeter normally.
 
 ## Kira's Preparation: The Blackout Pulse
 
@@ -87,6 +89,7 @@ This makes Kira useful without making her the solution to the entire operation.
 | **Storm Harbor smuggling route** | A contact, submerged approach, or false cargo | Gets close to depot and lower systems | Inspections and cold-water hazards |
 | **Ridge ascent** | Climbing, weather magic, or an elemental guide | Reaches observatory with less traffic | Severe exposure and detection wards |
 | **Service culvert** | Old map, Kira's insight, or an insider | Bypasses the outer wall | Tight, trapped, and near industrial machinery |
+| **Suppression tower strike** | Airship cover, Kira's calibration sequence, or a tower map | Opens a one-hour teleportation window when any one tower falls | Immediate field-failure alert and a committed response team |
 | **Deliberate diversion** | Elemental or political support | Pulls troops away from the true target | Can escalate into real civilian or elemental harm |
 
 ## Escalation Clock
